@@ -355,6 +355,19 @@ module.exports = {
 		
 		return result;
 	},
+	getStatusByMapping: function(data, mapping, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_status;
+				var result = mapping.Italian.find(o => o.value === value).label;
+			}
+			catch (err) { 
+				var result = "";
+			}
+		}
+		
+		return result;
+	},
 	getPublicServiceSector: function(data, language, index) {
 		if (language == "Italian") {
 			var result = data.PublicService[index].PublicService_sector;

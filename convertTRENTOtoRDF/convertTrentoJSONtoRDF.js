@@ -35,7 +35,9 @@ module.exports = {
 				.set_ps_description(util.getPublicServiceDescription(data, languages[i], j))
 				.set_ps_description_lang(languages[i])
 				.set_ps_language(languages[i])
-				.set_ps_spatial(util.getSpatialCodeByMapping(data, mappingTrento.mappings[0].SpatialCode[0], languages[i], j));
+				.set_ps_spatial(util.getSpatialCodeByMapping(data, mappingTrento.mappings[0].SpatialCode[0], languages[i], j))
+				.set_ps_status(util.getStatusByMapping(data, mappingTrento.mappings[1].Status[0], languages[i], j));
+			
 				
 			
 			var keywords = util.getPublicServiceKeywords(data, languages[i], j );
