@@ -52,8 +52,23 @@ module.exports = {
 			    	.set_ps_sector(sector[k], k+1)
 			    	.expand_ps_sector();
 			}
+			
+			var type = util.getPublicServiceType(data, languages[i], j );
+			for (var k = 0; k < type.length; k++) {
+			    editor
+			    	.set_ps_type(type[k], k+1)
+			    	.expand_ps_type();
+			}
+			
+			var thematicarea = util.getPublicServiceThematicArea(data, languages[i], j );
+			for (var k = 0; k < thematicarea.length; k++) {
+			    editor
+			    	.set_ps_thematicarea(thematicarea[k], k+1)
+			    	.expand_ps_thematicarea();
+			}
 			browser
 			.pause(time_pause*30);
+			
 			/*Fill CompetentAuthority */
 			var ca_identifier = util.getCompotentAuthorityIdentifier(data, languages[i], j);
 			editor

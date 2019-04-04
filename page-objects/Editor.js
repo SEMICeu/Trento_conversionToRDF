@@ -53,7 +53,11 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		ps_type: {
-			selector: '(//span[text()="Type"])[1]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
+			selector: '(//span[text()="Type"])[1]/../../div[2]/div[%d]/div[2]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		type_click: {
+			selector: '//div[1]/span[1][text() = "Type"]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		ps_thematicarea: {
@@ -590,6 +594,18 @@ module.exports = {
 			this.click('@sector_click');
 			return this;
 		},
+		expand_ps_type() {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [this.elements.type_click.selector]);
+			this.assert.visible('@type_click');
+			this.click('@type_click');
+			return this;
+		},
 		expand_ps_thematicarea() {
 			this.api.execute(function(xpath) {
 				function getElementByXpath(path) {
@@ -609,6 +625,10 @@ module.exports = {
 			var element = this.elements['@ps_sector'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
+		set_ps_thematicarea(value, i) {
+			var element = this.elements['@ps_thematicarea'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		assert_ps_sector(value){
 			return this.assert.value('@ps_sector', value);
 		},
@@ -620,6 +640,10 @@ module.exports = {
 		},
 		set_ps_type(value) {
 			return this.setValue('@ps_type', value);
+		},
+		set_ps_type(value, i) {
+			var element = this.elements['@ps_type'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_ps_type(value){
 			return this.assert.value('@ps_type', value);

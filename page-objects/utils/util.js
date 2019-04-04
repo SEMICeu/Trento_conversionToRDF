@@ -361,9 +361,33 @@ module.exports = {
 			if (result == undefined) {
 				result = "";
 			}
-			console.log("test"+result+"****");
 		}
 		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
+	},
+	getPublicServiceType: function(data, language, index) {
+		if (language == "Italian") {
+			var result = data.PublicService[index].PublicService_type;
+			if (result == undefined) {
+				result = "";
+			}
+		}
+		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
+	},
+	getPublicServiceThematicArea: function(data, language, index) {
+		if (language == "Italian") {
+			var result = data.PublicService[index].PublicService_thematicArea;
+		}
+		result_array = result.split(",");
 		var dup_array = [];
 		for(var i = 0, len = result_array.length; i < len; ++i){
 			   dup_array[i] = result_array[i].trim();
