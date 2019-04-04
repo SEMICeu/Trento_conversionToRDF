@@ -126,6 +126,86 @@ module.exports = {
 		};
 		return processingtime;
 	},
+	getProcessingTimeYear: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_processingTime;
+				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
+				var matches = value.match(iso8601DurationRegex);
+				var year = (matches[2] === undefined ? 0 : matches[2]);
+				console.log("year"+year);
+			}
+			catch (err) {
+				var year = "";
+			}
+		}
+		
+		return year;
+	},
+	getProcessingTimeMonth: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_processingTime;
+				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
+				var matches = value.match(iso8601DurationRegex);
+				var month = (matches[3] === undefined ? 0 : matches[3]);
+				console.log("month"+month);
+			}
+			catch (err) {
+				var month = "";
+			}
+		}
+		
+		return month;
+	},
+	getProcessingTimeDay: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_processingTime;
+				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
+				var matches = value.match(iso8601DurationRegex);
+				var day = (matches[5] === undefined ? 0 : matches[5]);
+				console.log("day"+day);
+			}
+			catch (err) {
+				var day = "";
+			}
+		}
+		
+		return day;
+	},
+	getProcessingTimeHour: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_processingTime;
+				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
+				var matches = value.match(iso8601DurationRegex);
+				var hour = (matches[6] === undefined ? 0 : matches[6]);
+				console.log("hour"+hour);
+			}
+			catch (err) {
+				var hour = "";
+			}
+		}
+		
+		return hour;
+	},
+	getProcessingTimeMinute: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var value = data.PublicService[index].PublicService_processingTime;
+				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
+				var matches = value.match(iso8601DurationRegex);
+				var minute = (matches[7] === undefined ? 0 : matches[7]);
+				console.log("minute"+minute);
+			}
+			catch (err) {
+				var minute = "";
+			}
+		}
+		
+		return minute;
+	},
 	getDefaultBEType: function() {
 		var def_type = betypes.find(o => o.label.en === '1. Starting business');
 		return def_type;

@@ -68,8 +68,15 @@ module.exports = {
 			    	.set_ps_thematicarea(thematicarea[k], k+1)
 			    	.expand_ps_thematicarea();
 			}
-			browser
-			.pause(time_pause*30);
+			
+			editor
+				.set_ps_pt_years(util.getProcessingTimeYear(data, languages[i], j))
+				.set_ps_pt_months(util.getProcessingTimeMonth(data, languages[i], j))
+				.set_ps_pt_days(util.getProcessingTimeDay(data, languages[i], j))
+				.set_ps_pt_hours(util.getProcessingTimeHour(data, languages[i], j))
+				.set_ps_pt_minutes(util.getProcessingTimeMinute(data, languages[i], j));
+
+			
 			
 			/*Fill CompetentAuthority */
 			var ca_identifier = util.getCompotentAuthorityIdentifier(data, languages[i], j);
