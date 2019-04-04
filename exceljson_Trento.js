@@ -76,7 +76,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
             },
             {
                 name: 'Public Organisation',
-                range: 'A1:F22',
+                range: 'A1:F24',
                 columnToKey: {
                   A: 'PublicOrganisation_id',
                   B: 'PublicOrganisation_name',

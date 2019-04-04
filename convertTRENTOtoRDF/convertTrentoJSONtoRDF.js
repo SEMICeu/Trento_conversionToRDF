@@ -34,19 +34,34 @@ module.exports = {
 				.set_ps_name_lang(languages[i])
 				.set_ps_description(util.getPublicServiceDescription(data, languages[i], j))
 				.set_ps_description_lang(languages[i])
-				.set_ps_language(j)
+				.set_ps_language(languages[i])
 				.set_ps_spatial(util.getSpatialCodeByMapping(data, mappingTrento.mappings[0].SpatialCode[0], languages[i], j));
 				
+			
+			var keywords = util.getPublicServiceKeywords(data, languages[i], j );
+			for (var k = 0; k < keywords.length; k++) {
+			    editor
+			    	.set_ps_keyword(keywords[k], k+1)
+			    	.set_ps_keyword_lang(languages[i], k+1)
+			    	.expand_ps_keyword();
+			}
+			
+			var sector = util.getPublicServiceSector(data, languages[i], j );
+			for (var k = 0; k < sector.length; k++) {
+			    editor
+			    	.set_ps_sector(sector[k], k+1)
+			    	.expand_ps_sector();
+			}
+			browser
+			.pause(time_pause*30);
 			/*Fill CompetentAuthority */
 			var ca_identifier = util.getCompotentAuthorityIdentifier(data, languages[i], j);
-			editor.navigate()
+			editor
 				.set_ca_identifier(ca_identifier)
 				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], ca_identifier))
 				.set_ca_name_lang(languages[i]);
 			
-
-				
-			
+							
 			
 			/*Download the result*/
 			editor.select();

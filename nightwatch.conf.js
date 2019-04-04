@@ -24,7 +24,7 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
   "test_workers" : {"enabled" : false, "workers" : "auto"}, // perform tests in parallel where possible
   "test_settings": {
     "default": {
-      "launch_url": "http://52.50.205.146:8890/rdforms/PSDescriptionCreator.html", // we're testing a Public or "staging" site on Saucelabs
+      "launch_url": "http://52.50.205.146:8890/rdforms/PSDescriptionCreator_2.2.1.html", // we're testing a Public or "staging" site on Saucelabs
       "selenium_port": 80,
       "selenium_host": "ondemand.saucelabs.com",
       "silent": true,

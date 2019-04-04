@@ -228,9 +228,7 @@ module.exports = {
 			}
 		} else if (language == "Italian") {
 			var result = data.PublicService[index].PublicService_id;
-			if (module.exports.isURL(result) == false) {
-				result = "http://www.publicServiceItaly.it/" + result;
-			}
+			
 		}	
 		return result;
 	},
@@ -263,9 +261,15 @@ module.exports = {
 			var result = data.English[index].PublicService_keywords;
 		} else if (language == "Spanish") {
 			var result = data.Spanish[index].PublicService_keywords;
+		} else if (language == "Italian") {
+			var result = data.PublicService[index].PublicService_keywords;
 		}
-		result = result.split(", ");
-		return result;
+		result_array = result.split(",");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
 	},
 	getPublicServiceLanguage: function(data, language, index) {
 		if (language == "English") {
@@ -293,26 +297,11 @@ module.exports = {
 		}
 		return result;
 	},
-	getCompetentAuthorityByName: function(data, language, name) {
-		 if (language == "Italian") {
-			console.log("1*" + name +"1*");
-			for (var i=0; i < data.PublicOrganisation.length; i++) {
-				var name_CompetentAuthority = data.PublicOrganisation[i].PublicOrganisation_name;
-				console.log("BEFORE LOOP" + name_CompetentAuthority);
-				if (name == name_CompetentAuthority) {
-					console.log("FOUND IT" + name);
-					var result = data.PublicOrganisation[i];
-				}
-			}
-		}
-		return result;
-	},
 	getCompetentAuthorityByID: function(data, language, ID) {
 		 if (language == "Italian") {
 			for (var i=0; i < data.PublicOrganisation.length; i++) {
 				var ID_CompetentAuthority = data.PublicOrganisation[i].PublicOrganisation_id;
 				if (ID == ID_CompetentAuthority) {
-					console.log("*22* " + ID + " *22*");
 					var result = data.PublicOrganisation[i];
 				}
 			}
@@ -322,6 +311,25 @@ module.exports = {
 	getCompetentAuthorityName: function(data, language, identifier) {
 		 if (language == "Italian") {
 				var result = module.exports.getCompetentAuthorityByID(data, language, identifier).PublicOrganisation_name;
+		}
+		return result;
+	},
+	getCompotentAuthorityIdentifier: function(data, language, index) {
+		if (language == "Portuguese") {
+			try {
+				var result = data[index].CompetentAuthority[0].PublicOrganization_id;
+			}
+			catch (err) { 
+				var result = "";
+			}
+		} else if (language == "Italian") {
+			try {
+				var ID_CompetentAuthority = data.PublicService[index].PublicService_hasCompetentAuthority;
+				var result = ID_CompetentAuthority;
+			}
+			catch (err) { 
+				var result = "";
+			}
 		}
 		return result;
 	},
@@ -346,6 +354,21 @@ module.exports = {
 		}
 		
 		return result;
+	},
+	getPublicServiceSector: function(data, language, index) {
+		if (language == "Italian") {
+			var result = data.PublicService[index].PublicService_sector;
+			if (result == undefined) {
+				result = "";
+			}
+			console.log("test"+result+"****");
+		}
+		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
 	},
 	getChannelIdentifier: function(data, language, index) {
 		if (language == "English") {
@@ -405,27 +428,6 @@ module.exports = {
 		} else if (language == "Spanish") {
 			var value = data.Spanish[index].Event_type;
 			var result = mapping.Spanish.find(o => o.value === value).label;
-		}
-		return result;
-	},
-	getCompotentAuthorityIdentifier: function(data, language, index) {
-		if (language == "Portuguese") {
-			try {
-				var result = data[index].CompetentAuthority[0].PublicOrganization_id;
-			}
-			catch (err) { 
-				var result = "";
-			}
-		} else if (language == "Italian") {
-			try {
-				var name_CompetentAuthority = data.PublicService[index].PublicService_hasCompetentAuthority;
-				console.log("* LOOKING FOR: *"+ name_CompetentAuthority +"*");
-				var CompetentAuthority = module.exports.getCompetentAuthorityByName(data, language, name_CompetentAuthority);
-				var result = CompetentAuthority.PublicOrganisation_id;
-			}
-			catch (err) { 
-				var result = "";
-			}
 		}
 		return result;
 	},

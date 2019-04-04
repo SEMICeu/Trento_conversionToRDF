@@ -3,7 +3,7 @@ var utils = require('./utils/util.js');
 
 module.exports = {
 	url: function() { 
-		return "http://52.50.205.146:8890/rdforms/PSDescriptionCreator.html"; 
+		return "http://52.50.205.146:8890/rdforms/PSDescriptionCreator_2.2.1.html"; 
 	},
 	getElementByXpath: function(path) {
 			return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -45,17 +45,27 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		ps_sector: {
-			selector: '(//span[text()="Sector"])[1]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
+			selector: '(//span[text()="Sector"])[1]/../../div[2]/div[%d]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		ps_sector2: {
-			selector: '(//span[text()="Sector"])[1]/../../div[2]/div[2]/div[2]/div[1]/div[3]/input[1]',
+		sector_click: {
+			selector: '//div[1]/span[1][text() = "Sector"]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		ps_type: {
 			selector: '(//span[text()="Type"])[1]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
+		ps_thematicarea: {
+			selector: '(//span[text()="ThematicArea"])[1]/../../div[2]/div[%d]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		thematicarea_click: {
+			selector: '//div[1]/span[1][text() = "ThematicArea"]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		
+		
 		ps_language: {
 			selector: '(//span[text()="Language"])[1]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
@@ -568,8 +578,36 @@ module.exports = {
 			this.click('@keyword_click');
 			return this;
 		},
+		expand_ps_sector() {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [this.elements.sector_click.selector]);
+			this.assert.visible('@sector_click');
+			this.click('@sector_click');
+			return this;
+		},
+		expand_ps_thematicarea() {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [this.elements.thematicarea_click.selector]);
+			this.assert.visible('@thematicarea_click');
+			this.click('@thematicarea_click');
+			return this;
+		},
 		set_ps_sector(value) {
 			return this.setValue('@ps_sector', value);
+		},
+		set_ps_sector(value, i) {
+			var element = this.elements['@ps_sector'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_ps_sector(value){
 			return this.assert.value('@ps_sector', value);

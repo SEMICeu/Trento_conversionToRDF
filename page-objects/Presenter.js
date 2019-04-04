@@ -1,6 +1,6 @@
 module.exports = {
 	url: function() { 
-		return "http://52.50.205.146:8890/rdforms/PSDescriptionCreator.html"; 
+		return "http://52.50.205.146:8890/rdforms/PSDescriptionCreator_2.2.1.html"; 
 	},
 	elements: {
 		tab: {
