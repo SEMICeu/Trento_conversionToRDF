@@ -103,15 +103,19 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		ps_requires: {
-			selector: '(//span[text()="Requires"])[1]/../../div[2]/div[1]/div[2]/div[1]/input',
+			selector: '(//span[text()="Requires"])[1]/../../div[2]/div[%d]/div[2]/div[1]/input',
 			locateStrategy: 'xpath'
 		},
-		ps_related_click: {
-			selector: '//div[1]/span[1][text() = "Related"]/../span[2]',
+		requires_click: {
+			selector: '//div[1]/span[1][text() = "Requires"]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		ps_related: {
 			selector: '(//span[text()="Related"])[1]/../../div[2]/div[%d]/div[2]/div[1]/input',
+			locateStrategy: 'xpath'
+		},
+		related_click: {
+			selector: '//div[1]/span[1][text() = "Related"]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		ca_identifier: {
@@ -713,6 +717,22 @@ module.exports = {
 		set_ps_requires(value) {
 			return this.setValue('@ps_requires', value);
 		},
+		set_ps_requires(value, i) {
+			var element = this.elements['@ps_requires'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		expand_ps_requires() {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [this.elements.requires_click.selector]);
+			this.assert.visible('@requires_click');
+			this.click('@requires_click');
+			return this;
+		},
 		assert_ps_requires(value){
 			return this.assert.value('@ps_requires', value);
 		},
@@ -723,9 +743,9 @@ module.exports = {
 				}
 				var res = getElementByXpath(xpath);
 				res.scrollIntoView(true);
-			}, [this.elements.keyword_click.selector]);
-			this.assert.visible('@ps_related_click');
-			this.click('@ps_related_click');
+			}, [this.elements.related_click.selector]);
+			this.assert.visible('@related_click');
+			this.click('@related_click');
 			return this;
 		},
 		set_ps_related(value) {

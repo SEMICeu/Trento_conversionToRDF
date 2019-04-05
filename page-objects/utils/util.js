@@ -487,6 +487,35 @@ module.exports = {
 		}
 		return dup_array;
 	},
+	getRequires: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_requires;
+				if (result == undefined) {
+					result = "";
+				}
+		}
+		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+			   console.log("****"+dup_array+"*****");
+		}
+		return dup_array;
+	},
+	getRelated: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_related;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
+	},
 	getChannelIdentifier: function(data, language, index) {
 		if (language == "English") {
 			var result = data.English[index].Channel_id;
@@ -712,12 +741,6 @@ module.exports = {
 	getFollows: function(data, language, index) {
 		if (language == "Portuguese") {
 			var result = data[index].follows;
-		}
-		return result;
-	},
-	getRelated: function(data, language, index) {
-		if (language == "Portuguese") {
-			var result = data[index].related;
 		}
 		return result;
 	},
