@@ -344,7 +344,7 @@ module.exports = {
 		} else if (language == "Italian") {
 			var result = data.PublicService[index].PublicService_keywords;
 		}
-		result_array = result.split(",");
+		result_array = result.split(";");
 		var dup_array = [];
 		for(var i = 0, len = result_array.length; i < len; ++i){
 			   dup_array[i] = result_array[i].trim();
@@ -480,7 +480,7 @@ module.exports = {
 		if (language == "Italian") {
 			var result = data.PublicService[index].PublicService_thematicArea;
 		}
-		result_array = result.split(",");
+		result_array = result.split(";");
 		var dup_array = [];
 		for(var i = 0, len = result_array.length; i < len; ++i){
 			   dup_array[i] = result_array[i].trim();
