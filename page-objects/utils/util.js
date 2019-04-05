@@ -516,6 +516,41 @@ module.exports = {
 		}
 		return dup_array;
 	},
+	getBusinessEventIdentifier: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var ID_BusinessEvent = data.PublicService[index].PublicService_isGroupedBy;
+				var result = ID_BusinessEvent;
+			}
+			catch (err) { 
+				var result = "";
+			}
+		}
+		return result;
+	},
+	getBusinessEventByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.BusinessEvent.length; i++) {
+				var ID_BusinessEvent = data.BusinessEvent[i].BusinessEvent_id;
+				if (ID == ID_BusinessEvent) {
+					var result = data.BusinessEvent[i];
+				}
+			}
+		}
+		return result;
+	},
+	getBusinessEventName: function(data, language, identifier) {
+		 if (language == "Italian") {
+			 try {
+				 	var result = module.exports.getBusinessEventByID(data, language, identifier).BusinessEvent_name;
+				}
+				catch (err) { 
+					var result = "";
+				}
+				
+		}
+		return result;
+	},
 	getChannelIdentifier: function(data, language, index) {
 		if (language == "English") {
 			var result = data.English[index].Channel_id;

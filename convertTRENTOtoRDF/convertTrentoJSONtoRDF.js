@@ -83,25 +83,20 @@ module.exports = {
 			    	.set_ps_related(related[k], k+1)
 			    	.expand_ps_related();
 			}
-			
+				
+			/*Fill Business Event*/
+			editor
+				.be_expand()
+				.set_be_identifier(util.getBusinessEventIdentifier(data, languages[i], j))
+				.set_be_name(util.getBusinessEventName(data, languages[i], util.getBusinessEventIdentifier(data, languages[i], j)))
+				.set_be_name_lang(languages[i]);
+//				.set_be_description(util.getPublicServiceId(data, languages[i], j))
+//				.set_be_description_lang(languages[i])
+//				.set_be_type(util.getPublicServiceId(data, languages[i], j));	
+//			
 			browser
 			.pause(time_pause*5);
-					
-//			/*Fill Business Event*/
-//			var eventClass = String(util.getEventClassByMapping(data, mappingPortugal.mappings[1].EventClass[0], languages[i], j));
-//
-//			if (eventClass == "Business Event") {
-//				editor
-//					.be_expand()
-//					.set_be_identifier("BusinessEvent")
-//					.set_be_description(eventClass);
-//			} else if (eventClass == "Life Event") {
-//				editor
-//					.le_expand()
-//					.set_le_identifier("LifeEvent")
-//					.set_le_description(eventClass);
-//			}			
-//			
+			
 //			/*Fill Evidence*/
 //			
 //			
@@ -137,10 +132,9 @@ module.exports = {
 //			}
 //
 //			/*Fill Public Organisation */
-//			var ca_identifier = util.getCompotentAuthorityIdentifier(data, languages[i], j);
 //			editor
-//				.set_ca_identifier(ca_identifier)
-//				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], ca_identifier))
+//				.set_ca_identifier(util.getCompotentAuthorityIdentifier(data, languages[i], j))
+//				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], util.getCompotentAuthorityIdentifier(data, languages[i], j))
 //				.set_ca_name_lang(languages[i]);
 ////				.set_ca_preflabel()
 ////				.set_ca_preflabel.lang(languages[i])
