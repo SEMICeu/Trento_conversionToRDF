@@ -85,7 +85,6 @@ module.exports = {
 				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], ca_identifier))
 				.set_ca_name_lang(languages[i]);
 			
-							
 			
 			/*Download the result*/
 			editor.select();
