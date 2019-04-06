@@ -835,6 +835,10 @@ module.exports = {
 		set_be_name(value) {
 			return this.setValue('@be_name', value);
 		},
+		set_be_name(value,i) {
+		    var element = this.elements['@be_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		assert_be_name(value){
 			return this.assert.value('@be_name', value);
 		},
@@ -846,6 +850,10 @@ module.exports = {
 		},
 		set_be_description(value) {
 			return this.setValue('@be_description', value);
+		},
+		set_be_description(value,i) {
+		    var element = this.elements['@be_description'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_be_description(value){
 			return this.assert.value('@be_description', value);
@@ -864,6 +872,10 @@ module.exports = {
 		},
 		set_be_type(value) {
 			return this.setValue('@be_type', value);
+		},
+		set_be_type(value,i) {
+		    var element = this.elements['@be_type'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_be_type(value){
 			return this.assert.value('@be_type', value);

@@ -90,12 +90,12 @@ module.exports = {
 				businessevent = util.getBusinessEventByID(data, languages[i], businessevents[k]);
 				editor
 					.be_expand()
-					.set_be_identifier(businessevent.BusinessEvent_id,k+1);
-					//.set_be_name(businessevent.BusinessEvent_name,k)
-					//.set_be_name_lang(languages[i],k);
-	//				.set_be_description(util.getPublicServiceId(data, languages[i], j))
-	//				.set_be_description_lang(languages[i])
-	//				.set_be_type(util.getPublicServiceId(data, languages[i], j));	
+					.set_be_identifier(businessevent.BusinessEvent_id,k+1)
+					.set_be_name(businessevent.BusinessEvent_name,k+1)
+					.set_be_name_lang(languages[i],k+1)
+					.set_be_description(businessevent.BusinessEvent_description,k+1)
+					.set_be_description_lang(languages[i],k+1)
+					.set_be_type(businessevent.BusinessEvent_type,k+1);	
 			}
 			browser
 			.pause(time_pause*5);
