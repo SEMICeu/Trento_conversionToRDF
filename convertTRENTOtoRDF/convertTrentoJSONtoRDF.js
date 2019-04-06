@@ -85,15 +85,18 @@ module.exports = {
 			}
 				
 			/*Fill Business Event*/
-			editor
-				.be_expand()
-				.set_be_identifier(util.getBusinessEventIdentifier(data, languages[i], j))
-				.set_be_name(util.getBusinessEventName(data, languages[i], util.getBusinessEventIdentifier(data, languages[i], j)))
-				.set_be_name_lang(languages[i]);
-//				.set_be_description(util.getPublicServiceId(data, languages[i], j))
-//				.set_be_description_lang(languages[i])
-//				.set_be_type(util.getPublicServiceId(data, languages[i], j));	
-//			
+			var businessevents = util.getBusinessEvents(data,languages[i],j);
+			for (var k = 0; k < businessevents.length; k++) {
+				businessevent = util.getBusinessEventByID(data, languages[i], businessevents[k]);
+				editor
+					.be_expand()
+					.set_be_identifier(businessevent.BusinessEvent_id,k+1);
+					//.set_be_name(businessevent.BusinessEvent_name,k)
+					//.set_be_name_lang(languages[i],k);
+	//				.set_be_description(util.getPublicServiceId(data, languages[i], j))
+	//				.set_be_description_lang(languages[i])
+	//				.set_be_type(util.getPublicServiceId(data, languages[i], j));	
+			}
 			browser
 			.pause(time_pause*5);
 			
