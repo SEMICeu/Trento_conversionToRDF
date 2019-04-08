@@ -83,7 +83,17 @@ module.exports = {
 			    	.set_ps_related(related[k], k+1)
 			    	.expand_ps_related();
 			}
-				
+			
+			/*Fill Public Organisation */
+			editor
+				.set_ca_identifier(util.getCompotentAuthorityIdentifier(data, languages[i], j))
+				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], util.getCompotentAuthorityIdentifier(data, languages[i], j)))
+				.set_ca_name_lang(languages[i])
+				.set_ca_preferredlabel(util.getCompetentAuthorityName(data, languages[i], util.getCompotentAuthorityIdentifier(data, languages[i], j)))
+				.set_ca_preferredlabel_lang(languages[i])
+				.set_ca_spatial(util.getSpatialCodeByMapping(data, mappingTrento.mappings[0].SpatialCode[0], languages[i], j))
+				.set_ca_hasaddress(util.getCompetentAuthorityHasAddress(data, languages[i], util.getCompotentAuthorityIdentifier(data, languages[i], j)));
+			
 			/*Fill Business Event*/
 			var businessevents = util.getBusinessEvents(data,languages[i],j);
 			for (var k = 0; k < businessevents.length; k++) {
@@ -134,14 +144,6 @@ module.exports = {
 //					.set_ff_description_lang(languages[i], f+1);
 //			}
 //
-//			/*Fill Public Organisation */
-//			editor
-//				.set_ca_identifier(util.getCompotentAuthorityIdentifier(data, languages[i], j))
-//				.set_ca_name(util.getCompetentAuthorityName(data, languages[i], util.getCompotentAuthorityIdentifier(data, languages[i], j))
-//				.set_ca_name_lang(languages[i]);
-////				.set_ca_preflabel()
-////				.set_ca_preflabel.lang(languages[i])
-////				.set_ca_hasaddress();
 //			
 //			/*Fill the Contact Point */			
 //			

@@ -413,6 +413,15 @@ module.exports = {
 		}
 		return result;
 	},
+	getCompetentAuthorityHasAddress: function(data, language, identifier) {
+		if (language == "Italian") {
+			var result = module.exports.getCompetentAuthorityByID(data, language, identifier).PublicOrganisation_hasAddress;
+			if (result == undefined) {
+				result = "";
+			}
+		}
+		return result;
+	},
 	getSpatialCodeByMapping: function(data, mapping, language, index) {
 		if (language == "English") {
 			var value = data.English[index].PublicOrganization_spatialCode;
