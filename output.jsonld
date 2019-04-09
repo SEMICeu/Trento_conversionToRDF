@@ -1,0 +1,761 @@
+{
+    "@context": "https://raw.githubusercontent.com/catalogue-of-services-isa/CPSV-AP/master/releases/2.2.1/CPSV-AP_v2.2.1.jsonld",
+    "@graph": [
+        {
+            "@id": "http://www.provincia.tn.it/be/BE_3.1.2",
+            "@type": "BusinessEvent",
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Finanziamento a imprese"
+            },
+            "http://purl.org/dc/terms/identifier": "be/BE_3.1.2",
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Finanziamento impresa"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/FinancingACompany"
+            }
+        },
+        {
+            "@id": "http://www.provincia.tn.it/be/BE_3.6",
+            "@type": "BusinessEvent",
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Comunicazioni obbligatorie per lo svolgimento dell'attivitÃ "
+            },
+            "http://purl.org/dc/terms/identifier": "be/BE_3.6",
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Notifiche autoritÃ "
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NotifyingAndReportingToAuthorities"
+            }
+        },
+        {
+            "@id": "_:N954b5f7d11b84464be0fe6d1e2920dea",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P1M15D"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/R90"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti culturali privati (imprese, societÃ , enti culturali, associazioni) possono chiedere un contributo per organizzare manifestazioni culturali di interesse provinciale a carattere straordinario.Sono considerati eventi straordinari:- le iniziative innovative, sperimentali o svolte in via straordinaria e non ripetibile;- le iniziative non prevedibili o non programmabili al momento della scadenza delle domande di contributo ordinario"
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_402",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_396"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_397"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_1689"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_407"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_399"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_398"
+                }
+            ],
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per l'organizzazione di eventi culturali straordinari"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=08.2"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "contributi"
+                },
+                {
+                    "@language": "it",
+                    "@value": "manifestazioni"
+                },
+                {
+                    "@language": "it",
+                    "@value": "cultura"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.provincia.tn.it/be/BE_3.1.1",
+            "@type": "BusinessEvent",
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Finanziamento a enti e associazioni"
+            },
+            "http://purl.org/dc/terms/identifier": "be/BE_3.1.1",
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Finanziamento impresa"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/FinancingACompany"
+            }
+        },
+        {
+            "@id": "_:Nef0cd506d59b4dc3a64b3f4a82c5956a",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P5M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/R90"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti privati qualificati (imprese, societÃ , enti culturali, associazioni) possono chiedere un contributo per l'acquisizione, la costruzione, la sistemazione, la ristrutturazione, la manutenzione straordinaria e l'ampliamento delle strutture destinate allo svolgimento di attivitÃ  e manifestazioni culturali"
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_395_396",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_1529"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_399"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_397"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_407"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_396"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_402"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_398"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_403"
+                }
+            ],
+            "http://purl.org/dc/terms/requires": {
+                "@id": "http://www.provincia.tn.it/p_TN_1529"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per per strutture e arredi destinati allo svolgimento di attivitÃ  culturali"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=08.2"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "cultura"
+                },
+                {
+                    "@language": "it",
+                    "@value": "arredi"
+                },
+                {
+                    "@language": "it",
+                    "@value": "contributo"
+                },
+                {
+                    "@language": "it",
+                    "@value": "strutture"
+                }
+            ]
+        },
+        {
+            "@id": "_:Nbe33fc5e279247f98d748792de5cb0ee",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P3M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/R90"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti culturali pubblici e privati qualificati (imprese, societÃ , enti culturali, associazioni) possono chiedere un contributo per le attivitÃ  culturali attuate in convenzione con la Provincia Autonoma di Trento.Le convenzioni costituiscono lo strumento con il quale la Provincia assicura la disponibilitÃ  di servizi culturali e di interventi qualificati e continuativi, concordando con i soggetti proponenti i contenuti e le modalitÃ  organizzative delle attivitÃ . Possono essere stipulate per:a) realizzare iniziative e manifestazioni culturali di rilievo provinciale nel settore delle arti e dello spettacolo;b) promuovere e sostenere le associazioni di volontariato culturale;c) garantire e valorizzare il pluralismo nel campo degli studi e della ricerca storica, sostenendo in particolare l'attivitÃ  della SocietÃ  di studi trentini di scienze storiche;d) sostenere le biblioteche specialistiche e di conservazione di soggetti privati;e) sostenere istituzioni musealiPer essere accreditati come soggetti qualificati Ã¨ necessario soddisfare specifici standard di qualitÃ  e presentare domanda di qualificazione."
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_407",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_399"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_1529"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_403"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_407"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_397"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_402"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_396"
+                }
+            ],
+            "http://purl.org/dc/terms/requires": {
+                "@id": "http://www.provincia.tn.it/p_TN_1529"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per attivitÃ  culturali attuate in convenzione con la Provincia Autonoma di Trento"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=08.2"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "convenzione"
+                },
+                {
+                    "@language": "it",
+                    "@value": "cultura"
+                },
+                {
+                    "@language": "it",
+                    "@value": "contributo"
+                }
+            ]
+        },
+        {
+            "@id": "_:Na124ff3eaf334f37ac17717d543b2738",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P6M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/O84.1.3"
+            },
+            "http://data.europa.eu/m8g/thematicArea": [
+                {
+                    "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+                },
+                {
+                    "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+                }
+            ],
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Tutti soggetti interessati possono richiedere un contributo per:- la realizzazione di iniziative finalizzate alla commercializzazione dei prodotti turistici trentini, a favore di operatori turistici associati - la realizzazione, anche ripetuta negli anni, di iniziative e manifestazioni, comprese quelle a carattere sportivo, all'interno o all'esterno del territorio provinciale che assumano rilevanza particolare per la valorizzazione turistica dell'intera provincia o di parte della stessa; non possono presentare domanda le aziende per il turismo, le associazioni pro loco e i loro consorzi"
+            },
+            "http://purl.org/dc/terms/identifier": "P_TN_748",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_708"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/P_TN_704"
+                }
+            ],
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per organizzare iniziative turistiche e di commercializzazione di prodotti turistici trentini"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=04.7.3"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "contributo"
+                },
+                {
+                    "@language": "it",
+                    "@value": "prodotti"
+                },
+                {
+                    "@language": "it",
+                    "@value": "turismo"
+                }
+            ]
+        },
+        {
+            "@id": "_:N5ccef675d5584acaaef5b419e0e387e9",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": {
+                "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+            },
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P4M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/S94.9.9"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Associazioni pro loco, consorzi tra pro loco e la federazione trentina delle associazioni pro loco possono richiedere un contributo per lo svolgimento delle loro attivitÃ . In particolare:- Associazioni pro loco possono richiedere un contributo per attivitÃ  che valorizzino le risorse naturali, culturali e storiche delle localitÃ , attivitÃ  di animazione turistica a carattere locale, iniziative di interesse turistico, ricreativo, sportivo e culturale o altre attivitÃ  a carattere locale volte a favorire lo sviluppo turistico;- Consorzi tra associazioni pro loco possono richiedere un contributo per le spese di gestione e di funzionamento dei relativi uffici e per l'attivitÃ  di coordinamento delle associate; sono comprese anche attivitÃ  di marketing turistico-territoriale per gli ambiti non di competenza delle Apt;- La federazione trentina delle associazioni pro loco e i consorzi possono richiedere un contributo per l'attivitÃ  di rappresentanza, assistenza, tutela e coordinamento dei propri federati."
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_708",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": {
+                "@id": "http://www.provincia.tn.it/p_TN_705"
+            },
+            "http://purl.org/dc/terms/requires": {
+                "@id": "http://www.provincia.tn.it/p_TN_705"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi a federazione trentina delle associazioni pro loco e loro consorzi, pro loco e loro consorzi"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=08.1"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "turismo"
+                },
+                {
+                    "@language": "it",
+                    "@value": "pro loco"
+                },
+                {
+                    "@language": "it",
+                    "@value": "promozione del territorio"
+                },
+                {
+                    "@language": "it",
+                    "@value": "contributo"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.provincia.tn.it/be/BE_3.2",
+            "@type": "BusinessEvent",
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per proseguire un'attivitÃ  (rinnovo)"
+            },
+            "http://purl.org/dc/terms/identifier": "be/BE_3.2",
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Richiesta licenze/permessi/certificati"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/NeedingAlicencePermitOrCertificateToStartOrContinueAnActivity"
+            }
+        },
+        {
+            "@id": "_:N3cc84615910246d8b5b785ba460ecea5",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.2"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P1M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/A1"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/AGRI"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti interessati possono richiedere il rilascio o il rinnovo del certificato di abilitazione all'acquisto, all'utilizzo e alla vendita dei prodotti fitosanitari e di abilitazione all'esercizio dell'attivita' di consulenza sull'impiego degli stessi."
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_595",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_593"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_596"
+                }
+            ],
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Abilitazioni relative ai prodotti fitosanitari"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=04.2.1"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "abilitazione"
+                },
+                {
+                    "@language": "it",
+                    "@value": "certificato"
+                },
+                {
+                    "@language": "it",
+                    "@value": "prodotti fitosanitari"
+                }
+            ]
+        },
+        {
+            "@id": "http://www.provincia.tn.it/be/BE_1.2",
+            "@type": "BusinessEvent",
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per avviare un'attivitÃ  (primo rilascio)"
+            },
+            "http://purl.org/dc/terms/identifier": "be/BE_1.2",
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Richiesta licenze/permessi/certificati"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/NeedingAlicencePermitOrCertificateToStartOrContinueAnActivity"
+            }
+        },
+        {
+            "@id": "_:Ne19bd46db7a8437b9891e5e3bf12411a",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P4M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/R90"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti culturali privati qualificati (imprese, societÃ , enti culturali, associazioni) possono chiedere un contributo per l'acquisto di beni mobili, software, strumenti, materiale di scena, costumi e accessori destinati alla realizzazione di attivitÃ  culturali di rilievo provinciale.Per essere accreditati come soggetti qualificati Ã¨ necessario soddisfare specifici standard di qualitÃ  e presentare domanda di qualificazione."
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_397",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_407"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_397"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_396"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_1529"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_399"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_403"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_402"
+                }
+            ],
+            "http://purl.org/dc/terms/requires": {
+                "@id": "http://www.provincia.tn.it/p_TN_1529"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per l'acquisto di materiali e beni mobili per lo svolgimento di attivitÃ  culturali"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=08.2"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "contributo"
+                },
+                {
+                    "@language": "it",
+                    "@value": "strumenti"
+                },
+                {
+                    "@language": "it",
+                    "@value": "cultura"
+                },
+                {
+                    "@language": "it",
+                    "@value": "mobili"
+                }
+            ]
+        },
+        {
+            "@id": "_:N6502d40065ec48aa9ea59b304e1edfbe",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": {
+                "@id": "http://www.provincia.tn.it/be/BE_3.6"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/B8"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I produttori e/o utilizzatori di terre e rocce da scavo sono tenuti ad inviare le comunicazioni relative alla gestione di tali materiali come sottoprodotto almeno 15 giorni prima dellâ€™inizio dei lavori."
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_9125",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": {
+                "@id": "http://www.provincia.tn.it/p_TN_640"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Comunicazioni per l'utilizzo di terre e rocce da scavo"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=04.4.1"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "comunicazione"
+                },
+                {
+                    "@language": "it",
+                    "@value": "terreno"
+                },
+                {
+                    "@language": "it",
+                    "@value": "scavo"
+                },
+                {
+                    "@language": "it",
+                    "@value": "rocce"
+                }
+            ]
+        },
+        {
+            "@id": "_:N12e8944b34ff48478def74c0f84d724d",
+            "@type": "PublicService",
+            "http://data.europa.eu/m8g/isGroupedBy": [
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.1"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/be/BE_3.1.2"
+                }
+            ],
+            "http://data.europa.eu/m8g/processingTime": {
+                "@type": "http://www.w3.org/2001/XMLSchema#duration",
+                "@value": "P3M"
+            },
+            "http://data.europa.eu/m8g/sector": {
+                "@id": "http://ec.europa.eu/competition/mergers/cases/P85.5.2"
+            },
+            "http://data.europa.eu/m8g/thematicArea": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+            },
+            "http://purl.org/dc/terms/description": {
+                "@language": "it",
+                "@value": "I soggetti pubblici (ad esempio comuni, associazioni di comuni, comprensori) e privati (quali associazioni e istituzioni culturali, comitati, cooperative, imprese) che gestiscono scuole musicali possono presentare domanda di contributo a sostegno delle attivitÃ  didattiche delle scuole medesime.DA VERIFICARE: possono presentare domanda le scuole musicali o gli enti gestori di scuole musicali o gli enti individuati nella frase precedente? Le schede informative non sono coerenti"
+            },
+            "http://purl.org/dc/terms/identifier": "p_TN_399",
+            "http://purl.org/dc/terms/language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/ITA"
+            },
+            "http://purl.org/dc/terms/relation": [
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_407"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_397"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_396"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_399"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_398"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_1665"
+                },
+                {
+                    "@id": "http://www.provincia.tn.it/p_TN_402"
+                }
+            ],
+            "http://purl.org/dc/terms/requires": {
+                "@id": "http://www.provincia.tn.it/p_TN_1665"
+            },
+            "http://purl.org/dc/terms/spatial": {
+                "@id": "http://publications.europa.eu/resource/authority/place/ITA_TRT"
+            },
+            "http://purl.org/dc/terms/title": {
+                "@language": "it",
+                "@value": "Contributi per attivitÃ  didattiche svolte da scuole musicali"
+            },
+            "http://purl.org/dc/terms/type": {
+                "@id": "https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&Lg=1&Co=09.5.0"
+            },
+            "http://www.w3.org/ns/adms#status": {
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "it",
+                    "@value": "scuola musicale"
+                },
+                {
+                    "@language": "it",
+                    "@value": "contributi"
+                },
+                {
+                    "@language": "it",
+                    "@value": "musica"
+                },
+                {
+                    "@language": "it",
+                    "@value": "cultura"
+                }
+            ]
+        }
+    ]
+}
