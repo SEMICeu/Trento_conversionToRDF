@@ -693,6 +693,35 @@ module.exports = {
 		}
 		return result;
 	},
+	getCriterionRequirementIdentifier: function(data, language, index) {
+		if (language == "Italian") {
+			try {
+				var ID_CriterionRequirement = data.PublicService[index].PublicService_hasCriterion;
+				var result = ID_CriterionRequirement;
+			}
+			catch (err) { 
+				var result = "";
+			}
+		}
+		return result;
+	},
+	getCriterionRequirementByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.PublicOrganisation.length; i++) {
+				var ID_CriterionRequirement = data.CriterionRequirement[i].CriterionRequirement_id;
+				if (ID == ID_CriterionRequirement) {
+					var result = data.CriterionRequirement[i];
+				}
+			}
+		}
+		return result;
+	},
+	getCriterionRequirementName: function(data, language, identifier) {
+		 if (language == "Italian") {
+				var result = module.exports.getCriterionRequirementByID(data, language, identifier).CriterionRequirement_name;
+		}
+		return result;
+	},
 	getFormalFrameworkIdentifier: function(data, language, indexFF, indexPS) {
 		if (language == "Portuguese") {
 			try {

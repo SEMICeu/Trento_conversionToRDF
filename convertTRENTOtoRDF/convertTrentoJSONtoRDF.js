@@ -108,6 +108,14 @@ module.exports = {
 					.set_be_type(businessevent.BusinessEvent_type,k+1);	
 			}
 			
+//			/*Fill Criterion Requirement*/
+			editor
+			.set_cr_identifier(util.getCriterionRequirementIdentifier(data, languages[i], j))
+			.set_cr_name(util.getCriterionRequirementName(data, languages[i], util.getCriterionRequirementIdentifier(data, languages[i], j)))
+			.set_cr_name_lang(languages[i]);
+			
+			
+			
 			/*Fill Evidence*/
 			var hasInputs = util.getHasInputs(data,languages[i],j);
 			for (var k = 0; k < hasInputs.length; k++) {
@@ -121,25 +129,7 @@ module.exports = {
 			browser
 			.pause(time_pause*5);
 			
-//			/*Fill Criterion Requirement*/
-//			
-		//	Just the name.
-//			
-//			
-//			/*Fill Output*/
-//			
-//			Just the name
-			
-			
-//			/*Fill the Channel*/
-//			editor
-			
-			// Just the description
-//				.hch_expand()
-//				.set_hch_identifier(util.escapeSpecialChars(util.getChannelIdentifier(data, languages[i], j)))
-//				.set_hch_type(util.getChannelTypeByMapping(data, mappingSpain.mappings[2].ChannelType[0], languages[i], j));
-//			
-//			/*Fill all Legal Resources */
+			/*Fill all Legal Resources */
 //			//Just the description
 			
 //			var formalFrameworks = util.getFormalFrameworks(data, languages[i], j );
@@ -159,9 +149,25 @@ module.exports = {
 //			}
 //
 //			
+//			/*Fill Output*/
+//			
+//			Just the name
+			
+			
+//			/*Fill the Channel*/
+//			editor
+			
+			// Just the description
+//				.hch_expand()
+//				.set_hch_identifier(util.escapeSpecialChars(util.getChannelIdentifier(data, languages[i], j)))
+//				.set_hch_type(util.getChannelTypeByMapping(data, mappingSpain.mappings[2].ChannelType[0], languages[i], j));
+//			
+//			
 //			/*Fill the Contact Point */			
 //			
 //			
+			/*Fill the Cost */	
+			
 //			
 //			/*Fill the Concept */	
 			
