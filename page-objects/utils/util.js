@@ -635,6 +635,31 @@ module.exports = {
 		}
 		return result;
 	},
+	getHasInputs: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasInput;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		for(var i = 0, len = result_array.length; i < len; ++i){
+			   dup_array[i] = result_array[i].trim();
+		}
+		return dup_array;
+	},
+	getHasInputByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.Evidence.length; i++) {
+				var ID_Evidence = data.Evidence[i].Evidence_id;
+				if (ID == ID_Evidence) {
+					var result = data.Evidence[i];
+				}
+			}
+		}
+		return result;
+	},
 	getHasInputIdentifier: function(data, language, indexInput, indexPS) {
 		if (language == "Portuguese") {
 			try {
@@ -775,12 +800,6 @@ module.exports = {
 			catch (err) { 
 				var result = "";
 			}
-		}
-		return result;
-	},
-	getHasInputs: function(data, language, index) {
-		if (language == "Portuguese") {
-			var result = data[index].hasInput;
 		}
 		return result;
 	},

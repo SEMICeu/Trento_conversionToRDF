@@ -214,6 +214,22 @@ module.exports = {
 			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
+		ev_click: {
+			selector: '(//span[text() = "HasInput"])[1]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		ev_identifier: {
+			selector: '(//div[1]/span[1][text() = "HasInput"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ev_name: {
+			selector: '(//div[1]/span[1][text() = "HasInput"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ev_name_lang: {
+			selector: '(//div[1]/span[1][text() = "HasInput"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
 		cr_click: {
 			selector: '(//span[text() = "HasCriterion"])[1]/../span[2]',
 			locateStrategy: 'xpath'
@@ -933,6 +949,29 @@ module.exports = {
 		},
 		assert_le_type(value){
 			return this.assert.value('@le_type', value);
+		},
+		ev_expand() {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [this.elements.ev_click.selector]);
+			this.assert.visible('@ev_click');
+			this.click('@ev_click');
+			return this;
+		},
+		set_ev_identifier(value,i) {
+		    var element = this.elements['@ev_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "ev/"));
+		},
+		set_ev_name(value,i) {
+		    var element = this.elements['@ev_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_ev_name_lang(value) {
+			return this.setValue('@ev_name_lang', value);
 		},
 		cr_expand() {
 			this.api.execute(function(xpath) {
