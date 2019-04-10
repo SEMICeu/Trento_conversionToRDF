@@ -94,6 +94,16 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
                 D: 'Output_type'
               }
           },
+          {
+              name: 'Cost',
+              range: 'A1:D8',
+              columnToKey: {
+                A: 'Cost_id',
+                B: 'Cost_value',
+                C: 'Cost_currency',
+                D: 'Cost_description'
+              }
+          },
 	      {
 	           name: 'Channel',
 	           range: 'A1:G5',
@@ -149,7 +159,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
                 range: 'A1:B6',
                 columnToKey: {
                    A: 'Concept_id',
-                   B: 'Concept_label'
+                   B: 'Concept_description'
                 }
             }
           ]

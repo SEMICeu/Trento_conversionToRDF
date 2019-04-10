@@ -778,6 +778,87 @@ module.exports = {
 		 }
 		return result;
 	},
+	getCosts: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasCost;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getCostByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.Cost.length; i++) {
+					var ID_Cost = data.Cost[i].Cost_id;
+					if (ID == ID_Cost) {
+						var result = data.Cost[i];
+						}
+			}
+		 }
+		return result;
+	},
+	getConcepts: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_isClassifiedBy;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getConceptByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.Concept.length; i++) {
+					var ID_Concept = data.Concept[i].Concept_id;
+					if (ID == ID_Concept) {
+						var result = data.Concept[i];
+						}
+			}
+		 }
+		return result;
+	},
+	getChannels: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasChannel;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getChannelByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.Channel.length; i++) {
+					var ID_Channel = data.Channel[i].Channel_id;
+					if (ID == ID_Channel) {
+						var result = data.Channel[i];
+						}
+			}
+		 }
+		return result;
+	},
 	getFormalFrameworkIdentifier: function(data, language, indexFF, indexPS) {
 		if (language == "Portuguese") {
 			try {
@@ -909,12 +990,6 @@ module.exports = {
 			}
 		}
 		return dup_array;
-	},
-	getHasCosts: function(data, language, index) {
-		if (language == "Portuguese") {
-			var result = data[index].hasCost;
-		}
-		return result;
 	},
 	getFollows: function(data, language, index) {
 		if (language == "Portuguese") {

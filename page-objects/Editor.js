@@ -346,11 +346,11 @@ module.exports = {
 			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		lr_name: {
+		lr_description: {
 			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		lr_name_lang: {
+		lr_description_lang: {
 			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
@@ -368,6 +368,22 @@ module.exports = {
 		},
 		ou_name_lang: {
 			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ch_click: {
+			selector: '(//span[text() = "HasChannel"])[%d]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		ch_identifier: {
+			selector: '(//div[1]/span[1][text() = "HasChannel"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ch_description: {
+			selector: '(//div[1]/span[1][text() = "HasChannel"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ch_description_lang: {
+			selector: '(//div[1]/span[1][text() = "HasChannel"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		ff_description: {
@@ -520,6 +536,22 @@ module.exports = {
 		},
 		hc_currency: {
 			selector: '(//div[1]/span[1][text() = "HasCost"])[%d]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "Currency"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		co_click: {
+			selector: '(//span[text() = "IsClassifiedBy"])[%d]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		co_identifier: {
+			selector: '(//div[1]/span[1][text() = "IsClassifiedBy"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		co_description: {
+			selector: '(//div[1]/span[1][text() = "IsClassifiedBy"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		co_description_lang: {
+			selector: '(//div[1]/span[1][text() = "IsClassifiedBy"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		ida_click: {
@@ -1287,11 +1319,11 @@ module.exports = {
 			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "lr/"));
 		},
 		set_lr_description(value,i) {
-		    var element = this.elements['@lr_name'.slice(1)];
+		    var element = this.elements['@lr_description'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		set_lr_description_lang(value, i) {
-			var element = this.elements['@lr_name_lang'.slice(1)];
+			var element = this.elements['@lr_description_lang'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		ou_expand(i) {
@@ -1316,6 +1348,78 @@ module.exports = {
 		},
 		set_ou_name_lang(value, i) {
 			var element = this.elements['@ou_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		hc_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@hc_click'.slice(1)].selector, i)]);
+			var element = this.elements['@hc_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_hc_identifier(value,i) {
+		    var element = this.elements['@hc_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "hc/"));
+		},
+		set_hc_description(value,i) {
+		    var element = this.elements['@hc_description'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_hc_description_lang(value, i) {
+			var element = this.elements['@hc_description_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		co_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@co_click'.slice(1)].selector, i)]);
+			var element = this.elements['@co_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_co_identifier(value,i) {
+		    var element = this.elements['@co_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "co/"));
+		},
+		set_co_description(value,i) {
+		    var element = this.elements['@co_description'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_co_description_lang(value, i) {
+			var element = this.elements['@co_description_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		ch_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@ch_click'.slice(1)].selector, i)]);
+			var element = this.elements['@ch_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_ch_identifier(value,i) {
+		    var element = this.elements['@ch_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "ch/"));
+		},
+		set_ch_description(value,i) {
+		    var element = this.elements['@ch_description'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_ch_description_lang(value, i) {
+			var element = this.elements['@ch_description_lang'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		ff_expand() {

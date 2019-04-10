@@ -141,7 +141,6 @@ module.exports = {
 			}
 			
 			/*Fill all Legal Resources */
-
 			var legalResources = util.getLegalResources(data,languages[i],j);
 			for (var k = 0; k < legalResources.length; k++) {
 				if (k == 0) {
@@ -172,27 +171,62 @@ module.exports = {
 					.set_ou_name(output.Output_name,k+1)
 					.set_ou_name_lang(languages[i],k+1);
 			}
-			browser
-			.pause(time_pause*20);
 			
-//			/*Fill the Channel*/
-//			editor
-			
-			// Just the description
-//				.hch_expand()
-//				.set_hch_identifier(util.escapeSpecialChars(util.getChannelIdentifier(data, languages[i], j)))
-//				.set_hch_type(util.getChannelTypeByMapping(data, mappingSpain.mappings[2].ChannelType[0], languages[i], j));
-//			
-//			
 //			/*Fill the Contact Point */			
 //			
-//			
+//		
+			
+			
+//			/*Fill the Channel*/
+			var Channels = util.getChannels(data,languages[i],j);
+			for (var k = 0; k < Channels.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				channel = util.getChannelByID(data, languages[i], Channels[k]);
+				editor
+					.ch_expand(expand)
+					.set_ch_identifier(channel.Channel_id,k+1)
+					.set_ch_description(channel.Channel_description,k+1)
+					.set_ch_description_lang(languages[i],k+1);
+			}	
+	
 			/*Fill the Cost */	
+			var Costs = util.getCosts(data,languages[i],j);
+			for (var k = 0; k < Costs.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				cost = util.getCostByID(data, languages[i], Costs[k]);
+				editor
+					.hc_expand(expand)
+					.set_hc_identifier(cost.Cost_id,k+1)
+					.set_hc_description(cost.Cost_description,k+1)
+					.set_hc_description_lang(languages[i],k+1);
+			}
 			
-//			
-//			/*Fill the Concept */	
-			
-			
+			/*Fill the Concept */		
+			var Concepts = util.getConcepts(data,languages[i],j);
+			for (var k = 0; k < Concepts.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				concept = util.getConceptByID(data, languages[i], Concepts[k]);
+				editor
+					.co_expand(expand)
+					.set_co_identifier(concept.Concept_id,k+1)
+					.set_co_description(concept.Concept_description,k+1)
+					.set_co_description_lang(languages[i],k+1);
+			}
+
+			browser
+			.pause(time_pause*20);
 			
 			/*Download the result*/
 			editor.select();
