@@ -354,8 +354,24 @@ module.exports = {
 			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
+		ou_click: {
+			selector: '(//span[text() = "Produces"])[%d]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		ou_identifier: {
+			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ou_name: {
+			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		ou_name_lang: {
+			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
 		ff_description: {
-			selector: '(//div[1]/span[1][text() = "HasFormalFramework"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		ff_description_lang: {
@@ -1026,7 +1042,7 @@ module.exports = {
 		},
 		set_cr_identifier(value,i) {
 		    var element = this.elements['@cr_identifier'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "cr/"));
 		},
 		assert_cr_identifier(value){
 			return this.assert.value('@cr_identifier', value);
@@ -1268,7 +1284,7 @@ module.exports = {
 		},
 		set_lr_identifier(value,i) {
 		    var element = this.elements['@lr_identifier'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "lr/"));
 		},
 		set_lr_description(value,i) {
 		    var element = this.elements['@lr_name'.slice(1)];
@@ -1276,6 +1292,30 @@ module.exports = {
 		},
 		set_lr_description_lang(value, i) {
 			var element = this.elements['@lr_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		ou_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@ou_click'.slice(1)].selector, i)]);
+			var element = this.elements['@ou_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_ou_identifier(value,i) {
+		    var element = this.elements['@ou_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "ou/"));
+		},
+		set_ou_name(value,i) {
+		    var element = this.elements['@ou_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_ou_name_lang(value, i) {
+			var element = this.elements['@ou_name_lang'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		ff_expand() {

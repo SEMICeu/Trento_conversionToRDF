@@ -123,8 +123,6 @@ module.exports = {
 					.set_cr_name(criterionrequirement.CriterionRequirement_name,k+1)
 					.set_cr_name_lang(languages[i],k+1);
 			}
-			browser
-			.pause(time_pause*20);
 			
 			/*Fill Evidence*/
 			var hasInputs = util.getHasInputs(data,languages[i],j);
@@ -158,14 +156,24 @@ module.exports = {
 					.set_lr_description(legalresource.LegalResource_description,k+1)
 					.set_lr_description_lang(languages[i],k+1);
 			}
-			
-			browser
-			.pause(time_pause*20);
 
 //			/*Fill Output*/
-//			
-//			Just the name
-			
+			var outputs = util.getOutputs(data,languages[i],j);
+			for (var k = 0; k < outputs.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				output = util.getOutputByID(data, languages[i], outputs[k]);
+				editor
+					.ou_expand(expand)
+					.set_ou_identifier(output.Output_id,k+1)
+					.set_ou_name(output.Output_name,k+1)
+					.set_ou_name_lang(languages[i],k+1);
+			}
+			browser
+			.pause(time_pause*20);
 			
 //			/*Fill the Channel*/
 //			editor
