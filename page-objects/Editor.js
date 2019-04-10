@@ -338,20 +338,20 @@ module.exports = {
 			selector: '//div[1]/span[1][text() = "HasInput"]/../../div[2]/div[1]/div[6]/div[1]/span[1][text() = "RelatedDocumentation"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		ff_click: {
-			selector: '(//span[text() = "HasFormalFramework"])[%d]/../span[2]',
+		lr_click: {
+			selector: '(//span[text() = "HasLegalResource"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
-		ff_identifier: {
-			selector: '(//div[1]/span[1][text() = "HasFormalFramework"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+		lr_identifier: {
+			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		ff_name: {
-			selector: '(//div[1]/span[1][text() = "HasFormalFramework"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+		lr_name: {
+			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
-		ff_name_lang: {
-			selector: '(//div[1]/span[1][text() = "HasFormalFramework"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+		lr_name_lang: {
+			selector: '(//div[1]/span[1][text() = "HasLegalResource"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		ff_description: {
@@ -1253,6 +1253,30 @@ module.exports = {
 		},
 		assert_ip_related(value){
 			return this.assert.value('@ip_related', value);
+		},
+		lr_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@lr_click'.slice(1)].selector, i)]);
+			var element = this.elements['@lr_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_lr_identifier(value,i) {
+		    var element = this.elements['@lr_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_lr_description(value,i) {
+		    var element = this.elements['@lr_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_lr_description_lang(value, i) {
+			var element = this.elements['@lr_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		ff_expand() {
 			var i = 1;

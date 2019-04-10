@@ -740,6 +740,17 @@ module.exports = {
 		}
 		return result;
 	},
+	getLegalResourceByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.LegalResource.length; i++) {
+					var ID_LegalResource = data.LegalResource[i].LegalResource_id;
+					if (ID == ID_LegalResource) {
+						var result = data.LegalResource[i];
+						}
+			}
+		 }
+		return result;
+	},
 	getFormalFrameworkIdentifier: function(data, language, indexFF, indexPS) {
 		if (language == "Portuguese") {
 			try {
@@ -855,6 +866,22 @@ module.exports = {
 			var result = data[index].hasFormalFramework;
 		}
 		return result;
+	},
+	getLegalResources: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasLegalResource;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
 	},
 	getHasCosts: function(data, language, index) {
 		if (language == "Portuguese") {

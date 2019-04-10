@@ -116,7 +116,6 @@ module.exports = {
 				} else {
 					expand = k
 				}
-				console.log("length:"+criterionrequirements.length)
 				criterionrequirement = util.getCriterionRequirementByID(data, languages[i], criterionrequirements[k]);
 				editor
 					.cr_expand(expand)
@@ -124,6 +123,8 @@ module.exports = {
 					.set_cr_name(criterionrequirement.CriterionRequirement_name,k+1)
 					.set_cr_name_lang(languages[i],k+1);
 			}
+			browser
+			.pause(time_pause*20);
 			
 			/*Fill Evidence*/
 			var hasInputs = util.getHasInputs(data,languages[i],j);
@@ -141,29 +142,26 @@ module.exports = {
 					.set_ev_name_lang(languages[i],k+1);	
 			}
 			
+			/*Fill all Legal Resources */
+
+			var legalResources = util.getLegalResources(data,languages[i],j);
+			for (var k = 0; k < legalResources.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				legalresource = util.getLegalResourceByID(data, languages[i], legalResources[k]);
+				editor
+					.lr_expand(expand)
+					.set_lr_identifier(legalresource.LegalResource_id,k+1)
+					.set_lr_description(legalresource.LegalResource_description,k+1)
+					.set_lr_description_lang(languages[i],k+1);
+			}
+			
 			browser
 			.pause(time_pause*20);
-			
-			/*Fill all Legal Resources */
-//			//Just the description
-			
-//			var formalFrameworks = util.getFormalFrameworks(data, languages[i], j );
-//			for (var f = 0; f < formalFrameworks.length; f++) {
-//				if (f == 0) {
-//					expand = 1
-//				} else {
-//					expand = f
-//				}
-//			    editor
-//			    	.ff_expand(expand)
-//			    	.set_ff_identifier(util.getFormalFrameworkIdentifier(data, languages[i], f, j), f+1)
-//					.set_ff_name(util.getFormalFrameworkName(data, languages[i], f, j), f+1)
-//					.set_ff_name_lang(languages[i], f+1)
-//					.set_ff_description(util.getFormalFrameworkDescription(data, languages[i], f, j), f+1)
-//					.set_ff_description_lang(languages[i], f+1);
-//			}
-//
-//			
+
 //			/*Fill Output*/
 //			
 //			Just the name
