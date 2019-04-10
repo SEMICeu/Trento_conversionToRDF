@@ -133,7 +133,6 @@ module.exports = {
 				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
 				var matches = value.match(iso8601DurationRegex);
 				var year = (matches[2] === undefined ? 0 : matches[2]);
-				console.log("year"+year);
 			}
 			catch (err) {
 				var year = "";
@@ -149,7 +148,6 @@ module.exports = {
 				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
 				var matches = value.match(iso8601DurationRegex);
 				var month = (matches[3] === undefined ? 0 : matches[3]);
-				console.log("month"+month);
 			}
 			catch (err) {
 				var month = "";
@@ -165,7 +163,6 @@ module.exports = {
 				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
 				var matches = value.match(iso8601DurationRegex);
 				var day = (matches[5] === undefined ? 0 : matches[5]);
-				console.log("day"+day);
 			}
 			catch (err) {
 				var day = "";
@@ -181,7 +178,6 @@ module.exports = {
 				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
 				var matches = value.match(iso8601DurationRegex);
 				var hour = (matches[6] === undefined ? 0 : matches[6]);
-				console.log("hour"+hour);
 			}
 			catch (err) {
 				var hour = "";
@@ -197,7 +193,6 @@ module.exports = {
 				var iso8601DurationRegex = /(-)?P(?:([.,\d]+)Y)?(?:([.,\d]+)M)?(?:([.,\d]+)W)?(?:([.,\d]+)D)?(?:T(?:([.,\d]+)H)?(?:([.,\d]+)M)?(?:([.,\d]+)S)?)?/;
 				var matches = value.match(iso8601DurationRegex);
 				var minute = (matches[7] === undefined ? 0 : matches[7]);
-				console.log("minute"+minute);
 			}
 			catch (err) {
 				var minute = "";
@@ -507,7 +502,6 @@ module.exports = {
 		var dup_array = [];
 		for(var i = 0, len = result_array.length; i < len; ++i){
 			   dup_array[i] = result_array[i].trim();
-			   console.log("****"+dup_array+"*****");
 		}
 		return dup_array;
 	},
@@ -698,6 +692,9 @@ module.exports = {
 			try {
 				var ID_CriterionRequirement = data.PublicService[index].PublicService_hasCriterion;
 				var result = ID_CriterionRequirement;
+				if (result == undefined) {
+					result = "";
+				}
 			}
 			catch (err) { 
 				var result = "";
@@ -705,20 +702,41 @@ module.exports = {
 		}
 		return result;
 	},
-	getCriterionRequirementByID: function(data, language, ID) {
-		 if (language == "Italian") {
-			for (var i=0; i < data.PublicOrganisation.length; i++) {
-				var ID_CriterionRequirement = data.CriterionRequirement[i].CriterionRequirement_id;
-				if (ID == ID_CriterionRequirement) {
-					var result = data.CriterionRequirement[i];
+	getHasCriterions: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasCriterion;
+				if (result == undefined) {
+					result = "";
 				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
 			}
 		}
+		return dup_array;
+	},
+	getCriterionRequirementByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.CriterionRequirement.length; i++) {
+					var ID_CriterionRequirement = data.CriterionRequirement[i].CriterionRequirement_id;
+					if (ID == ID_CriterionRequirement) {
+						var result = data.CriterionRequirement[i];
+						}
+			}
+		 }
 		return result;
 	},
 	getCriterionRequirementName: function(data, language, identifier) {
 		 if (language == "Italian") {
-				var result = module.exports.getCriterionRequirementByID(data, language, identifier).CriterionRequirement_name;
+			 try {
+				 var result = module.exports.getCriterionRequirementByID(data, language, identifier).CriterionRequirement_name;
+				}
+				catch (err) { 
+					var result = "";
+				}	
 		}
 		return result;
 	},

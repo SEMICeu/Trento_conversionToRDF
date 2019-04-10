@@ -165,6 +165,8 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
       content = replaceAll(content, "Business Event", "BusinessEvent");
       content = replaceAll(content, "Life Event", "LifeEvent");
       content = replaceAll(content, "Public Organisation", "PublicOrganisation");
+      content = replaceAll(content, "Criterion Requirement", "CriterionRequirement");
+      content = replaceAll(content, "Legal Resource", "LegalResource");
       content = replaceAll(content, "Contact Point", "ContactPoint");
       content = content.replace(/\\n/g, "\\n")
                                             .replace(/\\'/g, "\\'")

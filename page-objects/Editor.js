@@ -215,7 +215,7 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		ev_click: {
-			selector: '(//span[text() = "HasInput"])[1]/../span[2]',
+			selector: '(//span[text() = "HasInput"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		ev_identifier: {
@@ -231,27 +231,27 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		cr_click: {
-			selector: '(//span[text() = "HasCriterion"])[1]/../span[2]',
+			selector: '(//span[text() = "HasCriterion"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		cr_identifier: {
-			selector: '//div[1]/span[1][text() = "HasCriterion"]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasCriterion"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		cr_name: {
-			selector: '//div[1]/span[1][text() = "HasCriterion"]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasCriterion"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		cr_name_lang: {
-			selector: '//div[1]/span[1][text() = "HasCriterion"]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasCriterion"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		cr_type: {
-			selector: '//div[1]/span[1][text() = "HasCriterion"]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasCriterion"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		cr_type_lang: {
-			selector: '//div[1]/span[1][text() = "HasCriterion"]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasCriterion"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		pr_click: {
@@ -537,8 +537,8 @@ module.exports = {
 			return this.click('@tab');
 		},
 		set_ps_identifier(value) {
-			return this.setValue('@ps_identifier', value);
-		},
+			return this.setValue('@ps_identifier', this.prefixNotURL(value, "http://www.provincia.tn.it/"));
+		},	
 		assert_ps_identifier(value){
 			return this.assert.value('@ps_identifier', value);
 		},
@@ -735,7 +735,7 @@ module.exports = {
 		},
 		set_ps_requires(value, i) {
 			var element = this.elements['@ps_requires'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "http://www.provincia.tn.it/"));
 		},
 		expand_ps_requires() {
 			this.api.execute(function(xpath) {
@@ -771,7 +771,7 @@ module.exports = {
 		},
 		set_ps_related(value, i) {
 			var element = this.elements['@ps_related'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "http://www.provincia.tn.it/"));
 		},
 		assert_ps_related(value){
 			return this.assert.value('@ps_related', value);
@@ -861,6 +861,10 @@ module.exports = {
 		set_be_name_lang(value) {
 			return this.setValue('@be_name_lang', value);
 		},
+		set_be_name_lang(value, i) {
+			var element = this.elements['@be_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		assert_be_name_lang(value){
 			return this.assert.value('@be_name_lang', value);
 		},
@@ -876,6 +880,10 @@ module.exports = {
 		},
 		set_be_description_lang(value) {
 			return this.setValue('@be_description_lang', value);
+		},
+		set_be_description_lang(value, i) {
+			var element = this.elements['@be_description_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_be_description_lang(value){
 			return this.assert.value('@be_description_lang', value);
@@ -962,6 +970,18 @@ module.exports = {
 			this.click('@ev_click');
 			return this;
 		},
+		ev_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@ev_click'.slice(1)].selector, i)]);
+			var element = this.elements['@ev_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
 		set_ev_identifier(value,i) {
 		    var element = this.elements['@ev_identifier'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "ev/"));
@@ -972,6 +992,10 @@ module.exports = {
 		},
 		set_ev_name_lang(value) {
 			return this.setValue('@ev_name_lang', value);
+		},
+		set_ev_name_lang(value, i) {
+			var element = this.elements['@ev_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		cr_expand() {
 			this.api.execute(function(xpath) {
@@ -985,8 +1009,24 @@ module.exports = {
 			this.click('@cr_click');
 			return this;
 		},
+		cr_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@cr_click'.slice(1)].selector, i)]);
+			var element = this.elements['@cr_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
 		set_cr_identifier(value) {
 			return this.setValue('@cr_identifier', this.prefixNotURL(value, "cr/"));
+		},
+		set_cr_identifier(value,i) {
+		    var element = this.elements['@cr_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_cr_identifier(value){
 			return this.assert.value('@cr_identifier', value);
@@ -994,11 +1034,20 @@ module.exports = {
 		set_cr_name(value) {
 			return this.setValue('@cr_name', value);
 		},
+		set_cr_name(value,i) {
+		    var element = this.elements['@cr_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+
 		assert_cr_name(value){
 			return this.assert.value('@cr_name', value);
 		},
 		set_cr_name_lang(value) {
 			return this.setValue('@cr_name_lang', value);
+		},
+		set_cr_name_lang(value, i) {
+			var element = this.elements['@cr_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_cr_name_lang(value){
 			return this.assert.value('@cr_name_lang', value);

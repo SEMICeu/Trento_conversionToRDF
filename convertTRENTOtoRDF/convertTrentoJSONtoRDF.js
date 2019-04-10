@@ -108,26 +108,41 @@ module.exports = {
 					.set_be_type(businessevent.BusinessEvent_type,k+1);	
 			}
 			
-//			/*Fill Criterion Requirement*/
-			editor
-			.set_cr_identifier(util.getCriterionRequirementIdentifier(data, languages[i], j))
-			.set_cr_name(util.getCriterionRequirementName(data, languages[i], util.getCriterionRequirementIdentifier(data, languages[i], j)))
-			.set_cr_name_lang(languages[i]);
-			
-			
+			/*Fill Criterion Requirement*/
+			var criterionrequirements = util.getHasCriterions(data,languages[i],j);
+			for (var k = 0; k < criterionrequirements.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				console.log("length:"+criterionrequirements.length)
+				criterionrequirement = util.getCriterionRequirementByID(data, languages[i], criterionrequirements[k]);
+				editor
+					.cr_expand(expand)
+					.set_cr_identifier(criterionrequirement.CriterionRequirement_id,k+1)
+					.set_cr_name(criterionrequirement.CriterionRequirement_name,k+1)
+					.set_cr_name_lang(languages[i],k+1);
+			}
 			
 			/*Fill Evidence*/
 			var hasInputs = util.getHasInputs(data,languages[i],j);
 			for (var k = 0; k < hasInputs.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
 				evidence = util.getHasInputByID(data, languages[i], hasInputs[k]);
 				editor
-					.ev_expand()
+					.ev_expand(expand)
 					.set_ev_identifier(evidence.Evidence_id,k+1)
 					.set_ev_name(evidence.Evidence_name,k+1)
 					.set_ev_name_lang(languages[i],k+1);	
 			}
+			
 			browser
-			.pause(time_pause*5);
+			.pause(time_pause*20);
 			
 			/*Fill all Legal Resources */
 //			//Just the description
