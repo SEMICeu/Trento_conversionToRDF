@@ -500,8 +500,10 @@ module.exports = {
 		}
 		result_array = result.split(";");
 		var dup_array = [];
-		for(var i = 0, len = result_array.length; i < len; ++i){
-			   dup_array[i] = result_array[i].trim();
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
 		}
 		return dup_array;
 	},
@@ -773,6 +775,33 @@ module.exports = {
 					var ID_Output = data.Output[i].Output_id;
 					if (ID == ID_Output) {
 						var result = data.Output[i];
+						}
+			}
+		 }
+		return result;
+	},
+	getContactPoints: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_hasContactPoint;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getContactPointsByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.ContactPoint.length; i++) {
+					var ID_Output = data.ContactPoint[i].ContactPoint_id;
+					if (ID == ID_Output) {
+						var result = data.ContactPoint[i];
 						}
 			}
 		 }

@@ -479,23 +479,27 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		hcp_click: {
-			selector: '(//span[text() = "HasContactPoint"])[1]/../span[2]',
+			selector: '(//span[text() = "HasContactPoint"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		hcp_identifier: {
-			selector: '//div[1]/span[1][text() = "HasContactPoint"]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		hcp_hasemail: {
-			selector: '//div[1]/span[1][text() = "HasContactPoint"]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "HasEmail"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "HasEmail"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		hcp_hastelephone: {
-			selector: '//div[1]/span[1][text() = "HasContactPoint"]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "HasTelephone"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "HasTelephone"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		hcp_openinghours: {
-			selector: '//div[1]/span[1][text() = "HasContactPoint"]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "OpeningHours"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "OpeningHours"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		hcp_faxnumber: {
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "FaxNumber"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		hch_click: {
@@ -1688,20 +1692,21 @@ module.exports = {
 		assert_fo_language(value){
 			return this.assert.value('@fo_language', value);
 		},
-		hcp_expand() {
+		hcp_expand(i) {
 			this.api.execute(function(xpath) {
 				function getElementByXpath(path) {
 					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 				}
 				var res = getElementByXpath(xpath);
 				res.scrollIntoView(true);
-			}, [this.elements.hcp_click.selector]);
-			this.assert.visible('@hcp_click');
-			this.click('@hcp_click');
+			}, [util.format(this.elements['@hcp_click'.slice(1)].selector, i)]);
+			var element = this.elements['@hcp_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
 			return this;
 		},
-		set_hcp_identifier(value) {
-			return this.setValue('@hcp_identifier', this.prefixNotURL(value, "hcp/"));
+		set_hcp_identifier(value,i) {
+			var element = this.elements['@hcp_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "hcp/"));
 		},
 		assert_hcp_identifier(value){
 			return this.assert.value('@hcp_identifier', value);
@@ -1709,11 +1714,19 @@ module.exports = {
 		set_hcp_hasemail(value) {
 			return this.setValue('@hcp_hasemail', value);
 		},
+		set_hcp_hasemail(value, i) {
+			var element = this.elements['@hcp_hasemail'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		assert_hcp_hasemail(value){
 			return this.assert.value('@hcp_hasemail', value);
 		},
 		set_hcp_hastelephone(value) {
 			return this.setValue('@hcp_hastelephone', value);
+		},
+		set_hcp_hastelephone(value, i) {
+			var element = this.elements['@hcp_hastelephone'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		assert_hcp_hastelephone(value){
 			return this.assert.value('@hcp_hastelephone', value);
@@ -1721,8 +1734,22 @@ module.exports = {
 		set_hcp_openinghours(value) {
 			return this.setValue('@hcp_openinghours', value);
 		},
+		set_hcp_openinghours(value, i) {
+			var element = this.elements['@hcp_openinghours'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		assert_hcp_openinghours(value){
 			return this.assert.value('@hcp_openinghours', value);
+		},
+		set_hcp_faxnumber(value) {
+			return this.setValue('@hcp_faxnumber', value);
+		},
+		set_hcp_faxnumber(value, i) {
+			var element = this.elements['@hcp_faxnumber'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		assert_hcp_faxnumber(value){
+			return this.assert.value('@hcp_faxnumber', value);
 		},
 		hch_expand() {
 			this.api.execute(function(xpath) {

@@ -173,10 +173,22 @@ module.exports = {
 			}
 			
 //			/*Fill the Contact Point */			
-//			
-//		
-			
-			
+			var contactpoints = util.getContactPoints(data,languages[i],j);
+			for (var k = 0; k < contactpoints.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				contactpoint = util.getContactPointsByID(data, languages[i], contactpoints[k]);
+				editor
+					.hcp_expand(expand)
+					.set_hcp_identifier(contactpoint.ContactPoint_id,k+1)
+					.set_hcp_hasemail(contactpoint.ContactPoint_email,k+1)
+					.set_hcp_hastelephone(contactpoint.ContactPoint_telephone,k+1)
+					.set_hcp_faxnumber(contactpoint.ContactPoint_faxnumber,k+1);
+			}
+
 //			/*Fill the Channel*/
 			var Channels = util.getChannels(data,languages[i],j);
 			for (var k = 0; k < Channels.length; k++) {
