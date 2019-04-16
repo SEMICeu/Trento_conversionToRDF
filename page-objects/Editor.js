@@ -151,7 +151,7 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},			
 		be_click: {
-			selector: '(//span[text() = "IsGroupedBy: BusinessEvent"])[1]/../span[2]',
+			selector: '(//span[text() = "IsGroupedBy: BusinessEvent"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		be_identifier: {
@@ -888,6 +888,18 @@ module.exports = {
 			}, [this.elements.be_click.selector]);
 			this.assert.visible('@be_click');
 			this.click('@be_click');
+			return this;
+		},
+		be_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@be_click'.slice(1)].selector, i)]);
+			var element = this.elements['@be_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
 			return this;
 		},
 		set_be_identifier(value) {

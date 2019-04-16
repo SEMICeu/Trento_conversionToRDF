@@ -530,8 +530,10 @@ module.exports = {
 			}	
 		result_array = result.split(";");
 		var dup_array = [];
-		for(var i = 0, len = result_array.length; i < len; ++i){
-			   dup_array[i] = result_array[i].trim();
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
 		}
 		return dup_array;
 	},
@@ -640,8 +642,10 @@ module.exports = {
 			}	
 		result_array = result.split(";");
 		var dup_array = [];
-		for(var i = 0, len = result_array.length; i < len; ++i){
-			   dup_array[i] = result_array[i].trim();
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
 		}
 		return dup_array;
 	},

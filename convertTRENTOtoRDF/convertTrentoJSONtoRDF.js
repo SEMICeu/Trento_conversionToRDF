@@ -97,9 +97,14 @@ module.exports = {
 			/*Fill Business Event*/
 			var businessevents = util.getBusinessEvents(data,languages[i],j);
 			for (var k = 0; k < businessevents.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
 				businessevent = util.getBusinessEventByID(data, languages[i], businessevents[k]);
 				editor
-					.be_expand()
+					.be_expand(expand)
 					.set_be_identifier(businessevent.BusinessEvent_id,k+1)
 					.set_be_name(businessevent.BusinessEvent_name,k+1)
 					.set_be_name_lang(languages[i],k+1)
