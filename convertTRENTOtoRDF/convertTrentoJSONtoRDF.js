@@ -112,6 +112,26 @@ module.exports = {
 					.set_be_description_lang(languages[i],k+1)
 					.set_be_type(businessevent.BusinessEvent_type,k+1);	
 			}
+			/*Fill Life Event*/
+			var lifeevents = util.getLifeEvents(data,languages[i],j);
+			for (var k = 0; k < lifeevents.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				lifeevent = util.getLifeEventByID(data, languages[i], lifeevents[k]);
+				editor
+					.le_expand(expand)
+					.set_le_identifier(lifeevent.LifeEvent_id,k+1)
+					.set_le_name(lifeevent.LifeEvent_name,k+1)
+					.set_le_name_lang(languages[i],k+1)
+					.set_le_description(lifeevent.LifeEvent_description,k+1)
+					.set_le_description_lang(languages[i],k+1)
+					.set_le_type(lifeevent.LifeEvent_type,k+1);	
+			}
+			
+			
 			
 			/*Fill Criterion Requirement*/
 			var criterionrequirements = util.getHasCriterions(data,languages[i],j);

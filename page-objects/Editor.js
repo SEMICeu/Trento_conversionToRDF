@@ -181,39 +181,39 @@ module.exports = {
 		be_type: {
 			selector: '(//div[1]/span[1][text() = "IsGroupedBy: BusinessEvent"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
-		},		
+		},
 		le_click: {
-			selector: '(//span[text() = "IsGroupedBy: LifeEvent"])[1]/../span[2]',
+			selector: '(//span[text() = "IsGroupedBy: LifeEvent"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
 		},
 		le_identifier: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_name: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_name_lang: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_description: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_description_lang: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "Description"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_related: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "RelatedService"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "RelatedService"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		le_type: {
-			selector: '//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
+			selector: '(//div[1]/span[1][text() = "IsGroupedBy: LifeEvent"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
-		},
+		},		
 		ev_click: {
 			selector: '(//span[text() = "HasInput"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
@@ -968,59 +968,41 @@ module.exports = {
 		assert_be_type(value){
 			return this.assert.value('@be_type', value);
 		},
-		le_expand() {
+		le_expand(i) {
 			this.api.execute(function(xpath) {
 				function getElementByXpath(path) {
 					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 				}
 				var res = getElementByXpath(xpath);
 				res.scrollIntoView(true);
-			}, [this.elements.le_click.selector]);
-			this.assert.visible('@le_click');
-			this.click('@le_click');
+			}, [util.format(this.elements['@le_click'.slice(1)].selector, i)]);
+			var element = this.elements['@le_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
 			return this;
 		},
-		set_le_identifier(value) {
-			return this.setValue('@le_identifier', this.prefixNotURL(value, "le/"));
+		set_le_identifier(value,i) {
+		    var element = this.elements['@le_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "le/"));
 		},
-		assert_le_identifier(value){
-			return this.assert.value('@le_identifier', value);
+		set_le_name(value,i) {
+		    var element = this.elements['@le_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
-		set_le_name(value) {
-			return this.setValue('@le_name', value);
+		set_le_name_lang(value, i) {
+			var element = this.elements['@le_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
-		assert_le_name(value){
-			return this.assert.value('@le_name', value);
+		set_le_description(value,i) {
+		    var element = this.elements['@le_description'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
-		set_le_name_lang(value) {
-			return this.setValue('@le_name_lang', value);
+		set_le_description_lang(value, i) {
+			var element = this.elements['@le_description_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
-		assert_le_name_lang(value){
-			return this.assert.value('@le_name_lang', value);
-		},
-		set_le_description(value) {
-			return this.setValue('@le_description', value);
-		},
-		assert_le_description(value){
-			return this.assert.value('@le_description', value);
-		},
-		set_le_description_lang(value) {
-			return this.setValue('@le_description_lang', value);
-		},
-		assert_le_description_lang(value){
-			return this.assert.value('@le_description_lang', value);
-		},
-		set_le_related(value) {
-			return this.setValue('@le_related', value);
-		},
-		assert_le_related(value){
-			return this.assert.value('@le_related', value);
-		},
-		set_le_type(value) {
-			return this.setValue('@le_type', value);
-		},
-		assert_le_type(value){
-			return this.assert.value('@le_type', value);
+		set_le_type(value,i) {
+		    var element = this.elements['@le_type'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		ev_expand() {
 			this.api.execute(function(xpath) {

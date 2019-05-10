@@ -529,6 +529,12 @@ module.exports = {
 				}
 			}	
 		result_array = result.split(";");
+		for(var i = 0; i < result_array.length; i++){ 
+			   if (result_array[i].trim().startsWith("LE")) {
+				   result_array.splice(i, 1); 
+				   i--;
+			   }
+		}
 		var dup_array = [];
 		if (!(result_array.length == 1 && result_array[0] == "")) {
 			for(var i = 0, len = result_array.length; i < len; ++i){
@@ -555,6 +561,40 @@ module.exports = {
 				var ID_BusinessEvent = data.BusinessEvent[i].BusinessEvent_id;
 				if (ID == ID_BusinessEvent) {
 					var result = data.BusinessEvent[i];
+				}
+			}
+		}
+		return result;
+	},
+	getLifeEvents: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_isGroupedBy;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		for(var i = 0; i < result_array.length; i++){ 
+			   if (result_array[i].trim().startsWith("BE")) {
+				   result_array.splice(i, 1); 
+				   i--;
+			   }
+		}
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getLifeEventByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			console.log("*********"+ ID + "********$");
+			for (var i=0; i < data.LifeEvent.length; i++) {
+				var ID_LifeEvent = data.LifeEvent[i].LifeEvent_id;
+				if (ID == ID_LifeEvent) {
+					var result = data.LifeEvent[i];
 				}
 			}
 		}
@@ -775,6 +815,7 @@ module.exports = {
 	},
 	getOutputByID: function(data, language, ID) {
 		 if (language == "Italian") {
+			console.log("**************"+ID+"$$$$$$$$$$");
 			for (var i=0; i < data.Output.length; i++) {
 					var ID_Output = data.Output[i].Output_id;
 					if (ID == ID_Output) {
