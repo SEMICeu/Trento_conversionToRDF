@@ -844,14 +844,43 @@ module.exports = {
 	getContactPointsByID: function(data, language, ID) {
 		 if (language == "Italian") {
 			for (var i=0; i < data.ContactPoint.length; i++) {
-					var ID_Output = data.ContactPoint[i].ContactPoint_id;
-					if (ID == ID_Output) {
+					var ID_ContactPoint = data.ContactPoint[i].ContactPoint_id;
+					if (ID == ID_ContactPoint) {
 						var result = data.ContactPoint[i];
 						}
 			}
 		 }
 		return result;
 	},
+	getContactPointTelephones: function(ContactPoint) {
+		var result = ContactPoint.ContactPoint_telephone;
+		if (result == undefined) {
+			result = "";
+		}
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getContactPointFaxes: function(ContactPoint) {
+		var result = ContactPoint.ContactPoint_faxnumber;
+		if (result == undefined) {
+			result = "";
+		}
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	
 	getCosts: function(data, language, index) {
 		if (language == "Italian") {
 				var result = data.PublicService[index].PublicService_hasCost;
@@ -874,6 +903,33 @@ module.exports = {
 					var ID_Cost = data.Cost[i].Cost_id;
 					if (ID == ID_Cost) {
 						var result = data.Cost[i];
+						}
+			}
+		 }
+		return result;
+	},
+	getDatasets: function(data, language, index) {
+		if (language == "Italian") {
+				var result = data.PublicService[index].PublicService_isDescribedAt;
+				if (result == undefined) {
+					result = "";
+				}
+			}	
+		result_array = result.split(";");
+		var dup_array = [];
+		if (!(result_array.length == 1 && result_array[0] == "")) {
+			for(var i = 0, len = result_array.length; i < len; ++i){
+				   dup_array[i] = result_array[i].trim();
+			}
+		}
+		return dup_array;
+	},
+	getDatasetByID: function(data, language, ID) {
+		 if (language == "Italian") {
+			for (var i=0; i < data.PublicServiceDataset.length; i++) {
+					var ID_PublicServiceDataset = data.PublicServiceDataset[i].PublicServiceDataset_id;
+					if (ID == ID_PublicServiceDataset) {
+						var result = data.PublicServiceDataset[i];
 						}
 			}
 		 }

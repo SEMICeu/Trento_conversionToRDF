@@ -370,6 +370,10 @@ module.exports = {
 			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
+		ou_type: {
+			selector: '(//div[1]/span[1][text() = "Produces"])[%d]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "Type"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
 		ch_click: {
 			selector: '(//span[text() = "HasChannel"])[%d]/../span[2]',
 			locateStrategy: 'xpath'
@@ -491,7 +495,11 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		hcp_hastelephone: {
-			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "HasTelephone"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "HasTelephone"]/../../div[2]/div[%d]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		hcp_telephone_click: {
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "HasTelephone"]/following-sibling::span[1]',
 			locateStrategy: 'xpath'
 		},
 		hcp_openinghours: {
@@ -499,7 +507,11 @@ module.exports = {
 			locateStrategy: 'xpath'
 		},
 		hcp_faxnumber: {
-			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "FaxNumber"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "FaxNumber"]/../../div[2]/div[%d]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		hcp_fax_click: {
+			selector: '(//div[1]/span[1][text() = "HasContactPoint"])[%d]/../../div[2]/div[1]/div[5]/div[1]/span[1][text() = "FaxNumber"]/following-sibling::span[1]',
 			locateStrategy: 'xpath'
 		},
 		hch_click: {
@@ -540,6 +552,30 @@ module.exports = {
 		},
 		hc_currency: {
 			selector: '(//div[1]/span[1][text() = "HasCost"])[%d]/../../div[2]/div[1]/div[4]/div[1]/span[1][text() = "Currency"]/../../div[2]/div[1]/div[2]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		psd_click: {
+			selector: '(//span[text() = "IsDescribedAt"])[%d]/../span[2]',
+			locateStrategy: 'xpath'
+		},
+		psd_identifier: {
+			selector: '(//div[1]/span[1][text() = "IsDescribedAt"])[%d]/../../div[2]/div[1]/div[1]/div[1]/span[1][text() = "Identifier"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		psd_name: {
+			selector: '(//div[1]/span[1][text() = "IsDescribedAt"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		psd_name_lang: {
+			selector: '(//div[1]/span[1][text() = "IsDescribedAt"])[%d]/../../div[2]/div[1]/div[2]/div[1]/span[1][text() = "Name"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		psd_landingPage: {
+			selector: '(//div[1]/span[1][text() = "IsDescribedAt"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "LandingPage"]/../../div[2]/div[1]/div[2]/div[1]/input[1]',
+			locateStrategy: 'xpath'
+		},
+		psd_landingPage_lang: {
+			selector: '(//div[1]/span[1][text() = "IsDescribedAt"])[%d]/../../div[2]/div[1]/div[3]/div[1]/span[1][text() = "LandingPage"]/../../div[2]/div[1]/div[1]/div[1]/div[3]/input[1]',
 			locateStrategy: 'xpath'
 		},
 		co_click: {
@@ -1348,6 +1384,10 @@ module.exports = {
 			var element = this.elements['@ou_name_lang'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
+		set_ou_type(value,i) {
+		    var element = this.elements['@ou_type'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
 		hc_expand(i) {
 			this.api.execute(function(xpath) {
 				function getElementByXpath(path) {
@@ -1370,6 +1410,46 @@ module.exports = {
 		},
 		set_hc_description_lang(value, i) {
 			var element = this.elements['@hc_description_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_hc_value(value,i) {
+		    var element = this.elements['@hc_value'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_hc_currency(value,i) {
+		    var element = this.elements['@hc_currency'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		psd_expand(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@psd_click'.slice(1)].selector, i)]);
+			var element = this.elements['@psd_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
+		},
+		set_psd_identifier(value,i) {
+		    var element = this.elements['@psd_identifier'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "psd/"));
+		},
+		set_psd_name(value,i) {
+		    var element = this.elements['@psd_name'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_psd_name_lang(value, i) {
+			var element = this.elements['@psd_name_lang'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_psd_landingPage(value,i) {
+		    var element = this.elements['@psd_landingPage'.slice(1)];
+			return this.setValue('xpath', util.format(element.selector, i), value);
+		},
+		set_psd_landingPage_lang(value, i) {
+			var element = this.elements['@psd_landingPage_lang'.slice(1)];
 			return this.setValue('xpath', util.format(element.selector, i), value);
 		},
 		co_expand(i) {
@@ -1715,12 +1795,21 @@ module.exports = {
 		assert_hcp_hasemail(value){
 			return this.assert.value('@hcp_hasemail', value);
 		},
-		set_hcp_hastelephone(value) {
-			return this.setValue('@hcp_hastelephone', value);
-		},
-		set_hcp_hastelephone(value, i) {
+		set_hcp_hastelephone(value, i, j) {
 			var element = this.elements['@hcp_hastelephone'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i, j), value);
+		},
+		expand_hcp_telephone(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@hcp_telephone_click'.slice(1)].selector, i)]);
+			var element = this.elements['@hcp_telephone_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
 		},
 		assert_hcp_hastelephone(value){
 			return this.assert.value('@hcp_hastelephone', value);
@@ -1735,12 +1824,21 @@ module.exports = {
 		assert_hcp_openinghours(value){
 			return this.assert.value('@hcp_openinghours', value);
 		},
-		set_hcp_faxnumber(value) {
-			return this.setValue('@hcp_faxnumber', value);
-		},
-		set_hcp_faxnumber(value, i) {
+		set_hcp_hasfax(value, i, j) {
 			var element = this.elements['@hcp_faxnumber'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
+			return this.setValue('xpath', util.format(element.selector, i, j), value);
+		},
+		expand_hcp_fax(i) {
+			this.api.execute(function(xpath) {
+				function getElementByXpath(path) {
+					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				}
+				var res = getElementByXpath(xpath);
+				res.scrollIntoView(true);
+			}, [util.format(this.elements['@hcp_fax_click'.slice(1)].selector, i)]);
+			var element = this.elements['@hcp_fax_click'.slice(1)];
+			this.click('xpath', util.format(element.selector, i));
+			return this;
 		},
 		assert_hcp_faxnumber(value){
 			return this.assert.value('@hcp_faxnumber', value);
@@ -1774,91 +1872,6 @@ module.exports = {
 		},
 		assert_hch_openinghours(value){
 			return this.assert.value('@hch_openinghours', value);
-		},
-		hc_expand() {
-			var i = 1;
-			this.api.execute(function(xpath) {
-				function getElementByXpath(path) {
-					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-				}
-				var res = getElementByXpath(xpath);
-				res.scrollIntoView(true);
-			}, [util.format(this.elements['@hc_click'.slice(1)].selector, i)]);
-			var element = this.elements['@hc_click'.slice(1)];
-			this.click('xpath', util.format(element.selector, i));
-			return this;
-		},
-		hc_expand(i) {
-			this.api.execute(function(xpath) {
-				function getElementByXpath(path) {
-					return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-				}
-				var res = getElementByXpath(xpath);
-				res.scrollIntoView(true);
-			}, [util.format(this.elements['@hc_click'.slice(1)].selector, i)]);
-			var element = this.elements['@hc_click'.slice(1)];
-			this.click('xpath', util.format(element.selector, i));
-			return this;
-		},
-		set_hc_identifier(value) {
-			var i = 1;
-			var element = this.elements['@hc_identifier'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "hc/"));
-		},
-		set_hc_identifier(value, i) {
-			var element = this.elements['@hc_identifier'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), this.prefixNotURL(value, "hc/"));
-		},
-		assert_hc_identifier(value){
-			return this.assert.value('@hc_identifier', value);
-		},
-		set_hc_description(value) {
-			var i = 1;
-			var element = this.elements['@hc_description'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		set_hc_description(value, i) {
-			var element = this.elements['@hc_description'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		assert_hc_description(value){
-			return this.assert.value('@hc_description', value);
-		},
-		set_hc_description_lang(value) {
-			var i = 1;
-			var element = this.elements['@hc_description_lang'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		set_hc_description_lang(value, i) {
-			var element = this.elements['@hc_description_lang'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		assert_hc_description_lang(value){
-			return this.assert.value('@hc_description_lang', value);
-		},
-		set_hc_value(value) {
-			var i = 1;
-			var element = this.elements['@hc_value'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		set_hc_value(value, i) {
-			var element = this.elements['@hc_value'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		assert_hc_value(value){
-			return this.assert.value('@hc_value', value);
-		},
-		set_hc_currency(value) {
-			var i = 1;
-			var element = this.elements['@hc_value'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		set_hc_currency(value, i) {
-			var element = this.elements['@hc_currency'.slice(1)];
-			return this.setValue('xpath', util.format(element.selector, i), value);
-		},
-		assert_hc_currency(value){
-			return this.assert.value('@hc_currency', value);
 		},
 		ida_expand() {
 			this.api.execute(function(xpath) {

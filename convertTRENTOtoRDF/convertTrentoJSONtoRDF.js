@@ -194,7 +194,8 @@ module.exports = {
 					.ou_expand(expand)
 					.set_ou_identifier(output.Output_id,k+1)
 					.set_ou_name(output.Output_name,k+1)
-					.set_ou_name_lang(languages[i],k+1);
+					.set_ou_name_lang(languages[i],k+1)
+					.set_ou_type(output.Output_type,k+1);	
 			}
 			
 //			/*Fill the Contact Point */			
@@ -209,9 +210,23 @@ module.exports = {
 				editor
 					.hcp_expand(expand)
 					.set_hcp_identifier(contactpoint.ContactPoint_id,k+1)
-					.set_hcp_hasemail(contactpoint.ContactPoint_email,k+1)
-					.set_hcp_hastelephone(contactpoint.ContactPoint_telephone,k+1)
-					.set_hcp_faxnumber(contactpoint.ContactPoint_faxnumber,k+1);
+					.set_hcp_hasemail(contactpoint.ContactPoint_email,k+1);
+//					.set_hcp_hastelephone(contactpoint.ContactPoint_telephone,k+1)
+//					.set_hcp_faxnumber(contactpoint.ContactPoint_faxnumber,k+1);
+				
+				
+				var telephones = util.getContactPointTelephones(contactpoint);
+				for (var t = 0; t < telephones.length; t++) {
+				    editor
+				    	.set_hcp_hastelephone(telephones[t], k+1, t+1)
+				    	.expand_hcp_telephone(t+1);
+				}
+				var faxes = util.getContactPointFaxes(contactpoint);
+				for (var t = 0; t < faxes.length; t++) {
+				    editor
+				    	.set_hcp_hasfax(faxes[t], k+1, t+1)
+				    	.expand_hcp_fax(t+1);
+				}
 			}
 
 //			/*Fill the Channel*/
@@ -242,8 +257,27 @@ module.exports = {
 				editor
 					.hc_expand(expand)
 					.set_hc_identifier(cost.Cost_id,k+1)
+//					.set_hc_value(cost.Cost_value,k+1)
+//					.set_hc_currency(cost.Cost_currency,k+1)
 					.set_hc_description(cost.Cost_description,k+1)
 					.set_hc_description_lang(languages[i],k+1);
+			}
+			/*Fill the Public Service Dataset */	
+			var Datasets = util.getDatasets(data,languages[i],j);
+			for (var k = 0; k < Datasets.length; k++) {
+				if (k == 0) {
+					expand = 1
+				} else {
+					expand = k
+				}
+				dataset = util.getDatasetByID(data, languages[i], Datasets[k]);
+				editor
+					.psd_expand(expand)
+					.set_psd_identifier(dataset.PublicServiceDataset_id,k+1)
+					.set_psd_name(dataset.PublicServiceDataset_name,k+1)
+					.set_psd_name_lang(languages[i],k+1)
+					.set_psd_landingPage(dataset.PublicServiceDataset_landingPage,k+1)
+					.set_psd_landingPage_lang(languages[i],k+1);
 			}
 			
 			/*Fill the Concept */		
@@ -263,7 +297,7 @@ module.exports = {
 			}
 
 			browser
-			.pause(time_pause*20);
+			.pause(time_pause*10);
 			
 			/*Download the result*/
 			editor.select();

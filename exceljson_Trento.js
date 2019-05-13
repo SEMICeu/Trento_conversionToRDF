@@ -75,6 +75,16 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
               }
           },
           {
+              name: 'PS Dataset',
+              range: 'A1:D46',
+              columnToKey: {
+                A: 'PublicServiceDataset_id',
+                B: 'PublicServiceDataset_publisher',
+                C: 'PublicServiceDataset_name',
+                D: 'PublicServiceDataset_landingPage'
+              }
+          },
+          {
               name: 'Evidence',
               range: 'A1:F43',
               columnToKey: {
@@ -157,12 +167,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
                    B: 'ContactPoint_email',
                    C: 'ContactPoint_telephone',
                    D: 'ContactPoint_hoursAvailable',
-                   E: 'ContactPoint_areaserved',
-                   F: 'ContactPoint_availablelanguage',
-                   G: 'ContactPoint_contactoption',
-                   H: 'ContactPoint_contacttype',
-                   I: 'ContactPoint_faxnumber',
-                   J: 'ContactPoint_productsupported'
+                   E: 'ContactPoint_faxnumber',
                 }
             },
             {
@@ -185,6 +190,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
       content = replaceAll(content, "Public Service", "PublicService");
       content = replaceAll(content, "Business Event", "BusinessEvent");
       content = replaceAll(content, "Life Event", "LifeEvent");
+      content = replaceAll(content, "PS Dataset", "PublicServiceDataset");
       content = replaceAll(content, "Public Organisation", "PublicOrganisation");
       content = replaceAll(content, "Criterion Requirement", "CriterionRequirement");
       content = replaceAll(content, "Legal Resource", "LegalResource");
