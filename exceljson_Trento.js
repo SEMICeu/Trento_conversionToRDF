@@ -22,7 +22,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           sheets: [{
             name: 'Public Service',
-            range: 'A1:Z46',
+            range: 'A1:Z43',
             columnToKey: {
               A: 'PublicService_id',
               B: 'PublicService_name',
@@ -54,7 +54,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           {
               name: 'Business Event',
-              range: 'A1:E12',
+              range: 'A1:E13',
               columnToKey: {
                 A: 'BusinessEvent_id',
                 B: 'BusinessEvent_name',
@@ -76,7 +76,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           {
               name: 'PS Dataset',
-              range: 'A1:D46',
+              range: 'A1:D43',
               columnToKey: {
                 A: 'PublicServiceDataset_id',
                 B: 'PublicServiceDataset_publisher',
@@ -86,7 +86,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           {
               name: 'Evidence',
-              range: 'A1:F43',
+              range: 'A1:F40',
               columnToKey: {
                 A: 'Evidence_id',
                 B: 'Evidence_name',
@@ -98,7 +98,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           {
               name: 'Criterion Requirement',
-              range: 'A1:C35',
+              range: 'A1:C31',
               columnToKey: {
                 A: 'CriterionRequirement_id',
                 B: 'CriterionRequirement_name',
@@ -117,7 +117,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
           {
               name: 'Cost',
-              range: 'A1:D18',
+              range: 'A1:D3',
               columnToKey: {
                 A: 'Cost_id',
                 B: 'Cost_value',
@@ -127,7 +127,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
           },
 	      {
 	           name: 'Channel',
-	           range: 'A1:G31',
+	           range: 'A1:G13',
 	           columnToKey: {
 	             A: 'Channel_id',
 	             B: 'Channel_description',
@@ -140,7 +140,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
 	      },
           {
               name: 'Legal Resource',
-              range: 'A1:C91',
+              range: 'A1:C42',
               columnToKey: {
                 A: 'LegalResource_id',
                 B: 'LegalResource_description',
@@ -149,7 +149,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
            },
             {
 	          name: 'Public Organisation',
-	          range: 'A1:F15',
+	          range: 'A1:F2',
 	          columnToKey: {
 	             A: 'PublicOrganisation_id',
 	             B: 'PublicOrganisation_name',
@@ -161,7 +161,7 @@ glob(glob_jsonlocation, glob_options, function (er, filelist) {
             },
             {
                 name: 'Contact Point',
-                range: 'A1:J28',
+                range: 'A1:J6',
                 columnToKey: {
                    A: 'ContactPoint_id',
                    B: 'ContactPoint_email',
