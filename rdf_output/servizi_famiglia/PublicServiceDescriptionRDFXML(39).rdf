@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP54">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP54</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Trasporto individualizzato per alunni BES e diversamente abili</dcterms:title>
+    <dcterms:description xml:lang="it">Gli studenti che, in ragione di difficoltà motorie, sensoriali o psichiche, di natura permanente o temporanea (di durata non inferiore ai 30 giorni), dipendenti da qualsiasi causa, incontrino ostacoli, impedimenti o limitazioni ad usufruire, in condizioni di adeguata sicurezza ed autonomia, dei mezzi di locomozione e dei mezzi di trasporto pubblico, possono usufruire di un servizio di trasporto scolastico individualizzato. Il servizio interessa gli alunni frequentanti scuole dell’infanzia o istituti scolastici di ogni ordine e grado e centri educativi della provincia di Trento.Viene in particolare garantito:- il trasporto sul percorso casa-scuola ove la distanza non superi i 30 km, fatti salvi i casi di assenza entro tale distanza di scuole con analoghe caratteristiche o di problemi di capienza;- il trasporto per partecipazione ad attività di rieducazione logopedica e fisioterapica nonché, previa prescrizione medica, di ippoterapia, pet-therapy, musicoterapia;- il trasporto verso centri estivi nonché per eventuali uscite formative, visite guidate ed altre attività didattiche svolte in ambiente extra- scolastico nel territorio provinciale purché si concludano nell'arco di una giornata;- il trasporto per la frequenza in modo continuativo di centri educativi, al fine di favorire l'inserimento dei soggetti stessi nel mondo sociale ove la distanza non superi i 30 km, fatti salvi i casi di assenza entro tale distanza di centri con analoghe caratteristiche o di problemi di capienza.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">trasporto</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">ragazzi</ns2:keyword>
+    <ns2:keyword xml:lang="it">scuolabus</ns2:keyword>
+    <ns2:keyword xml:lang="it">disabili</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni tariffarie</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.6"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.6.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_1268"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/0OK0PZ"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_2"/>
+    <ns3:hasCriterion rdf:resource="cr/2959d360-52d7-4f37-a15a-fe10b93c61e6"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns4:hasInput rdf:resource="ev/679483dd-8df4-4dc0-9e95-c0105567712b"/>
+    <ns4:hasInput rdf:resource="ev/155cce04-e5a5-4041-947c-8dab150725fa"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1991-1"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2011-1687"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_0OK0PZ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_0OK0PZ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_0OK0PZ_trasporto3"/>
+    <ns3:hasCost rdf:resource="hc/6039752c-3b76-4d24-b83a-ec75a6a2d3e2"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/0OK0PZ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/0OK0PZ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio Trasporti Pubblici</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio Trasporti Pubblici</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Piazza Dante 6 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Invalidità</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi si prende cura di un famigliare, di un parente, di un'altra persona</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/BecomingASocialTaretaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/2959d360-52d7-4f37-a15a-fe10b93c61e6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/2959d360-52d7-4f37-a15a-fe10b93c61e6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono accedere al servizio alunni residenti o aventi la dimora abituale nella provincia di Trento frequentanti le scuole d'infanzia provinciali ed equiparate e le scuole a carattere statale primaria e secondaria di primo grado.Su specifica richiesta che verrà esaminata dal Servizio Trasporti pubblici, in assenza di servizi pubblici di linea e verificata con il vettore la disponibilità dei posti sul mezzo che già effettua il servizio di trasporto per gli alunni, è consentito l'utilizzo del mezzo da parte degli alunni frequentanti gli Istituti Superiori, purché tale ammissione non comporti variazione del tragitto e degli orari di effettuazione.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/679483dd-8df4-4dc0-9e95-c0105567712b">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/679483dd-8df4-4dc0-9e95-c0105567712b</dcterms:identifier>
+    <dcterms:title xml:lang="it">Relazione dei Servizi sociali o sanitari</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/155cce04-e5a5-4041-947c-8dab150725fa">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/155cce04-e5a5-4041-947c-8dab150725fa</dcterms:identifier>
+    <dcterms:title xml:lang="it">Eventuale certificazione medica che attesti la necessità di un accompagnatore sul mezzo di trasporto</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1991-1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1991-1</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 1 del 7 gennaio 1991</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2011-1687">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2011-1687</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1687 del 5 agosto 2011</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_0OK0PZ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_0OK0PZ</dcterms:identifier>
+    <ns7:email>serv.trasporti@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497980</ns7:telephone>
+    <ns7:faxNumber>0461497940</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_0OK0PZ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_0OK0PZ_pec</dcterms:identifier>
+    <ns7:email>serv.trasporti@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_0OK0PZ_trasporto3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_0OK0PZ_trasporto3</dcterms:identifier>
+    <dcterms:description xml:lang="it">La richiesta di ammissione al trasporto deve essere presentata entro il 28 febbraio dell'anno scolastico di riferimento, alla segreteria scolastica o al centro socioeducativo di competenza o al Servizio Trasporti pubblici della Provincia autonoma di Trento. Ogni anno vengono definite le modalità di consegna della domanda attraverso una circolare.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/6039752c-3b76-4d24-b83a-ec75a6a2d3e2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/6039752c-3b76-4d24-b83a-ec75a6a2d3e2</dcterms:identifier>
+    <dcterms:description xml:lang="it">ll costo del servizio dipende dalle modalità di utilizzo del servizio stesso e dalle capacità economiche della famiglia, determinate attraverso l'indicatore ICEF.Il servizio scolastico è gratuito per gli alunni delle scuole primarie e secondarie, se non si usufruisce nello stesso anno scolastico di ulteriori servizi di trasporto speciali (es. terapie) e se si è in possesso della certificazione L. 104/92.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP54">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP54</dcterms:identifier>
+    <dcterms:title xml:lang="it">Trasporto individualizzato per alunni BES e diversamente abili</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.trasporti.provincia.tn.it/trasporto_disabili/"/>
+  </rdf:Description>
+</rdf:RDF>

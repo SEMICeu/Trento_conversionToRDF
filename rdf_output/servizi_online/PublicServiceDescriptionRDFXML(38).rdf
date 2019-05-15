@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP21">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP21</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Iscrizione ai concorsi e alle selezioni del comparto Autoniomie locali della Provincia autonoma di Trento</dcterms:title>
+    <dcterms:description xml:lang="it">Tutti coloro in possesso dei requisiti necessari, indicati nei singoli bandi, possono presentare domanda di partecipazione ai concorsi e alle selezioni o di inclusione in specifiche graduatorie od elenchi per l'assunzione a tempo determinato e/o indeterminato nel comparto Autonomie locali della Provincia autonoma di Trento.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">concorsi</ns2:keyword>
+    <ns2:keyword xml:lang="it">selezioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">graduatorie</ns2:keyword>
+    <ns2:keyword xml:lang="it">personale</ns2:keyword>
+    <ns2:keyword xml:lang="it">amministrazione pubblica</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.3"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=01.3.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/MYTMU9"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:hasCriterion rdf:resource="cr/3f9fd71a-d35b-45f2-a708-9b89743ba438"/>
+    <ns4:hasInput rdf:resource="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_MYTMU9"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_MYTMU9_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/1d2ebc60-8c6d-4c6d-aa0e-4dd732729842"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/MYTMU9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/MYTMU9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio per il personale</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio per il personale</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Grazioli 1 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/3f9fd71a-d35b-45f2-a708-9b89743ba438">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/3f9fd71a-d35b-45f2-a708-9b89743ba438</dcterms:identifier>
+    <dcterms:title xml:lang="it">I requisiti necessari per iscriversi ai singoli concorsi e selezioni, compreso il titolo di studio, sono indicati nei relativi bandi.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di iscrizione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_MYTMU9">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_MYTMU9</dcterms:identifier>
+    <ns6:email>serv.personale@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461496275</ns6:telephone>
+    <ns6:faxNumber>0461986267</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_MYTMU9_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_MYTMU9_pec</dcterms:identifier>
+    <ns6:email>serv.personale@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/1d2ebc60-8c6d-4c6d-aa0e-4dd732729842">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/1d2ebc60-8c6d-4c6d-aa0e-4dd732729842</dcterms:identifier>
+    <dcterms:description xml:lang="it">I costi di ammissione, se previsti, sono indigati nei singoli bandi.</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

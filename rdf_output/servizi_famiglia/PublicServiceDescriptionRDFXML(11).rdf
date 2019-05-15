@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP41">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP41</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Consigliere di parità</dcterms:title>
+    <dcterms:description xml:lang="it">Lavoratrici, lavoratori, enti, organizzazioni e aziende sia del settore privato che pubblico che intendono confrontarsi sul tema delle discriminazioni sul posto di lavoro possono richiedere un incontro con il Consigliere di Parità, la figura istituzionale preposta ad intervenire in modo specifico sulle tematiche delle pari opportunità tra uomo e donna nel mondo del lavoro.Svolge funzioni di contrasto alle discriminazioni sul luogo di lavoro nei confronti di lavoratrici e lavoratori, e può agire in giudizio contro qualsiasi discriminazione, diretta o indiretta, individuale o collettiva. Gestisce uno “Sportello di assistenza legale gratuita ed orientamento” rivolto a lavoratrici e lavoratori. Promuove azioni positive e interventi a favore dell’inserimento e della permanenza delle donne nel mondo del lavoro, anche "in dialogo" con le aziende. Infine, è competente anche in materia di violenza, mobbing, stalking e molestie sul luogo di lavoro a danno di lavoratrici e lavoratori, in ragione della loro appartenenza di genere.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">parità di genere</ns2:keyword>
+    <ns2:keyword xml:lang="it">pari opportunità</ns2:keyword>
+    <ns2:keyword xml:lang="it">consigliere</ns2:keyword>
+    <ns2:keyword xml:lang="it">discriminazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione famiglia-lavoro</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=01.3.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/WM5MPL"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_13"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2013-2"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2012-13"/>
+    <ns3:hasLegalResource rdf:resource="lr/DL-2006-198"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-1074"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_WM5MPL_consigliere_parita"/>
+    <ns3:hasChannel rdf:resource="ch/CH_WM5MPL_consigliere"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/WM5MPL">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/WM5MPL</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Dipartimento salute e politiche sociali</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Dipartimento salute e politiche sociali</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_13">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_13</dcterms:identifier>
+    <dcterms:title xml:lang="it">Denuncia crimini</dcterms:title>
+    <dcterms:description xml:lang="it">Denunce</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/FacingACrime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2013-2">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2013-2</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 2 del 14 marzo 2013</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2012-13">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2012-13</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 13 del 18 giugno 2012</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DL-2006-198">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DL-2006-198</dcterms:identifier>
+    <ns5:description xml:lang="it">Decreto legislativo n. 198 dell'11 aprile 2006</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-1074">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-1074</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta provinciale n. 1074 del 30 giugno 2014</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_WM5MPL_consigliere_parita">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_WM5MPL_consigliere_parita</dcterms:identifier>
+    <ns6:email>consigliera.parita@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461493134</ns6:telephone>
+    <ns6:faxNumber>0461499285</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_WM5MPL_consigliere">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_WM5MPL_consigliere</dcterms:identifier>
+    <dcterms:description xml:lang="it">Per accedere al servizio è necessario contattare telefonicamente, via e-mail o via fax la segreteria del Consigliere di Parità per concordare un appuntamento.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP41">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP41</dcterms:identifier>
+    <dcterms:title xml:lang="it">Consigliere di parità</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.pariopportunita.provincia.tn.it/italy/SC/177/"/>
+  </rdf:Description>
+</rdf:RDF>

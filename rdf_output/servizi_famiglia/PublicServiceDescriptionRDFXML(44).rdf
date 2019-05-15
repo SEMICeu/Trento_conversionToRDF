@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP57">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP57</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Programma di mobilità all’estero per studenti: frequenza di percorsi full immersion in lingua inglese e tedesca</dcterms:title>
+    <dcterms:description xml:lang="it">Gli studenti che frequentano la classe terza della scuola secondaria di primo grado (scuola media) o le classi dalla prima alla quarta del secondo ciclo di istruzione e formazione possono fare domanda per frequentare percorsi individuali di full immersion linguistica di lingua inglese o tedesca della durata di tre settimane in Irlanda, Regno Unito, Malta e Germania. Il percorso è articolato indicativamente in 20 ore settimanali di attività formative culturali in full immersion, per un totale di almeno 60 ore complessive.Il programma di mobilità è organizzato interamente dall’Amministrazione provinciale che si farà carico, con il cofinanziamento del FSE, dei seguenti oneri di spesa:- viaggio di andata e ritorno da e per la sede estera;- programma di formazione (attività in aula e outdoor – visite, attività didattiche, ecc. – sull’intera giornata)- alloggio in pensione completa in famiglia o in college per tutta la durata della mobilità- accompagnamento andata e ritorno dall’Italia alla sede estera, per gli studenti minorenni- servizio di tutoraggio in loco, quale riferimento per gli studenti- assicurazione relativa ai rischi, infortuni e responsabilità civile per l’intero periodo di mobilità.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">estero</ns2:keyword>
+    <ns2:keyword xml:lang="it">corso di lingua</ns2:keyword>
+    <ns2:keyword xml:lang="it">competenze linguistiche</ns2:keyword>
+    <ns2:keyword xml:lang="it">inglese</ns2:keyword>
+    <ns2:keyword xml:lang="it">tedesco</ns2:keyword>
+    <ns2:keyword xml:lang="it">corso</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.5.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/W05601"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/72471c76-728a-4390-bccc-072080075349"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-2055"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1515"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1794"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-2445"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601_pec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_HKGI1F_ad_personam"/>
+    <ns3:hasChannel rdf:resource="ch/CH_W05601_trilingue2"/>
+    <ns3:hasCost rdf:resource="hc/36601aea-dfb4-4035-a15c-d40697d289fe"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/W05601">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/W05601</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/72471c76-728a-4390-bccc-072080075349">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/72471c76-728a-4390-bccc-072080075349</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono fare domanda gli studenti che:- frequentano la classe terza della scuola secondaria di primo grado (scuola media) o le classi dalla prima alla quarta del secondo ciclo di istruzione e formazione- hanno un'età compresa fra 14 anni compiuti e 20 non compiuti alla data di scadenza per la presentazione della domanda- hanno un indicatore ICEF inferiore a 0,60- sono residenti o domiciliati in provincia di Trento</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-2055">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-2055</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 2055 del 29 novembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1515">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1515</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1515 del 22 settembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1794">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1794</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1794 del 03 novembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-2445">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-2445</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2445 del 21 dicembre 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461491377</ns7:telephone>
+    <ns7:faxNumber>0461493521</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601_pec</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_HKGI1F_ad_personam">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_HKGI1F_ad_personam</dcterms:identifier>
+    <ns7:email>adpersonam.fse@provincia.tn.it</ns7:email>
+    <ns7:telephone>800 163 870</ns7:telephone>
+    <ns7:faxNumber>0461390707</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_W05601_trilingue2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_W05601_trilingue2</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda di adesione va compilata online, previa registrazione, sul sito https://fse.provincia.tn.it/ - opportunità per le persone – Sezione Piano Trentino Trilingue.Successivamente è necessario stampare la domanda e consegnarla con una delle seguenti modalità:- a mano presso la Struttura Multifunzionale Territoriale Ad Personam;- tramite posta elettronica all’indirizzo trentino.trilingue@pec.provincia.tn.it;- tramite fax al numero 0461 390707;- a mezzo posta mediante raccomandata con ricevuta di ritornota di ritorno; ai fini dell’ammissione fa fede la data di ricezione della domanda da parte della Struttura Multifunzionale Ad Personam.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/36601aea-dfb4-4035-a15c-d40697d289fe">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/36601aea-dfb4-4035-a15c-d40697d289fe</dcterms:identifier>
+    <dcterms:description xml:lang="it">Al partecipante è richiesto il versamento di una quota di compartecipazione di importo variabile in base all’ICEF “Piano Trentino Trilingue” (compresa tra un minimo di Euro 400,00 e un massimo di Euro 1.400,00). E’ richiesto, inoltre, il deposito di un assegno bancario o circolare a titolo di cauzione  di Euro 500,00 che sarà restituito al termine dell’esperienza, previa verifica della regolare frequenza delle attività formative in aula, della regolare compilazione del registro delle presenze, della tenuta di comportamenti adeguati durante l’esperienza all’estero e dopo lo svolgimento del test in uscita con esito positivo e dell’eventuale esame di certificazione linguistica, indipendentemente dall’esito.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP57">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP57</dcterms:identifier>
+    <dcterms:title xml:lang="it">Programma di mobilità all’estero per studenti: frequenza di percorsi full immersion in lingua inglese e tedesca</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Programma-di-mobilita-all-estero-per-studenti-frequenza-di-percorsi-full-immersion-in-lingua-inglese-e-tedesca-estate-2019"/>
+  </rdf:Description>
+</rdf:RDF>

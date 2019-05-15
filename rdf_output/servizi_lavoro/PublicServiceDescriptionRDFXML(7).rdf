@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1516">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1516</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Opportunità nei lavori socialmente utili</dcterms:title>
+    <dcterms:description xml:lang="it">Le persone disoccupate con più di 45 anni di età e le persone in situazione di svantaggio sociale o disabilità possono presentare domanda di iscrizione presso i Centri per l'impiego, indicativamente dal 15 novembre al 10 gennaio di ogni anno, per essere coinvolti in progetti di accompagnamento all'occupabilità tramite lavori socialmente utili. I progetti sono realizzati da Comuni, Consorzi tra Comuni, Comunità di Valle e A.P.S.P. e comprendono attività di:- abbellimento urbano e rurale;- valorizzazione di beni culturali ed artistici anche mediante attività di promozione, allestimento e custodia di mostre relative a prodotti, oggetti ed attrezzature del territorio nonché di riordino, recupero e valorizzazione di testi e documenti di interesse storico o culturale;- riordino di archivi e recupero di lavori arretrati di tipo tecnico e amministrativo;- custodia e vigilanza di impianti e attrezzature sportive, di centri sociali, di centri socio-assistenziali, educativi e culturali gestiti dagli Enti promotori;- particolari servizi ausiliari alla persona di tipo sociale da svolgersi in A.P.S.P. o sul territorio e particolari servizi necessari per il recupero del lavoratore;- recupero di materiale e beni nell'ambito di attività afferenti alla "Rete provinciale del Riuso".</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">disabili</ns1:keyword>
+    <ns1:keyword xml:lang="it">lavoro</ns1:keyword>
+    <ns1:keyword xml:lang="it">soggetti svantaggiati</ns1:keyword>
+    <ns1:keyword xml:lang="it">inserimento lavorativo</ns1:keyword>
+    <ns1:keyword xml:lang="it">supporto</ns1:keyword>
+    <ns1:keyword xml:lang="it">sociale</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns2:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</ns2:processingTime>
+    <ns2:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns2:hasCriterion rdf:resource="cr/72281615-5d18-46ba-80d2-06393c4166e3"/>
+    <ns3:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns2:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2018-17-19"/>
+    <ns3:produces rdf:resource="ou/output_perm"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns2:isDescribedAt rdf:resource="psd/WEB_p_TN_1516"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>Via Guardini, 75 - 38121 Trento</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/72281615-5d18-46ba-80d2-06393c4166e3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/72281615-5d18-46ba-80d2-06393c4166e3</dcterms:identifier>
+    <dcterms:title xml:lang="it">I lavori socialmente utili sono rivolti a disoccupati:- da più di 12 mesi, con più di 45 anni;- invalidi ai sensi della Legge n. 68/99;- con più di 25 anni, in difficoltà occupazionale in quanto soggetti a processi di emarginazione sociale o portatori di handicap, donne segnalate quali vittime di violenza.Possono presentare domanda di inserimento nelle liste le persone:- residenti in via continuativa da almeno tre anni in Provincia di Trento;- emigrati trentini iscritti all’AIRE da almeno tre anni.Eventuali deroghe al requisito anagrafico della residenza, in relazione alla gravità dello svantaggio, saranno valutate dall’Agenzia del Lavoro su proposta motivata dei Servizi segnalanti.Non sono ammessi gli iscritti in lista di mobilità e coloro che hanno maturato i requisiti minimi per fruire della pensione di anzianità o di vecchiaia.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-19</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 19</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns6:email>direzione@agenzialavoro.tn.it</ns6:email>
+    <ns6:telephone>0461496020</ns6:telephone>
+    <ns6:telephone>800264760</ns6:telephone>
+    <ns6:faxNumber>0461496180</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns6:email>amministrazione.adl@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1516">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1516</dcterms:identifier>
+    <dcterms:title xml:lang="it">Opportunità nei lavori socialmente utili</dcterms:title>
+    <ns1:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Intervento-19-Opportunita-nei-lavori-socialmente-utili"/>
+  </rdf:Description>
+</rdf:RDF>

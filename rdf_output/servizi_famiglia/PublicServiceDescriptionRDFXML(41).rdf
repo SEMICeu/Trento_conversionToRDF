@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1183">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1183</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi per l'eliminazione o il superamento delle barriere architettoniche negli edifici residenziali privati.</dcterms:title>
+    <dcterms:description xml:lang="it">I soggetti protatori di minorazioni carattere fisico, sensoriale o psichico che incontrano in via permanente ostacoli, limitazioni o impedimenti ad usufruire, in condizioni di adeguata sicurezza ed autonomia, delle strutture edilizie abitative, possono richiedere un contributo per  interventi diretti:a) all'eliminazione o al superamento delle barriere architettoniche che limitano l’accesso all’unità abitativa e/o all’immobile che la contiene;b) all'adeguamento dell’unità abitativa mirato a consentire al portatore di minorazione lo svolgimento degli atti ordinari della vita quotidiana, limitatamente agli interventi riguardanti l’ingresso, il locale soggiorno e/o cucina, un servizio igienico e la stanza da letto;c) all'acquisto e installazione di attrezzature direttamente finalizzate all’eliminazione o al superamento delle barriere architettoniche.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">disabili</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">sovvenzioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">finanziamento</ns2:keyword>
+    <ns2:keyword xml:lang="it">barriere architettoniche</ns2:keyword>
+    <ns2:keyword xml:lang="it">edifici</ns2:keyword>
+    <ns2:keyword xml:lang="it">abitazioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributo</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4M</ns3:processingTime>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_1182"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/DZZWFC"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_2"/>
+    <ns3:hasCriterion rdf:resource="cr/41a12392-7ce8-421a-a065-9ce9ca1edd6c"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/c30373c0-a60c-41e6-9134-0c3b90cca51d"/>
+    <ns4:hasInput rdf:resource="ev/b3417d8f-12b1-4e3e-9216-3fe17627be1f"/>
+    <ns4:hasInput rdf:resource="ev/ba569f19-7df1-4d22-9657-910f8de0fb32"/>
+    <ns4:hasInput rdf:resource="ev/dc0dee22-1cac-4cc9-9a7e-a0be25338fe3"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1991-1"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_sportelli_CAF"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/DZZWFC">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/DZZWFC</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Invalidità</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi si prende cura di un famigliare, di un parente, di un'altra persona</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/BecomingASocialTaretaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/41a12392-7ce8-421a-a065-9ce9ca1edd6c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/41a12392-7ce8-421a-a065-9ce9ca1edd6c</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per presentare domanda è necessario essere in possesso dei seguenti requisiti: - essere portatori di minorazioni di carattere fisico, sensoriale o psichico che rientrano nei parametri previsti, risultanti da certificazioni o dichiarazioni rilasciate dalle apposite commissioni mediche pubbliche;- avere la residenza anagrafica da almeno 2 anni continuativi in un comune della provincia di Trento; in caso di minori, il requisito può essere riferito ad uno dei genitori o degli affidatari;- avere  o avere intenzione di trasferire la residenza anagrafica nell’immobile interessato dall’intervento;- avere una situazione economica familiare corrispondente ad un Indicatore della Condizione Economica Familiare ICEF non superiore a 0,90;- godere sull’immobile o sull’unità abitativa oggetto dell’intervento di un diritto di proprietà, di comproprietà o di altri diritti reali di godimento oppure, per interventi diversi dall’installazione di ascensori e piattaforme elevatrici, godere anche soltanto di un diritto personale di godimento dell’abitazione (locazione o comodato); tale requisito può essere riferito anche ad un altro membro del nucleo familiare.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c30373c0-a60c-41e6-9134-0c3b90cca51d">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c30373c0-a60c-41e6-9134-0c3b90cca51d</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della certificazione di invalidità rilasciata da apposita commissione medica</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/b3417d8f-12b1-4e3e-9216-3fe17627be1f">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/b3417d8f-12b1-4e3e-9216-3fe17627be1f</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della certificazione medica di data non antecedente ai sei mesi dalla data di presentazione della domanda, attestante che l’intervento oggetto della domanda di contributo è necessario o comunque indispensabile per attenuare le difficoltà</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ba569f19-7df1-4d22-9657-910f8de0fb32">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ba569f19-7df1-4d22-9657-910f8de0fb32</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione di consenso, firmata dal proprietario o dal comproprietario dell’unità abitativa interessata dall’intervento, ad apportare alla stessa le modifiche</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/dc0dee22-1cac-4cc9-9a7e-a0be25338fe3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/dc0dee22-1cac-4cc9-9a7e-a0be25338fe3</dcterms:identifier>
+    <dcterms:title xml:lang="it">Documentazione tecnica specifica (indicata in dettaglio sul sito internet di riferimento)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1991-1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1991-1</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 1 del 7 gennaio 1991</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC</dcterms:identifier>
+    <ns7:email>serv.politichesociali@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461493800</ns7:telephone>
+    <ns7:faxNumber>0461493801</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC_pec</dcterms:identifier>
+    <ns7:email>serv.politichesociali@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_sportelli_CAF">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_sportelli_CAF</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda è presentata per il tramite degli sportelli periferici di assistenza e informazione al pubblico della Provincia autonoma di Trento o degli istituti di patronato o assistenza sociale.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1183">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1183</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi per l'eliminazione o il superamento delle barriere architettoniche negli edifici residenziali privati.</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.trentinosociale.it/index.php/Servizi-ai-cittadini/Guida-ai-servizi/per-destinatari/Disabili/Abitare-o-disporre-di-un-alloggio-adeguato-e-sicuro/Interventi-di-eliminazione-e-o-superamento-barriere-architettoniche/Concessione-di-contributi-per-la-realizzazione-di-interventi-di-eliminazione-o-superamento-delle-barriere-architettoniche-negli-edifici-privati"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP40">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP40</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Garanzia giovani</dcterms:title>
+    <dcterms:description xml:lang="it">I giovani che non sono occupati e non frequentano percorsi di istruzione, formazione o tirocinio possono fare domanda per accedere ad uno dei percorsi previsti all'interno del piano Garanzia Giovani (Youth Guarantee), un piano straordinario per la lotta alla disoccupazione giovanile cofinanziato dal Fondo sociale europeo. Tale piano è attuato in Italia mediante un apposito Programma nazionale cofinanziato dall'Unione europea (Iniziativa a favore dell'occupazione giovanile e Fondo sociale europeo) e dallo Stato italiano. La Provincia autonoma di Trento promuove e cura l'attuazione degli interventi sul territorio trentino. Nello specifico, sono attivati i seguenti percorsi:Percorso A - Orientamento specialistico, formazione e tirocinioPercorso B - Percorsi di formazione mirati all'inserimento lavorativo (al momento non attivo)Percorso D - Servizio civilePercorso F - Accompagnamento al lavoro.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">giovani</ns2:keyword>
+    <ns2:keyword xml:lang="it">disoccupazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">formazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">servizio civile</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.5.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:hasCriterion rdf:resource="cr/99dacebd-e3a1-473c-a30f-84dbc613cbdd"/>
+    <ns4:hasInput rdf:resource="ev/367b9ce4-e252-45f0-b375-4ceb0c1a3b7f"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-807"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_garanziagiovani"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/99dacebd-e3a1-473c-a30f-84dbc613cbdd">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/99dacebd-e3a1-473c-a30f-84dbc613cbdd</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i giovani che hanno un’età compresa fra 15 anni (compiuti) e 29 anni (fino al giorno precedente il compimento del trentesimo compleanno), che non sono occupati e non frequentano percorsi di istruzione, formazione o tirocinio.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/367b9ce4-e252-45f0-b375-4ceb0c1a3b7f">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/367b9ce4-e252-45f0-b375-4ceb0c1a3b7f</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di partecipazione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-807">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-807</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 807 del 26 maggio 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_garanziagiovani">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_garanziagiovani</dcterms:identifier>
+    <dcterms:description xml:lang="it">Si può aderire al Programma Garanzia registrandosi sul sito ufficiale www.garanziagiovani.gov.it oppure fse.provincia.tn.it; sul portale Trentino Lavoro, è stata attivata un'ulteriore interfaccia per l'adesione, all'indirizzo www.sil.provincia.tn.it.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP40">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP40</dcterms:identifier>
+    <dcterms:title xml:lang="it">Garanzia giovani</dcterms:title>
+    <ns2:landingPage rdf:resource="https://fse.provincia.tn.it/Opportunita-per-le-persone/Garanzia-giovani-nella-Provincia-autonoma-di-Trento"/>
+  </rdf:Description>
+</rdf:RDF>

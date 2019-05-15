@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP5">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP5</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Iscrizione alla scuola dell'infanzia</dcterms:title>
+    <dcterms:description xml:lang="it">Il genitore o l'adulto responsabile per il bambino può iscrivere il proprio figlio o un minore sotto sua tutela ad una scuola dell'infanzia della Provincia di Trento.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">iscrizione</ns1:keyword>
+    <ns1:keyword xml:lang="it">scuola</ns1:keyword>
+    <ns1:keyword xml:lang="it">infanzia</ns1:keyword>
+    <ns1:keyword xml:lang="it">bambini</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.1.1"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns2:hasCompetentAuthority rdf:resource="ca/OUG4Y7"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_3.1"/>
+    <ns2:hasCriterion rdf:resource="cr/88aff80b-4bd6-4c54-8c4d-1e2c295cc240"/>
+    <ns3:hasInput rdf:resource="ev/e79d0e77-46b6-443e-b87e-44cb39f9c2b8"/>
+    <ns2:hasLegalResource rdf:resource="lr/LP-1977-13"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2017-2150"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2018-14"/>
+    <ns3:produces rdf:resource="ou/output_perm"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_OUG4Y7"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_OUG4Y7_pec"/>
+    <ns2:hasChannel rdf:resource="ch/CH_PS_scuola1"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/OUG4Y7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/OUG4Y7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio infanzia e istruzione del primo grado</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio infanzia e istruzione del primo grado</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>via Gilli 3 - 38121 Trento</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Iscrizione ad un percorso di istruzione o formazione, gestione del percorso</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/88aff80b-4bd6-4c54-8c4d-1e2c295cc240">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/88aff80b-4bd6-4c54-8c4d-1e2c295cc240</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono essere iscritti i bambini residenti o domiciliati in provincia di Trento che siano in età di diritto per la scuola dell'infanzia e, a seconda del periodo di apertura delle iscrizioni, possono essere iscritti o pre-iscritti i bambini che frequenteranno in via anticipata a partire dal mese di gennaio.Per frequentare la scuola dell'infanzia è necessario essere in regola con gli adempimenti vaccinali. I bambini non in regola rispetto agli adempimenti vaccinali potranno essere iscritti alla scuola, ma non potranno frequentare fino a regolarizzazione dello stato vaccinale.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/e79d0e77-46b6-443e-b87e-44cb39f9c2b8">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/e79d0e77-46b6-443e-b87e-44cb39f9c2b8</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di iscrizione o pre-iscrizione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1977-13">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1977-13</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 13 del 21 marzo 1977</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-2150">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-2150</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta provinciale n. 2150 del 14 dicembre 2017</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-14">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-14</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta provinciale n. 14 del 18 gennaio 2018</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7</dcterms:identifier>
+    <ns6:email>serv.istruzione@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461497218</ns6:telephone>
+    <ns6:faxNumber>0461497216</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7_pec</dcterms:identifier>
+    <ns6:email>serv.istruzione@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_PS_scuola1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_PS_scuola1</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) consegnando direttamente alla scuola l’apposito modulo disponibile sul sito internet istituzionale della Provincia per le scuole provinciali e sui siti internet delle singole scuole e/o delle relative associazioni per le scuole dell’infanzia equiparate.La procedura di iscrizione online è riservata alle domande di nuova iscrizione. Per movimenti o trasferimenti si deve seguire la procedura cartacea.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

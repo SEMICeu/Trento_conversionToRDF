@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP38">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP38</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Adozione nazionale e internazionale</dcterms:title>
+    <dcterms:description xml:lang="it">I coniugi uniti in matrimonio possono presentare una dichiarazione di disponibilità all'adozione nazionale e/o internazionale.L'adozione è la risposta al bisogno affettivo, materiale di cura ed educativo di un bambino impossibilitato a crescere nella sua famiglia di origine. Si fonda sul diritto del bambino ad avere una famiglia adeguata a prendersi cura di lui e a crescerlo. Con l'adozione egli diventa a tutti gli effetti figlio degli adottanti.Per essere adottato un bambino deve essere dichiarato adottabile, cioè la sua condizione di abbandono deve essere accertata da un'autorità giudiziaria preposta. Nell'adozione nazionale tale autorità è il tribunale per i minorenni competente territorialmente se il bambino è residente in Italia. Nell'adozione internazionale l'autorità è quella del paese estero da cui proviene il bambino che deve anche verificare che non vi sia possibilità per lui di trovare una famiglia idonea nel suo stato di origine. Il bambino, infatti, quando è possibile, ha il diritto di mantenere almeno il paese e la cultura in cui è nato.Per gli aspiranti genitori adottivi è previsto un seminario informativo-formativo necessario per poter presentare la domanda di adozione.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">adozione</ns2:keyword>
+    <ns2:keyword xml:lang="it">minori</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglia</ns2:keyword>
+    <ns2:keyword xml:lang="it">affidamento</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/P9N45J"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/4a1e17fa-33a4-4b16-b761-d1c30275193b"/>
+    <ns4:hasInput rdf:resource="ev/7884f441-b778-47c6-b899-da37990a8fff"/>
+    <ns4:hasInput rdf:resource="ev/7ad68ce6-9ead-4599-9927-c95d601d5c23"/>
+    <ns4:hasInput rdf:resource="ev/1943bff6-cd4d-4822-b588-3861467387bb"/>
+    <ns4:hasInput rdf:resource="ev/6368266c-cabe-4e58-a6f5-51411da85a21"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-2001-149"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-1983-184"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_P9N45J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_P9N45J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_P9N45J_adozione"/>
+    <ns3:hasCost rdf:resource="hc/f13e8fc2-eb51-481c-96ce-decbd37d49fb"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/P9N45J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/P9N45J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio età evolutiva, genitorialità e Centro per l’Infanzia</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio età evolutiva, genitorialità e Centro per l’Infanzia</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Coni Zugna 24 - Villa Merici - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/4a1e17fa-33a4-4b16-b761-d1c30275193b">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/4a1e17fa-33a4-4b16-b761-d1c30275193b</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono adottare i coniugi sposati da almeno tre anni (senza periodi di separazione neppure di fatto) o che abbiano convissuto stabilmente prima del matrimonio per analogo periodo, affettivamente idonei ad educare, istruire e mantenere i minori che intendono adottare. La differenza di età con il minore da adottare deve essere minimo 18, massimo 45 anni. Chi non è coniugato può adottare solo nei casi particolari previsti dalla legge n.1847/'83 art. 44.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/7884f441-b778-47c6-b899-da37990a8fff">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/7884f441-b778-47c6-b899-da37990a8fff</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione di disponibilità all'adozione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/7ad68ce6-9ead-4599-9927-c95d601d5c23">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/7ad68ce6-9ead-4599-9927-c95d601d5c23</dcterms:identifier>
+    <dcterms:title xml:lang="it">Attestazione di avvenuta partecipazione agli incontri formativi-informativi</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1943bff6-cd4d-4822-b588-3861467387bb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1943bff6-cd4d-4822-b588-3861467387bb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Certificato di sana e robusta costituzione fisica, escludente patologie che possano rendere i coniugi non adatti a svolgere in modo adeguato le funzioni genitoriali</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/6368266c-cabe-4e58-a6f5-51411da85a21">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/6368266c-cabe-4e58-a6f5-51411da85a21</dcterms:identifier>
+    <dcterms:title xml:lang="it">Fotografie recenti dei richiedenti</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-2001-149">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-2001-149</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 149 del 28 marzo 2001</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-1983-184">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-1983-184</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 184 del 4 maggio 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_P9N45J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_P9N45J</dcterms:identifier>
+    <ns7:email>serv.etaevolutiva@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461493350</ns7:telephone>
+    <ns7:telephone>0461493358</ns7:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_P9N45J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_P9N45J_pec</dcterms:identifier>
+    <ns7:email>serv.etaevolutiva@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_P9N45J_adozione">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_P9N45J_adozione</dcterms:identifier>
+    <dcterms:description xml:lang="it">Per avere informazioni sull'adozione e sul percorso adottivo si può richiedere un colloquio informativo ai servizi sociali adozione della propria zona di residenza o al Servizio età evolutiva, genitorialità e Centro per l’Infanzia della Provincia autonoma di Trento</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/f13e8fc2-eb51-481c-96ce-decbd37d49fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/f13e8fc2-eb51-481c-96ce-decbd37d49fb</dcterms:identifier>
+    <dcterms:description xml:lang="it">Adozione nazionale: non sono prevsiti costi Adozione internazionale: non sono previsti costi nella fase preadottiva (che si conclude con la pronuncia da parte del tribunale per i minorenni del decreto di idoneità o di inidoneità). In caso di idoneità, la fase successiva è soggetta ai costi stabiliti dagli enti autorizzati stessi, che devono attenersi ai parametri concordati con la Commissione adozioni internazionali. Presso il sito della Commissione (www.commissioneadozioni.it), alla voce “I costi dell’adozione” si trovano le informazioni su tali parametri.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP38">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP38</dcterms:identifier>
+    <dcterms:title xml:lang="it">Adozione nazionale e internazionale</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.trentinosociale.it/index.php/Servizi-ai-cittadini/Guida-ai-servizi/per-destinatari/Minori/Accogliere-ed-essere-accolti-accoglienza-affidamento-adozione/Adozione"/>
+  </rdf:Description>
+</rdf:RDF>

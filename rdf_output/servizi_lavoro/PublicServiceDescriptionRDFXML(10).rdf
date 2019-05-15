@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://www.w3.org/ns/adms#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_894">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_894</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Indennita' di sostegno al reddito ai lavoratori disoccupati</dcterms:title>
+    <dcterms:description xml:lang="it">Le persone licenziate da un rapporto di lavoro a tempo indeterminato per inidoneità sopravvenuta alla prestazione o per superamento del periodo di comporto possono richiedere un'indennità economica. L’indennità spetta dal giorno successivo la conclusione della NASpI per una durata massima di 120 giorni ed è pari ad € 20,00 per ogni giorno in cui il soggetto è privo di occupazione, riproporzionata in caso di part-time.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">disoccupazione</ns1:keyword>
+    <ns1:keyword xml:lang="it">sostegno</ns1:keyword>
+    <ns1:keyword xml:lang="it">indennità</ns1:keyword>
+    <ns1:keyword xml:lang="it">periodo di comparto</ns1:keyword>
+    <ns1:keyword xml:lang="it">inidoneità alla mansione</ns1:keyword>
+    <ns2:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.5.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_5"/>
+    <ns3:hasCriterion rdf:resource="cr/7bc5d45f-1f4f-4f45-ad86-f72d7a6b78f6"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64"/>
+    <ns4:hasInput rdf:resource="ev/9d74fbb1-7e38-49ab-a80e-52ce2b954bca"/>
+    <ns4:hasInput rdf:resource="ev/c3b0603e-f452-4c5b-a1bf-2f9e36b1bac5"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-24C_1"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_894"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_5">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_5</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi perde o cambia lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LosingOrQuittingAJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/7bc5d45f-1f4f-4f45-ad86-f72d7a6b78f6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/7bc5d45f-1f4f-4f45-ad86-f72d7a6b78f6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda le persone in possesso dei seguenti requisiti:- essere stati licenziati da un rapporto di lavoro a tempo indeterminato per inidoneità sopravvenuta alla prestazione o per superamento del periodo di comporto;- avere un’anzianità aziendale di almeno 180 giorni;- essere prive di occupazione per almeno 30 giorni di calendario, anche non continuativi;- essere residenti e domiciliate in provincia di Trento al momento del licenziamento;- aver rilasciato dichiarazione di immediata disponibilità al lavoro;- aver sottoscritto il Patto di servizio personalizzato presso il Centro per l’impiego di riferimento.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64</dcterms:identifier>
+    <dcterms:title xml:lang="it">Codice fiscale del richiedente</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/9d74fbb1-7e38-49ab-a80e-52ce2b954bca">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/9d74fbb1-7e38-49ab-a80e-52ce2b954bca</dcterms:identifier>
+    <dcterms:title xml:lang="it">Documento di identità del richiedente</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c3b0603e-f452-4c5b-a1bf-2f9e36b1bac5">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c3b0603e-f452-4c5b-a1bf-2f9e36b1bac5</dcterms:identifier>
+    <dcterms:title xml:lang="it">Lettera di licenziamento (nel caso di superamento del periodo di comporto), oppure certificazione ai sensi di legge che attesti l’inidoneità sopravvenuta alla prestazione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-24C_1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-24C_1</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 24.C.1</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_894">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_894</dcterms:identifier>
+    <dcterms:title xml:lang="it">Indennita' di sostegno al reddito ai lavoratori disoccupati</dcterms:title>
+    <ns1:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Indennita-per-lavoratori-agricoli/Sostegno-al-reddito-per-disoccupati"/>
+  </rdf:Description>
+</rdf:RDF>

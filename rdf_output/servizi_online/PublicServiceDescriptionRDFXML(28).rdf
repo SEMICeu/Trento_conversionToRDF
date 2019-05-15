@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP11">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP11</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Accesso al sistema IoVoto</dcterms:title>
+    <dcterms:description xml:lang="it">I docenti, i dirigenti scolastici, il personale amministrativo, tecnico, ausiliario e assistente educatore delle scuole trentine possono accedere al sistema IoVoto al fine di candidarsi per entrare a far parte del Consiglio del sistema Educativo provinciale e/o esprimere il proprio voto per nominare i componenti del Consiglio.Il consiglio del sistema educativo provinciale è l’organo di partecipazione e di rappresentanza dellecomponenti della comunità scolastica ed ha i seguenti compiti:- esprimere pareri sugli atti provinciali d'indirizzo e di programmazione in materia diistruzione e formazione;- svolgere attività consultiva e di supporto su temi rientranti nelle proprie competenze;- promuovere indagini conoscitive;- esprimere pareri sui disegni di legge provinciale attinenti al sistema educativo provinciale.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">scuola</ns2:keyword>
+    <ns2:keyword xml:lang="it">organi collegiali</ns2:keyword>
+    <ns2:keyword xml:lang="it">elezioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">Consiglio del sistema educativo</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.3"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/E03K9O"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2016-2467"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_E03K9O"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_E03K9O_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/E03K9O">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/E03K9O</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-2467">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-2467</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2467 del 29 dicembre 2016</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_E03K9O">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_E03K9O</dcterms:identifier>
+    <ns7:email>dip.istruzionecultura@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497233</ns7:telephone>
+    <ns7:faxNumber>0461497252</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_E03K9O_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_E03K9O_pec</dcterms:identifier>
+    <ns7:email>dip.istruzionecultura@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

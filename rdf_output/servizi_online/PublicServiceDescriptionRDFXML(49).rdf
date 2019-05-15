@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP32">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP32</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Visualizzazione del proprio stato occupazionale</dcterms:title>
+    <dcterms:description xml:lang="it">Gli interessati possono visualizzare e stampare il documento che individua il proprio stato occupazionale, ossia la posizione ufficialmente riconosciuta nel mercato del lavoro, che riporta anche i mesi di anzianità d'iscrizione, nonchè la data di sottoscrizione della Dichiarazione di Immediata Disponibilità (DID). Lo stato occupazionale può essere richiesto a chi debba autocertificare la propria condizione di occupato o di soggetto privo di un lavoro.Lo stato occupazionale non può essere modificato o inserito direttamente, ma viene calcolato ed aggiornato automaticamente in base alle comunicazioni obbligatorie inviate dai datori di lavoro oppure in base ai dati autocertificati dal lavoratore . Qualora lo stato occupazionale non sia corretto, è possibile inserire/aggiornare l’ultimo rapporto di lavoro e poi, eventualmente, procedere con il riconoscimento dello stato di disoccupazione (inserire la DID on line).DA FINIRE SIA LA DESCRIZIONE CHE LE VOCI</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">stato occupazionale</ns2:keyword>
+    <ns2:keyword xml:lang="it">dichiarazione di immediata disponibilità</ns2:keyword>
+    <ns2:keyword xml:lang="it">occupazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">disoccupazione</ns2:keyword>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del Lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del Lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Romano 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns6:email>direzione@agenzialavoro.tn.it</ns6:email>
+    <ns6:telephone>0461496020</ns6:telephone>
+    <ns6:faxNumber>0461496180</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns6:email>amministrazione.adl@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

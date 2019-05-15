@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP56">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP56</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Progetto Mo-VE – Mobilità verso l'Europa</dcterms:title>
+    <dcterms:description xml:lang="it">I cittadini adulti possono fare domanda per partecipare ad esperienze di full immersion linguistica o di tirocinio all’estero. Il progetto è finalizzato al miglioramento delle competenze nell’ambito delle lingue inglese e tedesca con lo scopo di rafforzare le possibilità occupazionali dei partecipanti attraverso l’innalzamento delle capacità necessarie per lavorare in contesti economici sempre più internazionali e ad alto contenuto di conoscenza.Il progetto prevede la realizzazione delle seguenti iniziative di mobilità all’estero:A. Full immersion linguistiche:a) corsi di potenziamento linguistico della durata di 2 o 4 settimane,b) corsi di potenziamento di microlingua della durata di 2 settimane, per i seguenti ambiti professionali:- comunicazione turistica dell’accoglienza e dei beni culturali,- comunicazione commerciale e del marketing e delle vendite,- comunicazione tecnica applicata all’ingegneria.B. Tirocini formativi:a) tirocini brevi della durata di 8 settimane (di cui 2 settimane di formazione linguistica e 6 di tirocinio);b) tirocini lunghi della durata di 16 o 24 settimane (di cui 3 settimane di formazione linguistica e 13 o 21 di tirocinio). Per ogni iniziativa, il programma di attività e gli aspetti logistici principali saranno organizzati dall’Amministrazione provinciale. Gli interventi intensivi o lunghi prevedono inoltre la possibilità di accedere, al ritorno a Trento, all’esame di certificazione linguistica.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">estero</ns2:keyword>
+    <ns2:keyword xml:lang="it">tirocinio</ns2:keyword>
+    <ns2:keyword xml:lang="it">corso di lingua</ns2:keyword>
+    <ns2:keyword xml:lang="it">competenze linguistiche</ns2:keyword>
+    <ns2:keyword xml:lang="it">inglese</ns2:keyword>
+    <ns2:keyword xml:lang="it">tedesco</ns2:keyword>
+    <ns2:keyword xml:lang="it">corso</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.5.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.5.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/HKGI1F"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:hasCriterion rdf:resource="cr/7a75bcfc-914f-49f3-8807-d83bae6c68e8"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns4:hasInput rdf:resource="ev/51d65a55-3f60-4be4-8300-e815e64f9150"/>
+    <ns4:hasInput rdf:resource="ev/057deb2e-cf91-40c4-8336-7e1601b247e9"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-2055"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1515"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1794"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-369"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_HKGI1F_ad_personam"/>
+    <ns3:hasChannel rdf:resource="ch/CH_HKGI1F_MOVE"/>
+    <ns3:hasCost rdf:resource="hc/eff86951-941f-4805-bb85-f0daad5698e9"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/HKGI1F">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/HKGI1F</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio Europa</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio Europa</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/7a75bcfc-914f-49f3-8807-d83bae6c68e8">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/7a75bcfc-914f-49f3-8807-d83bae6c68e8</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono partecipare al progetto MoVE le persone in possesso dei seguenti requisiti:- età compresa tra i 25 e i 55 anni alla data di scadenza del periodo per la presentazione della domanda;- residenza nella provincia di Trento;- in possesso di un indicatore ICEF “Piano Trentino Trilingue” inferiore a 0,6;- con una competenza nella lingua prescelta – inglese o tedesca – pari almeno al livello B1 QCER.Sono escluse dalla partecipazione le seguenti categorie di soggetti:- gli insegnanti del sistema educativo trentino con la sola eccezione degli insegnanti in possesso, al momento della presentazione della domanda, di un contratto di lavoro a tempo determinato “breve” (contratto con durata inferiore all’anno scolastico);- le persone collocate in quiescenza (pensionati);- le persone iscritte a Garanzia Giovani;- le persone iscritte ad altre attività formative a cofinanziamento Fondo sociale europeo con orari concomitanti al periodo di svolgimento del Progetto MoVE; l’adesione non è consentita nemmeno a fronte di ritiro dall’attività in corso.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/51d65a55-3f60-4be4-8300-e815e64f9150">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/51d65a55-3f60-4be4-8300-e815e64f9150</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della certificazione/attestato di bilinguismo/test di livello linguistica/o pari o superiore al livello B1 del QCER</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/057deb2e-cf91-40c4-8336-7e1601b247e9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/057deb2e-cf91-40c4-8336-7e1601b247e9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per i programmi di “Tirocinio formativo”, è inoltre necessario presentare:- una lettera di accompagnamento in lingua italiana che riporti le motivazioni per le quali si intende partecipare al progetto;- il curriculum vitae nella lingua straniera prescelta, redatto secondo il modello Europass</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-2055">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-2055</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 2055 del 29 novembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1515">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1515</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1515 del 22 settembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1794">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1794</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1794 del 03 novembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-369">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-369</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 369 del 12 marzo 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_HKGI1F_ad_personam">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_HKGI1F_ad_personam</dcterms:identifier>
+    <ns7:email>adpersonam.fse@provincia.tn.it</ns7:email>
+    <ns7:telephone>800 163 870</ns7:telephone>
+    <ns7:faxNumber>0461390707</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_HKGI1F_MOVE">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_HKGI1F_MOVE</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda di adesione va compilata online, previa registrazione, sul sito https://fse.provincia.tn.it/ - opportunità per le persone – Sezione Piano Trentino Trilingue - Progetto MOVE 2019.Successivamente è necessario stampare la domanda e consegnarla con una delle seguenti modalità:- a mano presso la Struttura Multifunzionale Territoriale Ad Personam;- tramite posta elettronica all’indirizzo trentino.trilingue@pec.provincia.tn.it;- tramite fax al numero 0461 390707;- a mezzo posta mediante raccomandata con ricevuta di ritornota di ritorno; ai fini dell’ammissione fa fede la data di ricezione della domanda da parte della Struttura Multifunzionale Ad Personam.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/eff86951-941f-4805-bb85-f0daad5698e9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/eff86951-941f-4805-bb85-f0daad5698e9</dcterms:identifier>
+    <dcterms:description xml:lang="it">L’Amministrazione provinciale si farà carico, per l’intero periodo di mobilità, dei seguenti oneri di spesa:- programma di formazione/tirocinio all’estero- vitto e alloggio per l’intero periodo di mobilità- trasporti locali funzionali allo svolgimento dell’attività oggetto dell’iniziativa specifica- assicurazione relativa ai rischi, infortuni e responsabilità civile per l’intero periodo di mobilità, in maniera circoscritta alle attività oggetto dell’iniziativa specifica ed esclusi i viaggi A/R- spese per la certificazione linguistica, per le iniziative in cui essa è prevista Sono invece a completo carico del partecipante:- spese viaggio per raggiungere il Paese di destinazione (andata e di ritorno)- spese per il test di livello linguistico, qualora non in possesso di certificazione o attestato di bilinguismo- spese di richiesta del visto, se necessario- altre spese non previste al precedente paragrafoOltre alle spese sopra elencate, il partecipante è tenuto a compartecipare alle spese del progetto secondo una quota differenziata in relazione al valore dell’indicatore ICEF “Piano Trentino Trilingue”.È previsto inoltre che il partecipante depositi un assegno bancario o circolare a titolo di cauzione.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP56">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP56</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto Mo-VE – Mobilità verso l'Europa</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Progetto-MoVE-Mobilita-Verso-l-Europa"/>
+  </rdf:Description>
+</rdf:RDF>

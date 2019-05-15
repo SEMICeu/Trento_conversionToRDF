@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP66">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP66</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Programma Eurodyssey</dcterms:title>
+    <dcterms:description xml:lang="it">I giovani che intendono svolgere un tirocinio in un altro Paese dell'Unione europea e i datori di lavoro interessati a sostenere un percorso di tirocinio all'interno delle proprie imprese possono aderire al programma di scambi internazionali denominato Eurodyssey. Questo programma, che prevede un’esperienza di tirocinio di durata compresa tra i 3 e 6 mesi, è promosso da AER (Assembly of European Regions) e si prefigge di aumentare le competenze professionali dei partecipanti, di migliorare le possibilità di trovare occupazione a termine del progetto e di espandere gli orizzonti culturali dei giovani europei. Il progetto prevede la reciprocità tra i Paesi, in quanto i Paesi di tirocinanti in uscita si impegnano ad ospitare lo stesso numero di tirocinanti in entrata.Ogni tirocinante ha diritto ad un corso di lingua del paese ospitante gratuito, ad un alloggio gratuito per l’intera durata del tirocinio, ad un’indennità mensile di tirocinio, ad una copertura assicurativa per l’intera durata del tirocinio (erogata da Eurodyssey), all'organizzazione di visite culturali e ad essere assistito durante la durata del tirocinio.Il referente Eurodyssey di ogni Regione si impegna per i tirocinanti in uscita a diffondere le informazioni relative al progetto e le opportunità di tirocinio disponibili, a supportare i giovani interessati nelle varie fasi di candidatura e selezione, ad attuare una prima selezione dei giovani candidati della propria Regione, in collaborazione con i referenti Eurodyssey delle altre Regioni, a supportare i giovani selezionati in tutte le fasi fino alla partenza.Per i tirocinanti in entrata, il referente si impegna ad individuare opportunità di tirocinio in azienda, a pubblicizzare le opportunità sul sito http://www.eurodyssee.eu, a supportare le aziende nella selezione delle candidature, a predisporre le soluzioni di alloggio, ad organizzare la partecipazione a un corso di lingua del Paese ospitante, ad attivare il tirocinio e le coperture assicurative connesse, ad erogare l’indennità mensile di tirocinio, a garantire assistenza ai partecipanti per tutto il periodo di permanenza anche attraverso visite culturali per agevolare l’accoglienza e l’integrazione dei tirocinanti.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">tirocinio</ns2:keyword>
+    <ns2:keyword xml:lang="it">mobilità</ns2:keyword>
+    <ns2:keyword xml:lang="it">estero</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.7"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.4"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:hasCriterion rdf:resource="cr/dcae4821-e475-499b-9c40-0f4d48eec542"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2019-6"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1953"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_eurodyssee"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/dcae4821-e475-499b-9c40-0f4d48eec542">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/dcae4821-e475-499b-9c40-0f4d48eec542</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono accedere al servizio: - i giovani cittadini di uno Stato membro dell'Unione europea residenti in Provincia di Trento, che hanno un' età tra i 18 e i 35 anni ed una conoscenza base della lingua del Paese ospitante.Possono accedere al servizio i datori di lavoro, come di seguito delineati:- enti pubblici e aziende private- aziende appartenenti al settore commerciale, business e amministrazione, turistico, hotel e ristorazione, multimediale/audiovisivi, arte e cultura, umanistico e scienze sociali, scienze fisiche e della vita, servizi sociali e della salute, agricoltura, manifatturiero;- enti pubblici, Comunità/Enti locali, Organismi economici, Uffici consolari, istituti di ricerca e sviluppo, organizzazioni giovanili, scuole ed enti di formazione di ogni ordine e grado;- aziende di piccole, medie o grandi dimensioni.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2019-6">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2019-6</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 6 dell'11 gennaio 2019</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1953">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1953</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 1953 del 24 novembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_eurodyssee">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_eurodyssee</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le candidature vanno effettuate online sul sito http://www.eurodyssee.eu</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP66">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP66</dcterms:identifier>
+    <dcterms:title xml:lang="it">Programma Eurodyssey</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Servizi-Eures-e-lavoro-all-estero"/>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/content/download/4911/70662/version/1/file/Scheda+EURODYSSEY.pdf"/>
+  </rdf:Description>
+</rdf:RDF>

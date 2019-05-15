@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1996">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1996</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Voucher culturale per le famiglie</dcterms:title>
+    <dcterms:description xml:lang="it">Le famiglie numerose e le famiglie a basso reddito con figli minorenni possono richiedere un contributo per la fruizione di servizi culturali (scuole e bande musicali, teatri e cinema). Il voucher culturale è rilasciato per ogni figlio minore, anche affidatario, e per uno dei percorsi previsti (frequentazione di scuole musicali, compresa la partecipazione a bande musicali, o ingresso a spettacoli dal vivo -teatri e filodrammatiche- e cinema).Per il percorso “scuole musicali/bande” è previsto l’abbattimento del 70% del costo dei corsi e per il percorso “teatri/filodrammatiche/cinema” è prevista, a favore di ogni singolo minore, la possibilità di accedere agli spettacoli tramite il rilascio di un carnet di voucher.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">cultura</ns2:keyword>
+    <ns2:keyword xml:lang="it">musica</ns2:keyword>
+    <ns2:keyword xml:lang="it">cinema</ns2:keyword>
+    <ns2:keyword xml:lang="it">teatro</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributi</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:requires rdf:resource="http://www.provincia.tn.it/p_TN_NP19"/>
+    <dcterms:requires rdf:resource="http://www.provincia.tn.it/p_TN_2043"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/cscsc"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/f8ad0ae6-2e96-455f-b7ab-5d425e66124b"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/98b00362-fee4-4f04-a2a0-1f1bad456328"/>
+    <ns4:hasInput rdf:resource="ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1509"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-1662"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_cscsc"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_cscsc_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_cscsc"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1996"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/cscsc">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/cscsc</dcterms:identifier>
+    <dcterms:title xml:lang="it">Centro servizi culturali Santa Chiara</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Centro servizi culturali Santa Chiara</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Santa Croce 67 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/f8ad0ae6-2e96-455f-b7ab-5d425e66124b">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/f8ad0ae6-2e96-455f-b7ab-5d425e66124b</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono beneficiare del contributo esclusivamente per i figli minori i nuclei famigliari che:a) hanno presentato, in alternativa:- una domanda idonea alla quota B1 dell'Assegno Unico Provinciale (AUP) presentata dalle famiglie numerose- una domanda idonea alla quota A dell'Assegno Unico Provinciale (AUP) finalizzata a contrastare le situazioni di povertàb) beneficiano dell'AUP per almeno una mensilità nel corso dell'anno di presentazionec) sono in possesso della carta Euregio Family Card.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/98b00362-fee4-4f04-a2a0-1f1bad456328">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/98b00362-fee4-4f04-a2a0-1f1bad456328</dcterms:identifier>
+    <dcterms:title xml:lang="it">Codice dell’EuregioFamilyPass</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/80cfe7e3-934a-447c-972f-dfc02fbf8f64</dcterms:identifier>
+    <dcterms:title xml:lang="it">Codice fiscale del richiedente</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1509">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1509</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1509 del 22 settembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-1662">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-1662</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1662 del 14 settembre 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_cscsc">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_cscsc</dcterms:identifier>
+    <ns7:email>verycult@centrosantachiara.it</ns7:email>
+    <ns7:telephone>0461213834</ns7:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_cscsc_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_cscsc_pec</dcterms:identifier>
+    <ns7:email>centrosantachiara@pec.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_cscsc">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_cscsc</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia autonoma di Trento o del Centro servizi culturali Santa Chiara con una delle seguenti modalità:a) trasmissione mediante posta elettronica certificata all’indirizzo centrosantachiara@pec.it, unitamente a copia di un documento di riconoscimento del soggetto richiedente in corso di validità;b) a mezzo servizio postale con raccomandata A/R indirizzata al Centro Servizi Culturali S. Chiara, via S. Croce n. 67, 38122 (TN) specificando come oggetto “Voucher culturale”;c) consegna a mano presso il Centro Servizi Culturali S. Chiara, Via S. Croce n. 67, 38122 (TN).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1996">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1996</dcterms:identifier>
+    <dcterms:title xml:lang="it">Voucher culturale per le famiglie</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.centrosantachiara.it/IT/voucher-cultura/"/>
+  </rdf:Description>
+</rdf:RDF>

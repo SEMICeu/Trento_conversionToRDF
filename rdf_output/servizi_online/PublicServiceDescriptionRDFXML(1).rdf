@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_9125">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_9125</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Comunicazioni per l'utilizzo di terre e rocce da scavo</dcterms:title>
+    <dcterms:description xml:lang="it">I produttori e/o utilizzatori di terre e rocce da scavo sono tenuti ad inviare le comunicazioni relative alla gestione di tali materiali come sottoprodotto almeno 15 giorni prima dell’inizio dei lavori.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">terreno</ns2:keyword>
+    <ns2:keyword xml:lang="it">scavo</ns2:keyword>
+    <ns2:keyword xml:lang="it">rocce</ns2:keyword>
+    <ns2:keyword xml:lang="it">comunicazione</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/B8"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.4.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_640"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/O43CVD"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.6"/>
+    <ns4:hasInput rdf:resource="ev/ca00e627-fec2-4209-9997-97d51d1f50c7"/>
+    <ns4:hasInput rdf:resource="ev/31156e83-e181-4da0-9632-0a0908d35d4d"/>
+    <ns4:hasInput rdf:resource="ev/31eea976-86c5-4753-a118-d3d01530af86"/>
+    <ns3:hasLegalResource rdf:resource="lr/DL-2013-69"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2012-896"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPR-2017-120"/>
+    <ns4:produces rdf:resource="ou/output_dec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_O43CVD"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_O43CVD_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_O43CVD_suolo"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/O43CVD">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/O43CVD</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia Autonoma di Trento - Agenzia provinciale per la protezione dell'ambiente (APPA)</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia Autonoma di Trento - Agenzia provinciale per la protezione dell'ambiente (APPA)</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>piazza Vittoria 5 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Notifiche autorità</dcterms:title>
+    <dcterms:description xml:lang="it">Comunicazioni obbligatorie per lo svolgimento dell'attività</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NotifyingAndReportingToAuthorities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ca00e627-fec2-4209-9997-97d51d1f50c7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ca00e627-fec2-4209-9997-97d51d1f50c7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione di utilizzo preventiva alle operazioni di scavo, almeno 15 giorni prima dell’inizio dei lavori di scavo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/31156e83-e181-4da0-9632-0a0908d35d4d">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/31156e83-e181-4da0-9632-0a0908d35d4d</dcterms:identifier>
+    <dcterms:title xml:lang="it">Documento di trasporto, in caso di trasporto del materiale da scavo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/31eea976-86c5-4753-a118-d3d01530af86">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/31eea976-86c5-4753-a118-d3d01530af86</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione per la conferma di avvenuto utilizzo, entro i termini di validità indicati nella dichiarazione di utilizzo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DL-2013-69">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DL-2013-69</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto legislativo n. 69 del 21 giugno 2013</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2012-896">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2012-896</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 896 dell' 11 maggio 2012</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPR-2017-120">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPR-2017-120</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Repubblica n. 120 del 13 giugno 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_dec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_dec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazioni, notifiche</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Declaration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_O43CVD">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_O43CVD</dcterms:identifier>
+    <ns7:email>appa@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497701</ns7:telephone>
+    <ns7:faxNumber>0461497759</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_O43CVD_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_O43CVD_pec</dcterms:identifier>
+    <ns7:email>appa@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_O43CVD_suolo">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_O43CVD_suolo</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le comunicazioni devono essere inoltrate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) trasmettendo l’apposito modulo, disponibile sul sito internet istituzionale della Provincia, per via telematica alla casella di posta elettronica certificata suolo.appa@pec.provincia.tn.it</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

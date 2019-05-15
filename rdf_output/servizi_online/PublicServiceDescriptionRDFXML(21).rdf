@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP3">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP3</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Simulazione del proprio indicatore ICEF</dcterms:title>
+    <dcterms:description xml:lang="it">Qualsiasi persona può simulare il calcolo del proprio Indicatore della Condizione Economica Familiare (ICEF) e dei benefici (assegni, tariffe, buoni, ecc.) a cui si può avere diritto nel caso in cui il valore dell'indicare ICEF sia nei limiti previsti.L'ICEF è un indicatore della condizione economica familiare che prende in considerazione i redditi, il patrimonio mobiliare ed immobiliare, alcuni oneri detraibili e deducibili, nonché altre indennità e rendite relative ad ogni singolo membro della famiglia, compresi i minori e i conviventi senza legami di parentela. Non è obbligatorio calcolarlo, ma è indispensabile per l'accesso ai benefici previsti per i nuclei familiari.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">dichiarazione</ns1:keyword>
+    <ns1:keyword xml:lang="it">condizione economica familiare</ns1:keyword>
+    <ns1:keyword xml:lang="it">agevolazioni</ns1:keyword>
+    <ns1:keyword xml:lang="it">contributi</ns1:keyword>
+    <ns1:keyword xml:lang="it">ICEF</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP4"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP5"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP6"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP28"/>
+    <ns2:hasCompetentAuthority rdf:resource="ca/RD5LE1"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:produces rdf:resource="ou/output_rec"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_RD5LE1"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_RD5LE1_pec"/>
+    <ns2:hasChannel rdf:resource="ch/CH_PS_ICEF"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/RD5LE1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/RD5LE1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio supporto alla Direzione generale</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio supporto alla Direzione generale</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>piazza Dante 15 - 38122 Trento</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_RD5LE1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_RD5LE1</dcterms:identifier>
+    <ns5:email>serv.supportodirezionegeneraleICT@provincia.tn.it</ns5:email>
+    <ns5:telephone>0461491242</ns5:telephone>
+    <ns5:telephone>0461492626</ns5:telephone>
+    <ns5:faxNumber>0461491243</ns5:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_RD5LE1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_RD5LE1_pec</dcterms:identifier>
+    <ns5:email>serv.supportodirezionegeneraleICT@pec.provincia.tn.it</ns5:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_PS_ICEF">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_PS_ICEF</dcterms:identifier>
+    <dcterms:description xml:lang="it">La simulazione può essere effettuata online, collegandosi al portale dei servizi della Provincia autonoma di Trento e compilando il "modulo trasparenza" messo a disposizione dall'amministrazione provinciale, scegliendo il beneficio che si intende richiedere e seguendo poi le istruzioni fornite dal sistema. Questo modulo permette di calcolare in modo anonimo il proprio ICEF ed il relativo beneficio (assegno, tariffa, ecc.). La compilazione del modulo trasparenza NON sostituisce la presentazione della domanda presso gli sportelli preposti e il risultato ottenuto è puramente indicativo e di per sé non da diritto ad alcun beneficio. Per il calcolo effettivo, valido ai fini della richiesta di accesso ai benefici previsti, è necessario rivolgersi ai CAF o gli sportelli abilitati.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

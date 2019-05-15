@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP6">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP6</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Iscrizione a scuola alle classi prime delle istituzioni scolastiche trentine del primo e secondo ciclo (elementari, medie, superiori)</dcterms:title>
+    <dcterms:description xml:lang="it">Il genitore o l'adulto che esercita la potestà genitoriale può iscrivere il proprio figlio o un minore sotto sua tutela alle classi prime delle istituzioni scolastiche della Provincia di Trento del primo e secondo ciclo (ovvero elementari, medie e superiori).L’iscrizione a scuola è obbligatoria per tutti gli alunni che si iscrivono alla classe prima della scuola primaria, della scuola secondaria di primo e secondo grado e della formazione professionale; viene invece effettuata d’ufficio per gli anni successivi.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">iscrizione</ns1:keyword>
+    <ns1:keyword xml:lang="it">scuola</ns1:keyword>
+    <ns1:keyword xml:lang="it">bambini</ns1:keyword>
+    <ns1:keyword xml:lang="it">ragazzi</ns1:keyword>
+    <ns1:keyword xml:lang="it">elementari</ns1:keyword>
+    <ns1:keyword xml:lang="it">medie</ns1:keyword>
+    <ns1:keyword xml:lang="it">superiori</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.2"/>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2.2"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns2:hasCompetentAuthority rdf:resource="ca/E03K9O"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_3.1"/>
+    <ns2:hasCriterion rdf:resource="cr/3b1e1a28-1a3d-4251-a0c0-6f9adf1ae83b"/>
+    <ns3:hasInput rdf:resource="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2017-2268"/>
+    <ns2:hasLegalResource rdf:resource="lr/LP-2006-5"/>
+    <ns2:hasLegalResource rdf:resource="lr/LP-2016-10"/>
+    <ns3:produces rdf:resource="ou/output_perm"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_OUG4Y7"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_OUG4Y7_pec"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_W05601"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_W05601_pec"/>
+    <ns2:hasChannel rdf:resource="ch/CH_PS_scuola2"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/E03K9O">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/E03K9O</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>via Gilli 3 - 38121 Trento</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Iscrizione ad un percorso di istruzione o formazione, gestione del percorso</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/3b1e1a28-1a3d-4251-a0c0-6f9adf1ae83b">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/3b1e1a28-1a3d-4251-a0c0-6f9adf1ae83b</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono essere iscritti i bambini e i ragazzi che siano in età di diritto per la scuola scelta.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di iscrizione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-2268">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-2268</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta provinciale n. 2268 del 28 dicembre 2017</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2006-5">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2006-5</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 5 del 7 agosto 2006</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2016-10">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2016-10</dcterms:identifier>
+    <ns5:description xml:lang="it">Legge provinciale n. 10 del 20 giugno 2016</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7</dcterms:identifier>
+    <ns6:email>serv.istruzione@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461497218</ns6:telephone>
+    <ns6:faxNumber>0461497216</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7_pec</dcterms:identifier>
+    <ns6:email>serv.istruzione@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601</dcterms:identifier>
+    <ns6:email>serv.istruzioneuniversitaricerca@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461491377</ns6:telephone>
+    <ns6:faxNumber>0461493521</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601_pec</dcterms:identifier>
+    <ns6:email>serv.istruzioneuniversitaricerca@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_PS_scuola2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_PS_scuola2</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID). Il sistema provvederà ad inoltrare la domanda alla scuola di competenza. Non è necessario presentare domanda di iscrizione agli anni successivi al primo, poiché questa viene elaborata automaticamente.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

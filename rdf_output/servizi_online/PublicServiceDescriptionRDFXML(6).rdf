@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_395_396">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_395_396</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi per per strutture e arredi destinati allo svolgimento di attività culturali</dcterms:title>
+    <dcterms:description xml:lang="it">I soggetti privati qualificati (imprese, società, enti culturali, associazioni) possono chiedere un contributo per l'acquisizione, la costruzione, la sistemazione, la ristrutturazione, la manutenzione straordinaria e l'ampliamento delle strutture destinate allo svolgimento di attività e manifestazioni culturali</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">cultura</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributo</ns2:keyword>
+    <ns2:keyword xml:lang="it">strutture</ns2:keyword>
+    <ns2:keyword xml:lang="it">arredi</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/R90.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=08.2.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P5M</ns3:processingTime>
+    <dcterms:requires rdf:resource="http://www.provincia.tn.it/p_TN_1529"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_403"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_397"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_398"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_1529"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_396"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_399"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_402"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_407"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/J0KMNP"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.1"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.2"/>
+    <ns3:hasCriterion rdf:resource="cr/0c382e9d-e45b-4961-929f-2853e0d60753"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/c4cc07f6-4d9b-4ab6-b623-0de7ca6d89db"/>
+    <ns4:hasInput rdf:resource="ev/08d13564-c35f-4922-bb38-6662d4505d08"/>
+    <ns4:hasInput rdf:resource="ev/9c7f1d95-617d-4d53-bcfc-e4c3cae6fb04"/>
+    <ns4:hasInput rdf:resource="ev/ae585d3c-3fda-4e96-944d-3703e67795e4"/>
+    <ns4:hasInput rdf:resource="ev/381acc55-a819-47ce-990b-e3e45a2b8b72"/>
+    <ns4:hasInput rdf:resource="ev/495666d3-abdf-4aa0-a074-765e4b4ae08a"/>
+    <ns4:hasInput rdf:resource="ev/4b1a7f43-f829-4683-956e-f7f305c1d50f"/>
+    <ns4:hasInput rdf:resource="ev/05697014-fadc-4e5c-91ad-c8aeee585e86"/>
+    <ns4:hasInput rdf:resource="ev/9202342d-f248-4ccd-8f96-c19119ecf726"/>
+    <ns4:hasInput rdf:resource="ev/01f263ac-ed6b-4101-84c4-5a4adebcd258"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2007-15"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2013-913"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-2186"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-2210"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2016-2527"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1621"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-2339"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_J0KMNP"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_J0KMNP_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_J0KMNP"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/J0KMNP">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/J0KMNP</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia Autonoma di Trento - Servizio attività culturali</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia Autonoma di Trento - Servizio attività culturali</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Romagnosi 5 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a enti e associazioni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a imprese</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/0c382e9d-e45b-4961-929f-2853e0d60753">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/0c382e9d-e45b-4961-929f-2853e0d60753</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i soggetti culturali qualificati. La qualificazione si ottiene presentando domanda di qualificazione, qualora si soddisfino specifici standard di qualità, riferiti alla struttura organizzativa e finanziaria (p_TN_1529).I soggetti devono avere la disponibilità di strutture culturali a uno dei seguenti titoli:- proprietà (non è richiesto nel caso di domanda di contributo per l’acquisto di immobile);- comodato gratuito registrato;- concessione.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c4cc07f6-4d9b-4ab6-b623-0de7ca6d89db">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c4cc07f6-4d9b-4ab6-b623-0de7ca6d89db</dcterms:identifier>
+    <dcterms:title xml:lang="it">Scheda descrittiva della proposta per cui si chiede il finanziamento con il preventivo delle entrate e delle spese articolato secondo voci predefinite</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/08d13564-c35f-4922-bb38-6662d4505d08">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/08d13564-c35f-4922-bb38-6662d4505d08</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto culturale e attività culturali che si intendono svolgere per realizzare tale progetto</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/9c7f1d95-617d-4d53-bcfc-e4c3cae6fb04">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/9c7f1d95-617d-4d53-bcfc-e4c3cae6fb04</dcterms:identifier>
+    <dcterms:title xml:lang="it">Scheda contenente le previsioni di entrata e di spesa relative alla gestione dell’immobile</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ae585d3c-3fda-4e96-944d-3703e67795e4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ae585d3c-3fda-4e96-944d-3703e67795e4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della deliberazione dell’organo comunale competente riguardante il parere in ordine al pubblico interesse dell’intervento, oppure dichiarazione sostitutiva dell'atto di notorietà attestante l'emissione, da parte dell'organo comunale competente, di tale parere</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/381acc55-a819-47ce-990b-e3e45a2b8b72">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/381acc55-a819-47ce-990b-e3e45a2b8b72</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia dell’atto di disponibilità dell’immobile e il consenso del proprietario all’esecuzione dell’intervento, se il richiedente non è proprietario dell’immobile</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/495666d3-abdf-4aa0-a074-765e4b4ae08a">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/495666d3-abdf-4aa0-a074-765e4b4ae08a</dcterms:identifier>
+    <dcterms:title xml:lang="it">L’impegno del proprietario alla restituzione, in solido con il beneficiario, della quota di contributo calcolata proporzionalmente al numero di anni di non utilizzo, nel caso in cui il richiedente non sia proprietario dell’immobile e il proprietario sia un soggetto privato</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/4b1a7f43-f829-4683-956e-f7f305c1d50f">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/4b1a7f43-f829-4683-956e-f7f305c1d50f</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia del contratto preliminare di compravendita dell’immobile che si intende acquisire (solo nel caso di acquisto di un immobile)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/05697014-fadc-4e5c-91ad-c8aeee585e86">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/05697014-fadc-4e5c-91ad-c8aeee585e86</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto preliminare conforme a quanto previsto dal decreto del Presidente della Provincia 11 maggio 2012, n. 9-84/Leg (solo nel caso di costruzione, ristrutturazione, risanamento, restauro, manutenzione straordinaria e ampliamento di un immobile)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/9202342d-f248-4ccd-8f96-c19119ecf726">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/9202342d-f248-4ccd-8f96-c19119ecf726</dcterms:identifier>
+    <dcterms:title xml:lang="it">Relazione tecnico-illustrativa, preventivi di spesa dettagliati per tipologia e piante dei locali con la disposizione degli arredi (solo nel caso di acquisto di arredi)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/01f263ac-ed6b-4101-84c4-5a4adebcd258">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/01f263ac-ed6b-4101-84c4-5a4adebcd258</dcterms:identifier>
+    <dcterms:title xml:lang="it">Se il contributo è richiesto da una federazione di associazioni culturali, elenco aggiornato delle associazioni federate e relativo numero di sociSe il contributo è richiesto da soggetti gestori di biblioteche e da istituzioni museali, relazione dell’attività scientifica e culturale svolta nell’anno precedente a quello di presentazione della domanda con specificazione delle pubblicazioni e delle attività di valorizzazione realizzate</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2007-15">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2007-15</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 15 del 3 ottobre 2007</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2013-913">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2013-913</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 913 del 17 maggio 2013</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-2186">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-2186</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2186 del 9 dicembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-2210">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-2210</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2210 del 3 dicembre 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-2527">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-2527</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2527 del 29 dicembre 2016</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1621">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1621</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1621 del 5 ottobre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-2339">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-2339</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2339 del 28 dicembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_J0KMNP">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_J0KMNP</dcterms:identifier>
+    <ns7:email>serv.attcult@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461496914</ns7:telephone>
+    <ns7:faxNumber>0461495080</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_J0KMNP_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_J0KMNP_pec</dcterms:identifier>
+    <ns7:email>serv.attcult@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_J0KMNP">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_J0KMNP</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia con una delle seguenti modalità:- consegna diretta presso il Servizio attività culturali o presso gli sportelli di assistenza ed informazione al pubblico della Provincia;- a mezzo posta mediante raccomandata con ricevuta di ritorno; ai fini dell’ammissione fa fede la data del timbro dell’ufficio postale accettante;- a mezzo fax al numero corrispondente del Servizio attività culturali (solo per soggetti privati);- per via telematica alla casella di posta elettronica certificata del Servizio attività culturali.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

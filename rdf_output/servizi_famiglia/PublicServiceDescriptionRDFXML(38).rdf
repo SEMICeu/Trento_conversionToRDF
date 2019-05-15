@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1570a">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1570a</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Assegno mensile a favore di minorenni invalidi</dcterms:title>
+    <dcterms:description xml:lang="it">I minori che hanno difficoltà a svolgere i compiti e le funzioni della propria età oppure hanno limitata capacità uditiva hanno diritto ad un assegno mensile.La minorazione è valutata secondo i criteri e i parametri stabiliti dalla vigente normativa dello Stato dalla struttura operativa dell'Azienda provinciale per i servizi sanitari che provvede al rilascio del relativo certificato di invalidità.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">assegno</ns2:keyword>
+    <ns2:keyword xml:lang="it">invalidità</ns2:keyword>
+    <ns2:keyword xml:lang="it">minorenni</ns2:keyword>
+    <ns2:keyword xml:lang="it">accompagnamento</ns2:keyword>
+    <ns2:keyword xml:lang="it">minori</ns2:keyword>
+    <ns2:keyword xml:lang="it">disabilità</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/5S2ZIJ"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_2"/>
+    <ns3:hasCriterion rdf:resource="cr/c42bc854-7947-4fba-82dc-bb8f59b980c1"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1998-7"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_5S2ZIJ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_5S2ZIJ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_sportelli_CAF"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1570a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/5S2ZIJ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/5S2ZIJ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per l’assistenza e la previdenza integrativa (APAPI)</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per l’assistenza e la previdenza integrativa (APAPI)</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Zambra 42  - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Invalidità</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi si prende cura di un famigliare, di un parente, di un'altra persona</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/BecomingASocialTaretaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/c42bc854-7947-4fba-82dc-bb8f59b980c1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/c42bc854-7947-4fba-82dc-bb8f59b980c1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Le domande possono essere presentate dai soggetti in possesso dei seguenti requisiti: - cittadinanza italiana;- età non superiore ai 18 anni;- residenza in provincia di Trento;- i cittadini di uno stato membro dell'Unione europea sono parificati ai cittadini italiani, purché siano residenti sul territorio provinciale ed esercitino o abbiano esercitato in uno stato membro dell’Unione europea attività lavorativa o siano familiari di un lavoratore che sia cittadino di uno stato membro dell’Unione europea. L'erogazione della pensione è estendibile ai rifugiati stranieri residenti sul territorio provinciale, agli apolidi, ai cittadini della Repubblica di San Marino, nonché agli stranieri titolari di un titolo di soggiorno di durata non inferiore ad un anno.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1998-7">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1998-7</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 7 del 15 giugno 1998</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_5S2ZIJ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_5S2ZIJ</dcterms:identifier>
+    <ns7:email>agenzia.prev@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461493234</ns7:telephone>
+    <ns7:telephone>0461493232</ns7:telephone>
+    <ns7:faxNumber>0461493233</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_5S2ZIJ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_5S2ZIJ_pec</dcterms:identifier>
+    <ns7:email>apapi@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_sportelli_CAF">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_sportelli_CAF</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda è presentata per il tramite degli sportelli periferici di assistenza e informazione al pubblico della Provincia autonoma di Trento o degli istituti di patronato o assistenza sociale.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1570a">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1570a</dcterms:identifier>
+    <dcterms:title xml:lang="it">Assegno mensile a favore di minorenni invalidi</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.apapi.provincia.tn.it/assistenza/invalidi_civili/pagina17.html"/>
+  </rdf:Description>
+</rdf:RDF>

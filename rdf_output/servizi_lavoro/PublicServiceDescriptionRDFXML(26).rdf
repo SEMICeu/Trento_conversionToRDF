@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP62">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP62</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Convenzione individuale di integrazione lavorativa di persone disabili</dcterms:title>
+    <dcterms:description xml:lang="it">Le imprese che inseriscono persone disabili con particolari caratteristiche (disabilità psichica e/o intellettiva) possono stipulare accordi con l'Agenzia del lavoro.La convenzione individuale è uno strumento che garantisce un supporto al datore di lavoro da parte degli operatori di riferimento per il collocamento mirato dell'Agenzia del Lavoro durante l’inserimento lavorativo.Sono previste due tipologie di convenzione individuale che si differenziano in base alla modalità di inserimento della persona:- nel caso di autocandidatura, la convenzione prevede la disponibilità dell''Agenzia del Lavoro, su richiesta del datore di lavoro che ne ravvisa la necessità, a sostenere la gestione del percorso lavorativo tramite l’operatore di riferimento;- a fronte di un progetto di collocamento mirato, la convenzione prevede il monitoraggio del  percorso di inserimento da parte dell'operatore di riferimento, consentendogli l’ingresso presso la sede lavorativa nell’ambito dell’orario lavorativo concordato; inoltre, il datore di lavoro individua un referente interno per l’inserimento e l’eventuale formazione del lavoratore.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoratori</ns2:keyword>
+    <ns2:keyword xml:lang="it">disabili</ns2:keyword>
+    <ns2:keyword xml:lang="it">disabilità</ns2:keyword>
+    <ns2:keyword xml:lang="it">accordi</ns2:keyword>
+    <ns2:keyword xml:lang="it">convenzioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">assunzione</ns2:keyword>
+    <ns2:keyword xml:lang="it">quota d'obbligo</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.7"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.4"/>
+    <ns3:hasCriterion rdf:resource="cr/78a6dd93-1f33-407f-9d2e-1a9d84ad59e8"/>
+    <ns4:hasInput rdf:resource="ev/1af294b3-3fe8-40a1-a553-70435b9db5a2"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-1999-68"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_disva"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/78a6dd93-1f33-407f-9d2e-1a9d84ad59e8">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/78a6dd93-1f33-407f-9d2e-1a9d84ad59e8</dcterms:identifier>
+    <dcterms:title xml:lang="it">I datori di lavoro privati e pubblici con più di 15 dipendenti che sono tenuti ad avere alle proprie dipendenze lavoratori appartenenti alle categorie protette.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1af294b3-3fe8-40a1-a553-70435b9db5a2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1af294b3-3fe8-40a1-a553-70435b9db5a2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nel caso di autocandidatura si presenta proposta di stipula Convenzione individuale.Nel caso un progetto di collocamento mirato, la convenzione individuale diventa parte integrante nell’ambito del progetto stesso.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-1999-68">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-1999-68</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 68 del 12 marzo 1999</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_disva">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_disva</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le proposte essere presentate trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia autonoma di Trento per via telematica alla casella di posta elettronica certificata disva.adl@pec.provincia.tn.it</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP62">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP62</dcterms:identifier>
+    <dcterms:title xml:lang="it">Convenzione individuale di integrazione lavorativa di persone disabili</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Copertura-della-quota-d-obbligo-per-datori-di-lavoro-privati"/>
+  </rdf:Description>
+</rdf:RDF>

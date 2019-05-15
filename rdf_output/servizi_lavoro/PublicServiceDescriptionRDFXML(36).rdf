@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1522">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1522</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Iniziative per favorire l’occupazione delle lavoratrici al rientro dal congedo - buon rientro</dcterms:title>
+    <dcterms:description xml:lang="it">I datori di lavoro privati possono richiedere dei contributi per realizzare iniziative che favoriscano la permanenza nell’occupazione delle lavoratrici dopo il periodo di congedo di maternità o parentale.Possono essere finanziate le spese di consulenza legate alla progettazione e realizzazione di efficaci pratiche organizzative di gestione della maternità per le proprie lavoratrici.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">conciliazione famiglia-lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">rientro</ns2:keyword>
+    <ns2:keyword xml:lang="it">maternità</ns2:keyword>
+    <ns2:keyword xml:lang="it">congedo</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoratrici</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">genitori</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=01.3.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.2"/>
+    <ns3:hasCriterion rdf:resource="cr/1cb9599b-29e0-40cf-9674-3994b7d3c9a6"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-2000-53"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-14B"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1522"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a imprese</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/1cb9599b-29e0-40cf-9674-3994b7d3c9a6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/1cb9599b-29e0-40cf-9674-3994b7d3c9a6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i datori di lavoro privati con sede legale o unità produttiva in provincia di Trento limitatamente ai lavoratori ivi occupati con un rapporto alle dipendenze di natura privatistica.Sono escluse dal finanziamento le società e gli organismi a totale o prevalente partecipazione pubblica e le loro società controllate, gli enti strumentali della Provincia, gli organismi controllati e gli enti strumentali degli enti locali, nonché i soggetti dagli stessi controllati.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-2000-53">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-2000-53</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 53 dell' 8 marzo 2000</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-14B">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-14B</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 14.B</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1522">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1522</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iniziative per favorire l’occupazione delle lavoratrici al rientro dal congedo - buon rientro</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/BUON-RIENTRO-Iniziative-per-favorire-l-occupazione-delle-lavoratrici-al-rientro-dal-congedo"/>
+  </rdf:Description>
+</rdf:RDF>

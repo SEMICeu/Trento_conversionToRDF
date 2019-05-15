@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1519">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1519</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Work family - progetti sui regimi di orario</dcterms:title>
+    <dcterms:description xml:lang="it">I datori di lavoro privati possono richiedere un contributo per la realizzazione di interventi di riorganizzazione e di rimodulazione degli orari di lavoro collegati ad impegni di cura e di assistenza, anche utilizzando il telelavoro, volti ad aumentare la possibilità di conciliare la vita familiare e quella lavorativa dei dipendenti.Il contributo è concesso per ogni lavoratore coinvolto in forme di flessibilità o per ogni disoccupato assunto a tempo indeterminato. Il contributo può anche riguardare le spese di consulenza per la riorganizzazione aziendale e le spese di attuazione del progetto riorganizzativo. In tal caso il contributo non può superare il 70% delle relative spese.Il contributo è ridotto nella misura corrispondente al finanziamento riconosciuto nell'ambito del Family-Audit, nel caso in cui il datore di lavoro aderisca alla sperimentazione nazionale del Family-Audit.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">famiglia</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione famiglia-lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">genitori</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">madri lavoratrici</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=01.3.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP7"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.7"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.4"/>
+    <ns3:hasCriterion rdf:resource="cr/19194197-782b-418e-b5d2-e033c9147a63"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns4:hasInput rdf:resource="ev/956f5350-aba1-439d-aa5f-03de060cac97"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2011-1"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-1945"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1519"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/19194197-782b-418e-b5d2-e033c9147a63">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/19194197-782b-418e-b5d2-e033c9147a63</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i datori di lavoro privati con sede legale o unità produttiva in provincia di Trento limitatamente ai lavoratori ivi occupati con un rapporto alle dipendenze di natura privatistica, i datori di lavoro privati con sede legale o unità produttiva in provincia di Trento aderenti al processo di certificazione Family Audit.Le esigenze di conciliazione dei dipendenti devono riguardare figli minori conviventi di età inferiore ai 12 anni oppure persone conviventi o, se non conviventi, parenti di I o II grado o affini di I grado, con bisogno di assistenza accertata da certificazione medica.Sono escluse dal finanziamento le società e gli organismi a totale o prevalente partecipazione pubblica e le loro società controllate, gli enti strumentali della Provincia, gli organismi controllati e gli enti strumentali degli enti locali, nonché i soggetti dagli stessi controllati.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/956f5350-aba1-439d-aa5f-03de060cac97">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/956f5350-aba1-439d-aa5f-03de060cac97</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto di intervento</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2011-1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2011-1</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 1 del 2 marzo 2011</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-1945">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-1945</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1945 del 2 novembre  2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1519">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1519</dcterms:identifier>
+    <dcterms:title xml:lang="it">Work family - progetti sui regimi di orario</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/WORK-FAMILY-Progetti-sui-regimi-di-orario"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP13">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP13</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Ammissione all'Alta Formazione Professionale</dcterms:title>
+    <dcterms:description xml:lang="it">I giovani e gli adulti interessati possono presentare domanda di ammissione alla prova di valutazione per l'ingresso ad un percorso di Alta Formazione Professionale. A seguito dell'esito della valutazione in ingresso viene pubblicata una graduatoria di idoneità e il candidato può effettuare l’iscrizione al percorso scelto. L’Alta Formazione Professionale (AFP) è il sistema trentino di formazione terziaria non accademica. I percorsi durano due anni, formano figure professionali con un’alta preparazione in ambiti specifici, si svolgono parzialmente in contesto lavorativo e si concludono con il diploma di “Tecnico Superiore”, riconosciuto a livello nazionale.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">scuola</ns2:keyword>
+    <ns2:keyword xml:lang="it">formazione professionale</ns2:keyword>
+    <ns2:keyword xml:lang="it">ITS</ns2:keyword>
+    <ns2:keyword xml:lang="it">Istituti Tecnici Superiori</ns2:keyword>
+    <ns2:keyword xml:lang="it">formazione post diploma</ns2:keyword>
+    <ns2:keyword xml:lang="it">offerta formativa</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.4"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.3.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/E03K9O"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.1"/>
+    <ns3:hasCriterion rdf:resource="cr/b82aed24-9719-44f1-921b-65b3ee8d5440"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns4:hasInput rdf:resource="ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4"/>
+    <ns4:hasInput rdf:resource="ev/957b177b-2a64-4223-911c-9d2da2580b92"/>
+    <ns3:hasLegalResource rdf:resource="lr/DI-2011-8327"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2006-5"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-198"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2016-1374"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1325"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1326"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1327"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_E03K9O"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_E03K9O_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/acbc37d0-70b9-4adc-9060-4950b2e9d2f6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/E03K9O">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/E03K9O</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Iscrizione ad un percorso di istruzione o formazione, gestione del percorso</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/b82aed24-9719-44f1-921b-65b3ee8d5440">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/b82aed24-9719-44f1-921b-65b3ee8d5440</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono accedere alla valutazione in ingresso, e quindi alla successiva iscrizione al percorso scelto, coloro che sono in possesso dei seguenti requisiti:- Diploma di scuola secondaria superiore con esperienza professionale e/o formativa nel settore;- Giovani in possesso del diploma di scuola secondaria superiore con propensione al settore (per giovani si intende di norma coloro che NON hanno superato il 29° anno di età);- Persone occupate, in possesso di qualsiasi titolo di diploma di scuola secondaria superiore con propensione al settore.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Curriculum vitae formato Europass</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/957b177b-2a64-4223-911c-9d2da2580b92">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/957b177b-2a64-4223-911c-9d2da2580b92</dcterms:identifier>
+    <dcterms:title xml:lang="it">Eventuale altra documentazione e/o certificazione relativa ad altre esperienze ritenute rilevanti, soprattutto se coerenti con il percorso formativo prescelto</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DI-2011-8327">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DI-2011-8327</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto Interministeriale n. 8327 del 7 settembre 2011</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2006-5">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2006-5</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 5 del 7 agosto 2006</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-198">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-198</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 198 del 16 febbraio 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-1374">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-1374</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1374 del 19 agosto 2016</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1325">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1325</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1325 del 25 agosto 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1326">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1326</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1326 del 25 agosto 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1327">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1327</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1327 del 25 agosto 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_E03K9O">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_E03K9O</dcterms:identifier>
+    <ns7:email>dip.istruzionecultura@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497233</ns7:telephone>
+    <ns7:faxNumber>0461497252</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_E03K9O_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_E03K9O_pec</dcterms:identifier>
+    <ns7:email>dip.istruzionecultura@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/acbc37d0-70b9-4adc-9060-4950b2e9d2f6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/acbc37d0-70b9-4adc-9060-4950b2e9d2f6</dcterms:identifier>
+    <dcterms:description xml:lang="it">Per l'iscrizione alla valutazione in ingresso non sono previsti costi. La quota di iscrizione al percorso di Alta Formazione Professionale varia in base all'ISEE.</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

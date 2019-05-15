@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP2">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP2</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Segnalazione di anomalie o criticità su impianti termici o canne fumarie</dcterms:title>
+    <dcterms:description xml:lang="it">Qualsiasi persona può segnalare la possibile esistenza di anomalie sul proprio impianto termico o su impianti di terzi, situati in Provincia di Trento. In seguito alla segnalazione, i tecnici competenti provvedono a controllare sia l'impianto segnalato che quello di proprietà del soggetto che ha fatto la segnalazione. In caso di anomalie gravi, i risultati del sopralluogo vengono comunicati al sindaco del comune di appartenenza, che adotterà i provvedimenti necessari. La procedura è gestita nel rispetto delle norme vigenti in materia di privacy e garantendo l'anonimato del soggetti segnalante, al quale viene solamente comunicato l'esito della verifica effettuata sull'impianto di sua proprietà.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">impianti termici</ns1:keyword>
+    <ns1:keyword xml:lang="it">malfunzionamento</ns1:keyword>
+    <ns1:keyword xml:lang="it">comunicazione</ns1:keyword>
+    <ns1:keyword xml:lang="it">anomalia</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/F43.2.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.3.6"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <ns2:hasCompetentAuthority rdf:resource="ca/BGF0Y3"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_6.2"/>
+    <ns3:hasInput rdf:resource="ev/9d64620b-34cb-4924-9e95-bb64bdcc9521"/>
+    <ns3:hasInput rdf:resource="ev/b89d858f-873c-4935-a89e-92c39e1cfbea"/>
+    <ns2:hasLegalResource rdf:resource="lr/DPR-1993-412"/>
+    <ns2:hasLegalResource rdf:resource="lr/DPP-2015-18-20"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2017-469"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_BGF0Y3"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_BGF0Y3_pec"/>
+    <ns2:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/BGF0Y3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/BGF0Y3</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per le risorse idriche e l'energia (APRIE)</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per le risorse idriche e l'energia (APRIE)</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>piazza Fiera 3 - 38122 Trento</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_6.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_6.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio</dcterms:title>
+    <dcterms:description xml:lang="it">Gestione e manutenzione di edifici o di terreni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForAPlaceToLive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/9d64620b-34cb-4924-9e95-bb64bdcc9521">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/9d64620b-34cb-4924-9e95-bb64bdcc9521</dcterms:identifier>
+    <dcterms:title xml:lang="it">Segnalazione di anomalie o criticità</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/b89d858f-873c-4935-a89e-92c39e1cfbea">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/b89d858f-873c-4935-a89e-92c39e1cfbea</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per verificare l'esito del sopralluogo su un impianto non di proprietà: domanda di accesso ai documenti amministrativi</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPR-1993-412">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPR-1993-412</dcterms:identifier>
+    <ns5:description xml:lang="it">Decreto del Presidente della Repubblica n. 412 del 26 agosto 1993</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2015-18-20">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2015-18-20</dcterms:identifier>
+    <ns5:description xml:lang="it">Decreto del Presidente della Provincia n. 18-20/Leg del 24 Novembre 2015</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-469">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-469</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta provinciale n. 469 del 24 marzo 2017</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_BGF0Y3">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_BGF0Y3</dcterms:identifier>
+    <ns6:email>aprie@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461497310</ns6:telephone>
+    <ns6:faxNumber>0461497301</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_BGF0Y3_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_BGF0Y3_pec</dcterms:identifier>
+    <ns6:email>aprie@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

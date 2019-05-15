@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_708">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_708</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi a federazione trentina delle associazioni pro loco e loro consorzi, pro loco e loro consorzi</dcterms:title>
+    <dcterms:description xml:lang="it">Associazioni pro loco, consorzi tra pro loco e la federazione trentina delle associazioni pro loco possono richiedere un contributo per lo svolgimento delle loro attività. In particolare:- Associazioni pro loco possono richiedere un contributo per attività che valorizzino le risorse naturali, culturali e storiche delle località, attività di animazione turistica a carattere locale, iniziative di interesse turistico, ricreativo, sportivo e culturale o altre attività a carattere locale volte a favorire lo sviluppo turistico;- Consorzi tra associazioni pro loco possono richiedere un contributo per le spese di gestione e di funzionamento dei relativi uffici e per l'attività di coordinamento delle associate; sono comprese anche attività di marketing turistico-territoriale per gli ambiti non di competenza delle Apt;- La federazione trentina delle associazioni pro loco e i consorzi possono richiedere un contributo per l'attività di rappresentanza, assistenza, tutela e coordinamento dei propri federati.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">turismo</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributo</ns2:keyword>
+    <ns2:keyword xml:lang="it">pro loco</ns2:keyword>
+    <ns2:keyword xml:lang="it">promozione del territorio</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/S94.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=08.1.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4M</ns3:processingTime>
+    <dcterms:requires rdf:resource="http://www.provincia.tn.it/p_TN_705"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_705"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/294WVJ"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.1"/>
+    <ns3:hasCriterion rdf:resource="cr/3ef56d3f-ab64-44ef-b8c1-c8330eb42bd3"/>
+    <ns4:hasInput rdf:resource="ev/6655cdff-a975-41ca-be7f-1fc7933bbeaf"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2002-8"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_294WVJ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_294WVJ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_294WVJ"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/294WVJ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/294WVJ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia Autonoma di Trento - Servizio turismo e sport</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia Autonoma di Trento - Servizio turismo e sport</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Romagnosi 9 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a enti e associazioni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/3ef56d3f-ab64-44ef-b8c1-c8330eb42bd3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/3ef56d3f-ab64-44ef-b8c1-c8330eb42bd3</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda associazioni pro loco, consorzi tra pro loco e la federazione trentina delle associazioni pro loco, purché iscritte nell'apposito elenco provinciale (p_TN_705).</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/6655cdff-a975-41ca-be7f-1fc7933bbeaf">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/6655cdff-a975-41ca-be7f-1fc7933bbeaf</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per le associazioni pro loco: domanda di contributo con relazione illustrativa delle attività previste e relative spesePer la federazione trentina delle associazioni proloco e consorzi: domanda di contributo con relazione illustrativa dell’attività e piano finanziario</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2002-8">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2002-8</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 8 dell' 11 giugno 2002</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_294WVJ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_294WVJ</dcterms:identifier>
+    <ns7:email>serv.turismo@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461496535</ns7:telephone>
+    <ns7:faxNumber>0461496570</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_294WVJ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_294WVJ_pec</dcterms:identifier>
+    <ns7:email>serv.turismo@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_294WVJ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_294WVJ</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia con una delle seguenti modalità:- consegna diretta presso il Servizio turismo e sport o presso gli sportelli di assistenza ed informazione al pubblico della Provincia;- a mezzo posta mediante raccomandata con ricevuta di ritorno; ai fini dell’ammissione fa fede la data del timbro dell’ufficio postale accettante;- a mezzo fax al numero corrispondente del Servizio turismo e sport (solo per soggetti privati);- per via telematica alla casella di posta elettronica certificata del Servizio turismo e sport.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

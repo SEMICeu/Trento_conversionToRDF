@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_250">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_250</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Buoni di servizio</dcterms:title>
+    <dcterms:description xml:lang="it">Le madri lavoratrici o, in caso di famiglia monoparentale, i padri lavoratori possono richiedere dei buoni per acquisire, a fronte di un contributo finanziario personale, servizi di educazione e cura di minori con età fino a 14 anni (18 anni non compiuti in caso di handicap o altre situazioni di disagio).I Buoni di Servizio sono delle sovvenzioni individuali concesse dall'Amministrazione provinciale mediante graduatorie mensili, finalizzate a favorire la conciliazione tra impegno lavorativo/formativo e cura in ambito familiare, a sostenere e incrementare il tasso di occupazione femminile. I servizi finanziati devono essere erogati in forma complementare a quelli istituzionalmente garantiti, ad esempio per impossibilità di accedere al nido comunale, in orario extrascolastico o nei periodi di vacanza. Relativamente alla prima infanzia i Buoni possono intervenire nelle fasce orarie di apertura dei nidi comunali solo i caso di esclusione dalle graduatorie di ammissione o di assenza di strutture comunali o intercomunali, o fino a chiusura dell'anno educativo.È possibile richiedere fino a tre Buoni nell’arco dell’anno solare (cinque in caso di uso esclusivo per servizi rivolti ai bambini di età inferiore ai 3 anni).Ogni Buono può avere un valore nominale massimo compreso tra i 900 e i 1.500 euro a seconda del reddito e del patrimonio familiare, attestato da un CAF tramite l’apposita Domanda ICEF per Buoni di Servizio.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">buoni</ns2:keyword>
+    <ns2:keyword xml:lang="it">servizio</ns2:keyword>
+    <ns2:keyword xml:lang="it">voucher</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoratore</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoratrice</ns2:keyword>
+    <ns2:keyword xml:lang="it">genitori</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M15D</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/HKGI1F"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/b52c7fac-2df4-4185-afb4-92e2b644c9c3"/>
+    <ns4:hasInput rdf:resource="ev/177940fc-9bba-4218-a160-243416f895ce"/>
+    <ns4:hasInput rdf:resource="ev/65cae852-c9ae-470f-b2e9-75a3580d51e2"/>
+    <ns4:hasInput rdf:resource="ev/b7ef2b07-c104-4578-82be-0b50bf09e9d4"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-578"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-2147"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-322"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_HKGI1F_ad_personam"/>
+    <ns3:hasChannel rdf:resource="ch/CH_HKGI1F_buoniservizio"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:hasCost rdf:resource="hc/9f744d54-a6e0-427a-ab55-2f669f2efabf"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_250"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/HKGI1F">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/HKGI1F</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio Europa</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio Europa</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/b52c7fac-2df4-4185-afb4-92e2b644c9c3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/b52c7fac-2df4-4185-afb4-92e2b644c9c3</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono richiedere i buoni di servizio:- le donne occupate o che stiano per entrare/rientrare nel mercato del lavoro, o coinvolte in forme e/o azioni di espulsione dal mercato del lavoro inserite in percorsi di formazione-riqualificazione finalizzati alla ricerca attiva di occupazione. In caso di nucleo biparentale entrambi i genitori devono essere occupati;- gli uomini appartenenti a nuclei familiari monoparentali, occupati o che stiano per rientrare nel mercato del lavoro, o coinvolti in forme e/o azioni di espulsione dal mercato del lavoro inseriti in percorsi di formazione/ riqualificazione finalizzati alla ricerca attiva di occupazione;- le lavoratrici o i lavoratori con minori in affido.I richiedenti devono essere residenti o domiciliati per lavoro in provincia di Trento, avere uno o più figli di età fino a 14 anni nel proprio nucleo familiare, non beneficiare di altri sussidi economici o azioni di supporto erogati allo stesso titolo da altri Enti pubblici e avere una condizione economica al di sotto delle soglie limite stabilite sulla base dell’indicatore ICEF.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/177940fc-9bba-4218-a160-243416f895ce">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/177940fc-9bba-4218-a160-243416f895ce</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della Domanda ICEF per Buoni di Servizio</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/65cae852-c9ae-470f-b2e9-75a3580d51e2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/65cae852-c9ae-470f-b2e9-75a3580d51e2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetti di Erogazione del Servizio in originale, rilasciati dagli Enti Erogatori accreditati</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/b7ef2b07-c104-4578-82be-0b50bf09e9d4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/b7ef2b07-c104-4578-82be-0b50bf09e9d4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta di Buono di Servizio</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-578">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-578</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 578 del 13 aprile 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-2147">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-2147</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 2147 del 14 dicembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-322">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-322</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 322 del 2 marzo 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_HKGI1F_ad_personam">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_HKGI1F_ad_personam</dcterms:identifier>
+    <ns7:email>adpersonam.fse@provincia.tn.it</ns7:email>
+    <ns7:telephone>800 163 870</ns7:telephone>
+    <ns7:faxNumber>0461390707</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_HKGI1F_buoniservizio">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_HKGI1F_buoniservizio</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda si compila online sul sito https://www.fse2.provincia.tn.it/Trento_FSE/WebLogin_individuali/index.php, previa regisrazione. Successivamente è necessario stamparla, firmalrla e consegnarla alla Struttura Multifunzionale Territoriale Ad Personam corredata di tutti gli allegati previsti.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/9f744d54-a6e0-427a-ab55-2f669f2efabf">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/9f744d54-a6e0-427a-ab55-2f669f2efabf</dcterms:identifier>
+    <dcterms:description xml:lang="it">Contributo finanziario personale pari ad almeno il 15-20% del valore nominale del buono, in funzione dell'età del minore</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_250">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_250</dcterms:identifier>
+    <dcterms:title xml:lang="it">Buoni di servizio</dcterms:title>
+    <ns2:landingPage rdf:resource="https://fse.provincia.tn.it/Opportunita-per-le-persone/Buoni-di-servizio-per-la-conciliazione-tra-lavoro-e-famiglia"/>
+  </rdf:Description>
+</rdf:RDF>

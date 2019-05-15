@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP19">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP19</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Euregio Family Pass (Family card)</dcterms:title>
+    <dcterms:description xml:lang="it">I genitori con almeno un figlio minore possono richiedere l'EuregioFamilyPass, una carta che offre agevolazioni e riduzioni per beni e servizi a famiglie residenti, valida in tutto il territorio dell’Euregio (Trentino-Alto Adige-Tirolo).</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">servizi</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">minori</ns2:keyword>
+    <ns2:keyword xml:lang="it">card</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/EHGQO1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/795566c7-1b7c-4bd7-9acd-b95569cb765d"/>
+    <ns4:hasInput rdf:resource="ev/ed428148-c6d0-4c81-8f98-3d848fcdf568"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2016-2267"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1872"/>
+    <ns4:produces rdf:resource="ou/output_obj"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/EHGQO1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/EHGQO1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Grazioli 1 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/795566c7-1b7c-4bd7-9acd-b95569cb765d">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/795566c7-1b7c-4bd7-9acd-b95569cb765d</dcterms:identifier>
+    <dcterms:title xml:lang="it">La carta può essere richiesta da ogni genitore con almeno un figlio minore di 18 anni, residente in Trentino.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ed428148-c6d0-4c81-8f98-3d848fcdf568">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ed428148-c6d0-4c81-8f98-3d848fcdf568</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di emissione della carta</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-2267">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-2267</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2267 del 16 dicembre 2016</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1872">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1872</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1872 del 16 novembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_obj">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_obj</dcterms:identifier>
+    <dcterms:title xml:lang="it">Tessere, card</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/PhysicalObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1</dcterms:identifier>
+    <ns7:email>agenziafamiglia@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461494110</ns7:telephone>
+    <ns7:telephone>0461494112</ns7:telephone>
+    <ns7:faxNumber>0461494111</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1_pec</dcterms:identifier>
+    <ns7:email>agenziafamiglia@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

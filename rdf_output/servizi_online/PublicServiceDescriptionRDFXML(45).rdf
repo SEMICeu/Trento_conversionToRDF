@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP28">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP28</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Consultazione dei dati relativi alle dichiarazioni ICEF e alle domande di agevolazioni collegate</dcterms:title>
+    <dcterms:description xml:lang="it">Coloro che hanno compilato la dichiarazione ICEF (indicatore della condizione economica familiare) presso un CAAF o uno sportello abilitato, possono visualizzare la propria dichiarazione. E' inoltre possibile visualizzare le domande di agevolazioni pubbliche presentate, alle quali si accede dopo il calcolo dell'indicatore.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">dichiarazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">condizione economica familiare</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributi</ns2:keyword>
+    <ns2:keyword xml:lang="it">ICEF</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP3"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP5"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP6"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/RD5LE1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_RD5LE1"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_RD5LE1_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/RD5LE1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/RD5LE1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio supporto alla Direzione generale</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio supporto alla Direzione generale</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>piazza Dante 15 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_RD5LE1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_RD5LE1</dcterms:identifier>
+    <ns6:email>serv.supportodirezionegeneraleICT@provincia.tn.it</ns6:email>
+    <ns6:telephone>0461491242</ns6:telephone>
+    <ns6:telephone>0461492626</ns6:telephone>
+    <ns6:faxNumber>0461491243</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_RD5LE1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_RD5LE1_pec</dcterms:identifier>
+    <ns6:email>serv.supportodirezionegeneraleICT@pec.provincia.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

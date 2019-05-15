@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP15">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP15</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Iscrizione all'Elenco Telematico delle Imprese</dcterms:title>
+    <dcterms:description xml:lang="it">Le imprese interessate possono iscriversi all'Elenco telematico unificato degli Enti della Provincia Autonoma di Trento o aggiornare i dati già inseriti in tale elenco, che viene utilizzato ai fini della selezione delle imprese da invitare a procedura negoziata di lavori senza previa pubblicazione del bando di gara e alle procedure di affidamento di spese in economia. Per effettuare le predette procedure negoziate e le procedure di affidamento di spese in economia viene utilizzata la piattaforma e-procurement http://www.mercurio.provincia.tn.it; i soggetti iscritti nell'elenco telematico sono automaticamente registrati sulla piattaforma, qualora non già in possesso delle credenziali di accesso alla stessa.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">appalti</ns2:keyword>
+    <ns2:keyword xml:lang="it">contratti</ns2:keyword>
+    <ns2:keyword xml:lang="it">gare</ns2:keyword>
+    <ns2:keyword xml:lang="it">procedure</ns2:keyword>
+    <ns2:keyword xml:lang="it">affidamento</ns2:keyword>
+    <ns2:keyword xml:lang="it">bandi</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=01.3.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.9.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP16"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP17"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP8"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/3W5EYR"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.5"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.5.1"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.7.1"/>
+    <ns4:hasInput rdf:resource="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1993-26"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPP-2012-9-84"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPP-2015-17-31"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_3W5EYR"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_3W5EYR_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/3W5EYR">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/3W5EYR</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per gli appalti e i contratti (APAC)</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per gli appalti e i contratti (APAC)</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Dogana, 8 - 38122 Trento (TN)</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.5">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.5</dcterms:identifier>
+    <dcterms:title xml:lang="it">Partecipazione ad appalti pubblici nazionali e trasfrontalieri</dcterms:title>
+    <dcterms:description xml:lang="it">Partecipazione ad appalti e gare pubblici, fornitura di beni e servizi alle pubbliche amministrazioni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/ParticipatingInPublicProcurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.5.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.5.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Avvio nuova attività professionale</dcterms:title>
+    <dcterms:description xml:lang="it">Inserimento dell'ente/organizzazione/azienda in specifiche liste o elenchi (anche non obbligatori)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/StartingANewActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.7.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.7.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Avvio nuova attività professionale</dcterms:title>
+    <dcterms:description xml:lang="it">Inserimento dell'ente/organizzazione/azienda in specifiche liste o elenchi (anche non obbligatori)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/StartingANewActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/4dfac0ed-63e4-4193-b1f2-62d8fb0177ee</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di iscrizione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1993-26">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1993-26</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 26 del 10 settembre 1993</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2012-9-84">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2012-9-84</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Provincia n. 9-84/Leg dell' 11 maggio 2012</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2015-17-31">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2015-17-31</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Provincia n. 17-31/Leg del 20 ottobre 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_3W5EYR">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_3W5EYR</dcterms:identifier>
+    <ns7:email>apac@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461496494</ns7:telephone>
+    <ns7:faxNumber>0461496422</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_3W5EYR_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_3W5EYR_pec</dcterms:identifier>
+    <ns7:email>apac@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP55">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP55</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Borsa di studio per la frequenza di percorsi di istruzione e formazione all'estero durante il III o IV anno, in Paesi extra UE</dcterms:title>
+    <dcterms:description xml:lang="it">Gli studenti che frequentano la seconda o la terza classe della scuola secondaria di secondo grado possono richiedere una di borsa di studio per frequentare il III o IV anno in un Paese non appartenente all'Unione Europea.Questo intervento è proposto annualmente mediante specifico bando. La borsa di studio non è cumulabile con altre borse di studio o analoghi benefici erogati per la medesima finalità dalla Provincia o da altri enti pubblici.Il percorso scolastico può avere una durata annuale (intero anno scolastico per un minimo di 240 giorni) o parziale (per un periodo minimo di 110 giorni) e la sua organizzazione è a carico dello studente e della sua famiglia.La concessione della borsa di studio è vincolata alla regolare frequenza del percorso scolastico all’estero e al conseguimento di una complessiva valutazione finale positiva di merito rilasciata dall’istituto estero.La borsa di studio viene erogata in due rate, secondo le modalità stabilite nel bando.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">borsa di studio</ns2:keyword>
+    <ns2:keyword xml:lang="it">estero</ns2:keyword>
+    <ns2:keyword xml:lang="it">studenti</ns2:keyword>
+    <ns2:keyword xml:lang="it">extra UE</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/W05601"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/144a4b94-a320-4890-b2b2-959cdc7c2558"/>
+    <ns4:hasInput rdf:resource="ev/3401678a-12aa-42fe-a5b4-5a8707c67ef5"/>
+    <ns4:hasInput rdf:resource="ev/97e93bb2-c176-4a22-aa6a-a4ffefac0753"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-2055"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1515"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1794"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2019-115"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_W05601_trilingue1"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/W05601">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/W05601</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/144a4b94-a320-4890-b2b2-959cdc7c2558">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/144a4b94-a320-4890-b2b2-959cdc7c2558</dcterms:identifier>
+    <dcterms:title xml:lang="it">Lo studente deve possedere i seguenti requisiti:- essere residente in provincia di Trento e frequentare nell’anno scolastico precedente la partenza le classi seconda o terza del secondo ciclo di istruzione in istituti scolastici italiani;- avere un’età non superiore a 20 anni non compiuti alla data di scadenza di presentazione della domanda;- requisiti di merito indicati nel bando- condizione economica familiare (ICEF) indicata nel bando- aver conseguito nell’anno scolastico precedente la partenza la promozione alla classe successiva senza debiti formativi.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/3401678a-12aa-42fe-a5b4-5a8707c67ef5">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/3401678a-12aa-42fe-a5b4-5a8707c67ef5</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di borsa di studio</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/97e93bb2-c176-4a22-aa6a-a4ffefac0753">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/97e93bb2-c176-4a22-aa6a-a4ffefac0753</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gli studenti frequentanti istituti scolastici NON TRENTINI devono allegare alla domanda:- copia del documento valutazione finale della classe frequentata nell’anno scolastico precedente a quello in cui si fa domanda- nel caso di promozione con un debito formativo, la copia del documento scolastico attestante l’avvenuto recupero del debito stesso.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-2055">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-2055</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 2055 del 29 novembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1515">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1515</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1515 del 22 settembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1794">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1794</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1794 del 03 novembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2019-115">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2019-115</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 115 del 1 febbraio 2019</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461491377</ns7:telephone>
+    <ns7:faxNumber>0461493521</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601_pec</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_W05601_trilingue1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_W05601_trilingue1</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia con una delle seguenti modalità:- consegna diretta presso il Istruzione e formazione del secondo grado, università e ricerca – Ufficio programmazione e gestione della secondaria e formazione professionale o presso gli sportelli di assistenza ed informazione al pubblico della Provincia;- a mezzo posta mediante raccomandata con ricevuta di ritorno; ai fini dell’ammissione fa fede la data di ricezione della domanda da parte del Servizio Istruzione e formazione del secondo grado, università e ricerca - Ufficio Programmazione e gestione della secondaria e formazione professionale;- a mezzo fax al numero 0461 493521 (in tale caso farà fede la data di trasmissione dello stesso);- per via telematica alla casella di posta elettronica trentino.trilingue@pec.provincia.tn.it</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP55">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP55</dcterms:identifier>
+    <dcterms:title xml:lang="it">Borsa di studio per la frequenza di percorsi di istruzione e formazione all'estero durante il III o IV anno, in Paesi extra UE</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Borsa-di-studio-per-la-frequenza-del-terzo-o-quarto-anno-all-estero-in-Paesi-extra-Unione-Europea-a.-s.-2019-2020"/>
+  </rdf:Description>
+</rdf:RDF>

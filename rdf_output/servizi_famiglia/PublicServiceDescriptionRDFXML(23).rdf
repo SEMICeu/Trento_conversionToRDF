@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP47">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP47</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Tariffa agevolata per il servizio di trasporto alunni</dcterms:title>
+    <dcterms:description xml:lang="it">I bambini/ragazzi frequentanti le scuole dell’infanzia, le scuole primarie e secondarie (di primo e secondo grado), centri di formazione professionale, nonché centri socio-educativi possono usufruire del servizio di trasporto pianificato dalla provincia autonoma di Trento a tariffa agevolata. La tariffa viene calcolata in base alla condizione economico-patrimoniale della famiglia richiedente, secondo il modello provinciale ICEF (Indicatore della Condizione Economica Familiare). In assenza di questa attestazione sarà applicata la tariffa massima. Il trasporto per il terzo figlio (e più) è gratuito così come per le famiglie che beneficiano del minimo vitale.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">trasporto</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">ragazzi</ns2:keyword>
+    <ns2:keyword xml:lang="it">scuolabus</ns2:keyword>
+    <ns2:keyword xml:lang="it">tariffe</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni tariffarie</ns2:keyword>
+    <ns2:keyword xml:lang="it">alunni</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.6.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/0OK0PZ"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns4:hasInput rdf:resource="ev/c0964c4a-691f-4e28-80dc-5321ea254a07"/>
+    <ns4:hasInput rdf:resource="ev/baba7e81-d717-4c9b-ab53-e39020bed68c"/>
+    <ns4:hasInput rdf:resource="ev/654e03b3-f2df-4b0e-9ca2-6c4c831cb5b2"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1993-16"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-1600"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2010-2991"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_0OK0PZ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_0OK0PZ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_0OK0PZ_trasporto2"/>
+    <ns3:hasCost rdf:resource="hc/9ca652e8-d5db-49f6-98c1-996bee589aec"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/0OK0PZ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/0OK0PZ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio Trasporti Pubblici</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio Trasporti Pubblici</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Piazza Dante 6 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c0964c4a-691f-4e28-80dc-5321ea254a07">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c0964c4a-691f-4e28-80dc-5321ea254a07</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione ICEF (Indicatore della Condizione Economica Familiare)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/baba7e81-d717-4c9b-ab53-e39020bed68c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/baba7e81-d717-4c9b-ab53-e39020bed68c</dcterms:identifier>
+    <dcterms:title xml:lang="it">Lettera di ammissione al trasporto istituito (se richiesto trasporto speciale)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/654e03b3-f2df-4b0e-9ca2-6c4c831cb5b2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/654e03b3-f2df-4b0e-9ca2-6c4c831cb5b2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Tessera smart card con foto (se richiesto trasporto di linea)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1993-16">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1993-16</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 16 del 9 luglio 1993</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-1600">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-1600</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1600 del 15 settembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2010-2991">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2010-2991</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2991 del 23 dicembre 2010</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_0OK0PZ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_0OK0PZ</dcterms:identifier>
+    <ns7:email>serv.trasporti@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497980</ns7:telephone>
+    <ns7:faxNumber>0461497940</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_0OK0PZ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_0OK0PZ_pec</dcterms:identifier>
+    <ns7:email>serv.trasporti@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_0OK0PZ_trasporto2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_0OK0PZ_trasporto2</dcterms:identifier>
+    <dcterms:description xml:lang="it">La documentazione richiesta va presentata direttamente presso gli Sportelli delle Casse Rurali Trentine per il pagamento e caricamento della smart card (se previsto).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/9ca652e8-d5db-49f6-98c1-996bee589aec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/9ca652e8-d5db-49f6-98c1-996bee589aec</dcterms:identifier>
+    <dcterms:description xml:lang="it">La presentazione della domanda non comporta costi. I costi per il servizio mensa dipendono dalla capacità economica familiare determinata attraverso il coefficiente ICEF.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP47">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP47</dcterms:identifier>
+    <dcterms:title xml:lang="it">Tariffa agevolata per il servizio di trasporto alunni</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.trasporti.provincia.tn.it/Trasporto_scolastico/pagina5.html"/>
+  </rdf:Description>
+</rdf:RDF>

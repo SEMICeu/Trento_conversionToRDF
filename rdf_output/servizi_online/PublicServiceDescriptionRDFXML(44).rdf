@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP27">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP27</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Consultazione dei dati relativi all'impianto termico delle abitazioni</dcterms:title>
+    <dcterms:description xml:lang="it">Gli interessati possono consultare i dati che descrivono la situazione dell'impianto termico della loro abitazione o di qualsiasi impianto termico di cui siano responsabili (ad es. in qualità di locatore), monitorandone le eventuali modifiche o manutenzioni.VALUTARE: a questo punto si può ettere direttamente: "i proprietari"</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">dati</ns2:keyword>
+    <ns2:keyword xml:lang="it">catasto</ns2:keyword>
+    <ns2:keyword xml:lang="it">impianto termico</ns2:keyword>
+    <ns2:keyword xml:lang="it">caldaia</ns2:keyword>
+    <ns2:keyword xml:lang="it">manutenzione</ns2:keyword>
+    <ns2:keyword xml:lang="it">catasto degli impianti termici</ns2:keyword>
+    <ns2:keyword xml:lang="it">abitazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">SIRE</ns2:keyword>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.3.6"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP2"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP14"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/BGF0Y3"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_6.2"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/BGF0Y3">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/BGF0Y3</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per le risorse idriche e l'energia (APRIE)</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per le risorse idriche e l'energia (APRIE)</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>piazza Fiera 3 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_6.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_6.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio</dcterms:title>
+    <dcterms:description xml:lang="it">Gestione e manutenzione di edifici o di terreni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForAPlaceToLive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

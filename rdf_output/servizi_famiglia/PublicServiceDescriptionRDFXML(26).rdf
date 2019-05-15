@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP50">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP50</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Tariffa agevolata per il servizio di mensa scolastica</dcterms:title>
+    <dcterms:description xml:lang="it">Gli alunni delle scuole dell’infanzia e gli studenti del primo e del secondo ciclo di istruzione e formazione che frequentano attività didattiche curricolari pomeridiane possono accedere al servizio di mensa con agevolazioni tariffarie stabilite sulla base dell'ICEF.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">mensa</ns2:keyword>
+    <ns2:keyword xml:lang="it">agevolazioni tariffarie</ns2:keyword>
+    <ns2:keyword xml:lang="it">ICEF</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">ragazzi</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.6.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/E03K9O"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/1b306561-7c72-4464-b8b4-e526dbc3438c"/>
+    <ns4:hasInput rdf:resource="ev/c0964c4a-691f-4e28-80dc-5321ea254a07"/>
+    <ns4:hasInput rdf:resource="ev/0d9e385d-fd2c-4c9b-9c61-20af89753ebb"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2006-5"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-1207"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPP-2007-24-104"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_OUG4Y7"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_OUG4Y7_pec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_E03K9O_mensa"/>
+    <ns3:hasCost rdf:resource="hc/9ca652e8-d5db-49f6-98c1-996bee589aec"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/E03K9O">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/E03K9O</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Dipartimento istruzione e cultura</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/1b306561-7c72-4464-b8b4-e526dbc3438c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/1b306561-7c72-4464-b8b4-e526dbc3438c</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono accedere al servizio alunni frequentanti le scuole dell’infanzia provinciali ed equiparate; studenti del primo e del secondo ciclo di istruzione e formazione che abbiano rientri pomeridiani per lo svolgimento di attività didattiche curricolari; studenti convittori possono usufruire del servizio di mensa anche per il pasto serale.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c0964c4a-691f-4e28-80dc-5321ea254a07">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c0964c4a-691f-4e28-80dc-5321ea254a07</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione ICEF (Indicatore della Condizione Economica Familiare)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/0d9e385d-fd2c-4c9b-9c61-20af89753ebb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/0d9e385d-fd2c-4c9b-9c61-20af89753ebb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda unica per il conseguimento delle agevolazioni tariffarie per il diritto allo studio e la prima infanzia</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2006-5">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2006-5</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 5 del 7 agosto 2006</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-1207">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-1207</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1207 del 28 luglio 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2007-24-104">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2007-24-104</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Provincia n. 24-104/Leg. del 5 novembre 2007</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7</dcterms:identifier>
+    <ns7:email>serv.istruzione@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497218</ns7:telephone>
+    <ns7:faxNumber>0461497216</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7_pec</dcterms:identifier>
+    <ns7:email>serv.istruzione@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461491377</ns7:telephone>
+    <ns7:faxNumber>0461493521</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601_pec</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_E03K9O_mensa">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_E03K9O_mensa</dcterms:identifier>
+    <dcterms:description xml:lang="it">Ai fini della riduzione della tariffa mensa è necessario presentare annualmente, presso un Centro di Assistenza Fiscale (CAF) convenzionato, la “Domanda unica per il conseguimento delle agevolazioni tariffarie per il diritto allo studio e la prima infanzia”.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/9ca652e8-d5db-49f6-98c1-996bee589aec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/9ca652e8-d5db-49f6-98c1-996bee589aec</dcterms:identifier>
+    <dcterms:description xml:lang="it">La presentazione della domanda non comporta costi. I costi per il servizio mensa dipendono dalla capacità economica familiare determinata attraverso il coefficiente ICEF.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP50">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP50</dcterms:identifier>
+    <dcterms:title xml:lang="it">Tariffa agevolata per il servizio di mensa scolastica</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Mensa-scolastica"/>
+  </rdf:Description>
+</rdf:RDF>

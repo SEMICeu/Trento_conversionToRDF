@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP36">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP36</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Adesione ad un distretto famiglia</dcterms:title>
+    <dcterms:description xml:lang="it">Le organizzazioni, di qualsiasi settore, che si occupano di tematiche familiari o intendono promuovere il benessere delle famiglie nel territorio possono aderire ad un distretto famiglia. Un distretto famiglia è una rete composta dalle forze sociali, economiche, culturali e ambientali che operano nelle comunità locali e scelgono di costruire insieme iniziative, servizi e politiche orientate al benessere delle famiglie. Le organizzazioni aderenti costituiscono una rete di soggetti del pubblico, del privato e del terzo settore che collaborano a progetti, condividono risorse ed esperienze e si sostengono a vicenda. Con l’ingresso nel distretto famiglia, un’organizzazione guadagna l’accesso a una piattaforma con la quale si sperimentano nuove politiche, nuovi modelli organizzativi e di welfare. Un’amministrazione pubblica, un’associazione, una cooperativa o un’azienda trovano vantaggio nell’aderire perché entrano a fare parte di una rete che condivide e moltiplica risorse, scambi d’informazioni e d'idee. È un’opportunità per farsi conoscere, per realizzare in modo più efficiente i propri obiettivi e per crescere grazie al confronto diretto con le esperienze e le buone pratiche messe in campo dalle altre realtà del territorio.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">distretto</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglia</ns2:keyword>
+    <ns2:keyword xml:lang="it">territorio</ns2:keyword>
+    <ns2:keyword xml:lang="it">welfare</ns2:keyword>
+    <ns2:keyword xml:lang="it">benessere</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/EHGQO1"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.2"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.2"/>
+    <ns4:hasInput rdf:resource="ev/ed59a9b4-c0e0-4812-b086-3aa99913a60e"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2011-1"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_EHGQO1_distretto"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/EHGQO1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/EHGQO1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili (APF)</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili (APF)</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Grazioli 1 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per avviare un'attività (primo rilascio)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/NeedingAlicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per proseguire un'attività (rinnovo)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NeedingALicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ed59a9b4-c0e0-4812-b086-3aa99913a60e">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ed59a9b4-c0e0-4812-b086-3aa99913a60e</dcterms:identifier>
+    <dcterms:title xml:lang="it">Lettera di intento di adesione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2011-1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2011-1</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 1 del 2 marzo 2011</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1</dcterms:identifier>
+    <ns7:email>agenziafamiglia@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461494110</ns7:telephone>
+    <ns7:telephone>0461494112</ns7:telephone>
+    <ns7:faxNumber>0461494111</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1_pec</dcterms:identifier>
+    <ns7:email>agenziafamiglia@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_EHGQO1_distretto">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_EHGQO1_distretto</dcterms:identifier>
+    <dcterms:description xml:lang="it">Per aderire a un distretto famiglia territoriale, tematico o Family Audit, un'organizzazione interessata deve compilare il modulo di adesione e inviarlo all’Agenzia per la famiglia all'indirizzo agenziafamiglia@pec.provincia.tn.it allegando il documento d'identità del legale e il logo dell'organizzazione (se disponibile).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP36">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP36</dcterms:identifier>
+    <dcterms:title xml:lang="it">Adesione ad un distretto famiglia</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.trentinofamiglia.it/Certificazioni-e-reti/Distretti-Famiglia/Adesione-a-un-Distretto-famiglia"/>
+  </rdf:Description>
+</rdf:RDF>

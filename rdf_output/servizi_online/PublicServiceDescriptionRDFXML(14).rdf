@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_651">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_651</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Autorizzazione all'installazione o modifica degli impianti di telecomunicazione o radiodiffusione</dcterms:title>
+    <dcterms:description xml:lang="it">I soggetti che intendono installare o modificare impianti fissi di telecomunicazione o impianti di radiodiffusione sonora e televisiva sono tenuti a richiedere l'autorizzazione. Tale autorizzazione viene concessa dalla struttura provinciale competente a seguito dell'acquisizione, nell'ambito di una conferenza di servizi, dei pareri e delle valutazioni tecniche delle strutture e delle amministrazioni interessate.Tale normativa viene applicata con l'obiettivo di minimizzare l'esposizione della popolazione ai campi elettrici, magnetici ed elettromagnetici e al fine di tutelare l'ambiente e il paesaggio.Non è necessario richiedere l'autorizzazione nel caso di impianti temporanei o di impianti ad uso radioamatoriale.Non è necessario richiedere l'autorizzazione, ma occorre presentare una segnalazione di inizio attività (SCIA) per la realizzazione o la modifica di impianti fissi su strutture esistenti che soddisfino almeno una delle seguente condizioni:- i singoli impianti rispettano i requisiti di classe I della norma CEI 211-10;- la potenza complessiva dell'impianto è uguale o inferiore a 5 watt.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">radiodiffusione</ns2:keyword>
+    <ns2:keyword xml:lang="it">telecomunicazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">impianti</ns2:keyword>
+    <ns2:keyword xml:lang="it">autorizzazione</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/J61.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.6.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/S241NF"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.2"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.2"/>
+    <ns4:hasInput rdf:resource="ev/0cef61a7-dd39-4ea1-8530-2eb5a16bb2e4"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1997-9"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPP-2012-25-100"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-2325"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_S241NF"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_S241NF_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_S241NF_tele"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:hasCost rdf:resource="hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/S241NF">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/S241NF</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia Autonoma di Trento - Servizio autorizzazioni e valutazioni ambientali</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia Autonoma di Trento - Servizio autorizzazioni e valutazioni ambientali</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Mantova 16 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per avviare un'attività (primo rilascio)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/NeedingAlicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per proseguire un'attività (rinnovo)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NeedingALicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/0cef61a7-dd39-4ea1-8530-2eb5a16bb2e4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/0cef61a7-dd39-4ea1-8530-2eb5a16bb2e4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per gli interventi che necessitano di autorizzazione: domanda di autorizzazione con allegati previstiPer gli interventi che non richiedono autorizzazione: segnalazione certificata di inizio attività (SCIA)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1997-9">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1997-9</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n.9 del 28 aprile 1997</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2012-25-100">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2012-25-100</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Provincia n. 25-100/Leg. del 20 dicembre 2012</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-2325">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-2325</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2325 del 28 dicembre 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_S241NF">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_S241NF</dcterms:identifier>
+    <ns7:email>serv.autvalamb@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497700</ns7:telephone>
+    <ns7:faxNumber>0461497757</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_S241NF_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_S241NF_pec</dcterms:identifier>
+    <ns7:email>serv.autvalamb@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_S241NF_tele">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_S241NF_tele</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia con una delle seguenti modalità:- consegna diretta presso il Servizio autorizzazioni e valutazioni ambientali o presso gli sportelli di assistenza ed informazione al pubblico della Provincia;- a mezzo posta mediante raccomandata con ricevuta di ritorno; ai fini dell’ammissione fa fede la data del timbro dell’ufficio postale accettante;- a mezzo fax al numero corrispondente del Servizio autorizzazioni e valutazioni ambientali (solo per soggetti privati);- per via telematica alla casella di posta elettronica certificata del Servizio autorizzazioni e valutazioni ambientali.Nel caso in cui le richieste di realizzazione di nuove strutture destinate ad ospitare impianti fissi di telecomunicazione riguardino siti sensibili, le domande sono presentate per il tramite del comune territorialmente competente.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c</dcterms:identifier>
+    <dcterms:description xml:lang="it">Il soggetto che richiede il rilascio dell'autorizzazione all'installazione o alla modifica degli impianti di telecomunicazione e radiodiffusione sonora e televisiva, o che presenta a tal fine una segnalazione certificata di inizio attività, è tenuto al versamento di un contributo alle spese relative alle verifiche tecniche necessarie:- Intervento assoggettato ad autorizzazione, progetto singolo: 370 euro- Intervento assoggettato ad autorizzazione, progetto congiunto: 300 euro per ogni singolo operatore- Intervento assoggettato a SCIA, progetto singolo: 315 euro- Intervento assoggettato a SCIA, progetto congiunto: 270 euro per ogni singolo operatore</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

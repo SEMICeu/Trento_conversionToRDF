@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1652-1653">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1652-1653</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Aggiornamento del Catasto Fabbricati</dcterms:title>
+    <dcterms:description xml:lang="it">Gli intestatari di immobili oggetto di nuova costruzione, variazione (ad esempio per fusione o frazionamento, cambio di destinazione, nuova distribuzione degli spazi interni, ecc.) o voltura devono presentare un atto di aggiornamento dei dati catastali predisposto da un professionista tecnico abilitato (architetto, ingegnere, dottore agronomo e forestale, geometra, perito edile, perito agrario limitatamente ai fabbricati rurali, agrotecnico). Possono presentare la dichiarazione anche i possessori, in caso di inerzia dei titolari dei diritti reali (ad esempio espropri, cause per usucapione, mancanza di eredi)e in caso di prima iscrizione in catasto dei beni immobili. La domanda di aggiornamento va presentata per il tramite di un tecnico professionista abilitato, che opera su incarico delle imprese e dei cittadini.E' obbligatorio presentare la dichiarazione entro trenta giorni dal momento in cui i fabbricati sono divenuti abitabili o servibili all’uso cui sono destinati o comunque decorrenti dalla data di ultimazione della variazione.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">catasto</ns2:keyword>
+    <ns2:keyword xml:lang="it">fabbricati</ns2:keyword>
+    <ns2:keyword xml:lang="it">aggiornamento</ns2:keyword>
+    <ns2:keyword xml:lang="it">Docfa</ns2:keyword>
+    <ns2:keyword xml:lang="it">mappe</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/M71.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.4.3"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3M</ns3:processingTime>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_1651"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_1654"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/UHXSCJ"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.6"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_6.1"/>
+    <ns3:hasCriterion rdf:resource="cr/05e4630c-2991-4c36-81cc-e71cc9f68a6a"/>
+    <ns4:hasInput rdf:resource="ev/a83ebdf0-b105-40cf-bb4b-02bdf12f01db"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-1939-1249"/>
+    <ns3:hasLegalResource rdf:resource="lr/L-1985-17"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPR-1949-1142"/>
+    <ns3:hasLegalResource rdf:resource="lr/DM-1994-701"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_UHXSCJ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_UHXSCJ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_UHXSCJ_openkat"/>
+    <ns3:hasCost rdf:resource="hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/UHXSCJ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/UHXSCJ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio catasto</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio catasto</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Notifiche autorità</dcterms:title>
+    <dcterms:description xml:lang="it">Comunicazioni obbligatorie per lo svolgimento dell'attività</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NotifyingAndReportingToAuthorities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_6.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_6.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio</dcterms:title>
+    <dcterms:description xml:lang="it">Costruzione, ristrutturazione, acquisto o locazione di beni immobili (edifici o terreni)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForAPlaceToLive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/05e4630c-2991-4c36-81cc-e71cc9f68a6a">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/05e4630c-2991-4c36-81cc-e71cc9f68a6a</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare la documentazione i tecnici professionisti abilitati iscritti agli Ordini e Collegi Professionali.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a83ebdf0-b105-40cf-bb4b-02bdf12f01db">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a83ebdf0-b105-40cf-bb4b-02bdf12f01db</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione redatta da un tecnico professionista abilitato, predisposta con i programmi Docfa e Docfa Notai, sottoscritta dal professionista mediante apposizione della firma elettronica avanzata rilasciata da ente riconosciuto dal CNIPA – Centro nazionale per Informatica nella Pubblica Amministrazione. sottoscritta con firma digitale.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-1939-1249">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-1939-1249</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 1249 dell'11 agosto 1939</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/L-1985-17">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/L-1985-17</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge n. 17 del 17 febbraio 1985</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPR-1949-1142">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPR-1949-1142</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Repubblica n. 1142 dell'1 dicembre 1949</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DM-1994-701">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DM-1994-701</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto ministeriale n. 701 del 19 aprile 1994</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_UHXSCJ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_UHXSCJ</dcterms:identifier>
+    <ns7:email>servizio.catasto@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461491616</ns7:telephone>
+    <ns7:faxNumber>0461491617</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_UHXSCJ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_UHXSCJ_pec</dcterms:identifier>
+    <ns7:email>serv.catasto@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_UHXSCJ_openkat">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_UHXSCJ_openkat</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le richieste di aggiornamento possono essere presentate con una delle seguenti modalità:- telematicamente attraverso il portale OPENkat, previa creazione di un apposito profilo;- consegna diretta presso il Servizio catasto (solo in formato elettronico).La modalità telematica è obbligatoria per i professionisti tecnici iscritti agli Ordini e Collegi Professionali. L’utilizzo del supporto informatico da presentare presso l’ufficio competente è previsto per le seguenti categorie:- dipendenti pubblici che predispongono gli atti tecnici per conto degli enti da cui dipendono- dipendenti di cui al punto 1, che predispongono atti tecnici di aggiornamento catastale di immobili di proprietà privata, muniti di uno specifico nulla osta da parte delle amministrazioni da cui dipendono- professionisti iscritti in qualificati albi, tenuti in base alla disciplina nazionale di ciascuno Stato aderente all’Unione Europea (UE), cui è riconosciuta in Italia la possibilità di esercitare la libera prestazione di servizi con carattere di temporaneità in base al regime normativo comunitario (Direttiva 2005/36/CE)- professionisti provenienti da Stati con cui l’Italia ha accordi bilaterali in cui sono regolamentate le professioni connesse all’ingegneria e all’architettura.Il professionista può presentare l’atto di aggiornamento presso l’ufficio competente solo in caso di malfunzionamento del servizio telematico che dovesse persistere con tempi non compatibili con le scadenze dell'adempimento. In tal caso il professionista dovrà allegare all'atto di aggiornamento un’autodichiarazione del malfunzionamento riscontrato.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/95b7ed92-3d2d-46a9-85a8-f3df0d009d0c</dcterms:identifier>
+    <dcterms:description xml:lang="it">Il soggetto che richiede il rilascio dell'autorizzazione all'installazione o alla modifica degli impianti di telecomunicazione e radiodiffusione sonora e televisiva, o che presenta a tal fine una segnalazione certificata di inizio attività, è tenuto al versamento di un contributo alle spese relative alle verifiche tecniche necessarie:- Intervento assoggettato ad autorizzazione, progetto singolo: 370 euro- Intervento assoggettato ad autorizzazione, progetto congiunto: 300 euro per ogni singolo operatore- Intervento assoggettato a SCIA, progetto singolo: 315 euro- Intervento assoggettato a SCIA, progetto congiunto: 270 euro per ogni singolo operatore</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

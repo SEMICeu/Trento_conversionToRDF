@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1586">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1586</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Indennita' di sostegno al reddito - reddito di qualificazione</dcterms:title>
+    <dcterms:description xml:lang="it">Giovani lavoratori con meno di 36 anni, che, in accordo con il datore di lavoro, sospendono o riducono di almeno il 50% l’attività lavorativa per acquisire un titolo di studio del secondo ciclo del sistema educativo di istruzione e formazione (es. diploma professionale, diploma di scuola secondaria, diploma di laurea, master, dottorato di ricerca, ecc...) possono richiedere un sostegno economico.Nel caso di sospensione totale dell’attività lavorativa l’entità del reddito di qualificazione è pari ad € 600,00 mensili; tale importo viene ridotto proporzionalmente in caso di sospensione parziale dell’orario lavorativo.L’indennità è erogata per la durata massima di:- 8 mesi per ciascun anno scolastico nel caso di percorsi finalizzati all'acquisizione di un titolo di studio del secondo ciclo del sistema educativo di istruzione e formazione;- 6 mesi complessivi nel caso di percorsi finalizzati all’acquisizione di un diploma di laurea o di un titolo di alta formazione.L’indennità è erogata a condizione che l’anno scolastico sia superato con successo o, nel caso di percorsi universitari, che sia raggiunto un numero minimo di crediti formativi stabilito nel bando.L’indennità è riconosciuta anche per la frequenza di percorsi serali. L’indennità è cumulabile con altre borse di studio ma non con altri sostegni al reddito.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">contributo</ns2:keyword>
+    <ns2:keyword xml:lang="it">sostegno</ns2:keyword>
+    <ns2:keyword xml:lang="it">giovani</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoratori</ns2:keyword>
+    <ns2:keyword xml:lang="it">studio</ns2:keyword>
+    <ns2:keyword xml:lang="it">titolo di studio</ns2:keyword>
+    <ns2:keyword xml:lang="it">laurea</ns2:keyword>
+    <ns2:keyword xml:lang="it">diploma</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.3"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.4"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.2.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.3.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.4.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/a1354962-b03c-43ca-9023-4a6312e7f0ab"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-24B"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1586"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/a1354962-b03c-43ca-9023-4a6312e7f0ab">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/a1354962-b03c-43ca-9023-4a6312e7f0ab</dcterms:identifier>
+    <dcterms:title xml:lang="it">Il giovane lavoratore deve:- avere età inferiore ai 36 anni;- essere domiciliato in provincia di Trento e avere un rapporto di lavoro subordinato con un datore di lavoro privato con sede operativa in provincia di Trento oppure essere residente in provincia di Trento;- essere iscritto ad un istituto o ad università autorizzati al rilascio di titoli di studio riconosciuti legalmente.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-24B">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-24B</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 24.B</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia autonoma di Trento con una delle seguenti modalità:- consegna a mano all'Agenzia del Lavoro;- a mezzo posta mediante raccomandata con ricevuta di ritorno indirizzata all'Agenzia del Lavoro;- a mezzo fax al numero corrispondente all'Agenzia del Lavoro;- per via telematica alla casella di posta elettronica certificata dell'Agenzia del Lavoro.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1586">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1586</dcterms:identifier>
+    <dcterms:title xml:lang="it">Indennita' di sostegno al reddito - reddito di qualificazione</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Il-reddito-di-qualificazione"/>
+  </rdf:Description>
+</rdf:RDF>

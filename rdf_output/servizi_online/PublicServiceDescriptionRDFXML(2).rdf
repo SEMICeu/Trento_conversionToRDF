@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_595">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_595</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">abilitazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">prodotti fitosanitari</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/A1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.2.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</ns3:processingTime>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_593"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_596"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/002ISQ"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.2"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/48d5d07f-86d5-4e42-94e7-176f10ba1b92"/>
+    <ns4:hasInput rdf:resource="ev/71386729-15f4-4c7c-8515-d57f23a77f0c"/>
+    <ns3:hasLegalResource rdf:resource="lr/DL-2012-150"/>
+    <ns3:hasLegalResource rdf:resource="lr/DI-2014-22-01"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2017-26"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_002ISQ"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_002ISQ_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_002ISQ"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/002ISQ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/002ISQ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia Autonoma di Trento - Servizio agricoltura</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia Autonoma di Trento - Servizio agricoltura</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Trener 3 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per avviare un'attività (primo rilascio)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/NeedingAlicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Richiesta licenze/permessi/certificati</dcterms:title>
+    <dcterms:description xml:lang="it">Abilitazioni, riconoscimenti professionali, licenze, autorizzazioni per proseguire un'attività (rinnovo)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NeedingALicencePermitOrCertificateToStartOrContinueAnActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/48d5d07f-86d5-4e42-94e7-176f10ba1b92">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/48d5d07f-86d5-4e42-94e7-176f10ba1b92</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda utilizzatori professionali, venditori o consulenti.Per il rilascio, i diversi soggetti devono essere in possesso dei seguenti requisiti:Utilizzatori professionali:- essere maggiorenni;- aver frequentato uno specifico corso di formazione di base o, in alternativa, essere in possesso di diploma di istruzione superiore di durata quinquennale o di laurea, anche triennale, nelle discipline agrarie e forestali, biologiche, naturali, ambientali, chimiche, farmaceutiche, mediche e veterinarie;- aver ottenuto una valutazione positiva delle conoscenze acquisite.Venditori:- essere maggiorenni;- essere in possesso di diplomi o lauree in discipline agrarie o forestali, biologiche, ambientali, chimiche, mediche e veterinarie;- aver frequentato uno specifico corso di formazione di base- aver ottenuto una valutazione positiva delle conoscenze acquisite.Consulenti:- essere maggiorenni;- essere in possesso di diplomi o lauree in discipline agrarie o forestali;- aver frequentato uno specifico corso di formazione di base o appartenere alle categorie esonerate (ispettori fitosanitari, docenti universitari, ricercatori, soggetti con esperienza lavorativa di almeno 2 anni nel settore, soggetti che hanno già frequentato un corso analogo con esito positivo)- se sussiste l'obbligo di frequentazione del corso di formazione, aver ottenuto una valutazione positiva delle conoscenze acquisite.Ai fini del rinnovo dell’abilitazione i soggetti devono essere in possesso di un'abilitazione scaduta da non più di 5 anni e aver partecipato a specifiche iniziative di aggiornamento.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/71386729-15f4-4c7c-8515-d57f23a77f0c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/71386729-15f4-4c7c-8515-d57f23a77f0c</dcterms:identifier>
+    <dcterms:title xml:lang="it">Per il primo rilascio: domanda di abilitazionePer il rinnovo: i soggetti interessati al rinnovo non devono presentare alcuna domanda; il Servizio agricoltura procede automaticamente al rinnovo dell'abilitazione dopo aver consultato gli elenchi dei soggetti che hanno frequentato i corsi di aggiornamento previsti.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DL-2012-150">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DL-2012-150</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto legislativo n. 150 del 14 agosto 2012</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DI-2014-22-01">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DI-2014-22-01</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto interministeriale del 22 gennaio 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2017-26">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2017-26</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 26 del 20 gennaio 2017</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_002ISQ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_002ISQ</dcterms:identifier>
+    <ns7:email>serv.agricoltura@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461495641</ns7:telephone>
+    <ns7:telephone>0461495921</ns7:telephone>
+    <ns7:faxNumber>0461495763</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_002ISQ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_002ISQ_pec</dcterms:identifier>
+    <ns7:email>serv.agricoltura@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_002ISQ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_002ISQ</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande devono essere presentate con una delle seguenti modalità:a) online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID);b) trasmettendo l’apposito modulo disponibile sul sito internet istituzionale della Provincia con una delle seguenti modalità:- consegna diretta presso il Servizio agricoltura o presso gli sportelli di assistenza ed informazione al pubblico della Provincia;- a mezzo posta mediante raccomandata con ricevuta di ritorno; ai fini dell’ammissione fa fede la data del timbro dell’ufficio postale accettante;- a mezzo fax al numero corrispondente del Servizio agricoltura (solo per soggetti privati);- per via telematica alla casella di posta elettronica certificata del Servizio agricoltura.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

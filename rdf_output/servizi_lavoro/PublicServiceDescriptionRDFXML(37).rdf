@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1524">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1524</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">In tandem - Progetti di conciliazione per imprenditrici e lavoratrici autonome</dcterms:title>
+    <dcterms:description xml:lang="it">Imprenditrici, lavoratrici autonome e libere professioniste possono richiedere un contributo per coprire parte del costo relativo al compenso da corrispondere alla persona che le sostituisce durante un periodo di sospensione dell'attività lavorativa per gravidanza, maternità o per dedicarsi alla cura dei figli di età inferiore ai 12 anni.Il contributo può essere richiesto una sola volta per ciascun figlio e prevede la stesura di un progetto finalizzato all'assunzione di una figura professionale che ricopra il ruolo lavorativo della persona sostituita per un periodo definito.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">figli</ns2:keyword>
+    <ns2:keyword xml:lang="it">madri lavoratrici</ns2:keyword>
+    <ns2:keyword xml:lang="it">maternità</ns2:keyword>
+    <ns2:keyword xml:lang="it">gravidanza</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.2"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/9a9a25c6-6ffc-4f64-89d4-f5a6765876d9"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/fc4d765e-ff1d-4076-9810-e97c88988545"/>
+    <ns4:hasInput rdf:resource="ev/6ab6bdc1-45f6-460d-bb5c-a160fecfdf4b"/>
+    <ns4:hasInput rdf:resource="ev/72f7d5c7-f202-4502-829c-c4c9377d131e"/>
+    <ns4:hasInput rdf:resource="ev/a99cee48-d959-4ae5-b568-b33e62290848"/>
+    <ns4:hasInput rdf:resource="ev/f4bc6b9f-35ab-44bf-8869-fb1b4b36d829"/>
+    <ns4:hasInput rdf:resource="ev/d0ccf956-4ae5-46aa-b697-9a9ebf73cd37"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-17"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_ufficiostudipml"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1524"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a imprese</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/9a9a25c6-6ffc-4f64-89d4-f5a6765876d9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/9a9a25c6-6ffc-4f64-89d4-f5a6765876d9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda:- imprenditrici, anche socie di società, con sede legale o operativa in provincia di Trento al momento della presentazione della domanda di contributo;- lavoratrici autonome che operano in provincia di Trento;- partecipanti all'impresa familiare di cui all'art. 230 bis del codice civile;- collaboratrici coordinate e continuative purché residenti in provincia di Trento al momento della presentazione della domanda.E' necessario essere in possesso dei seguenti requisiti:- essere iscritte da almeno sei mesi a un’assicurazione obbligatoria ai fini previdenziali e assistenziali;- essere in gravidanza o avere dei figli conviventi di età inferiore ai dodici anni.La persona che sostituisce la richiedente deve possedere almeno uno di questi requisiti:- essere individuata tra i nominativi inseriti nel Nuovo Registro Provinciale Co-manager;- essere iscritta ad un Ordine professionale o un Collegio professionale;- avere un titolo formale che abiliti all'esercizio dell’attività in forma di lavoro autonomo;- possedere almeno tre anni di lavoro continuativi in forma autonoma o subordinata in qualsiasi settore di attività economica esclusi i periodi di apprendistato.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/fc4d765e-ff1d-4076-9810-e97c88988545">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/fc4d765e-ff1d-4076-9810-e97c88988545</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia del contratto di lavoro dipendente o di prestazione professionale predisposto e debitamente sottoscritto dal/dalla co-manager o sostituto/a</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/6ab6bdc1-45f6-460d-bb5c-a160fecfdf4b">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/6ab6bdc1-45f6-460d-bb5c-a160fecfdf4b</dcterms:identifier>
+    <dcterms:title xml:lang="it">Piano operativo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/72f7d5c7-f202-4502-829c-c4c9377d131e">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/72f7d5c7-f202-4502-829c-c4c9377d131e</dcterms:identifier>
+    <dcterms:title xml:lang="it">Eventuale autocertificazione di appartenenza del/della figlio/a allo stato di famiglia</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a99cee48-d959-4ae5-b568-b33e62290848">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a99cee48-d959-4ae5-b568-b33e62290848</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione sostitutiva dell’atto di notorietà per gli aiuti di Stato (Reg. UE 1407/2013 - de minimis oppure Reg. UE 651/2014)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/f4bc6b9f-35ab-44bf-8869-fb1b4b36d829">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/f4bc6b9f-35ab-44bf-8869-fb1b4b36d829</dcterms:identifier>
+    <dcterms:title xml:lang="it">Se in gravidanza, certificato di gravidanza, con la data presunta del parto</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/d0ccf956-4ae5-46aa-b697-9a9ebf73cd37">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/d0ccf956-4ae5-46aa-b697-9a9ebf73cd37</dcterms:identifier>
+    <dcterms:title xml:lang="it">Qualora la richiedente sia socia di società, i soci, gli associati in partecipazione o i familiari (nel caso d’impresa familiare), devono autorizzare la sostituzione della richiedente manifestando in forma scritta tale volontà.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-17">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-17</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 17</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_ufficiostudipml">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_ufficiostudipml</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda va presentata al Centro per l'impiego di riferimento o inviata via e-mail, in formato pdf, all'indirizzo ufficiostudipml.adl@pec.provincia.tn.it, allegando copia della carta di identità del richiedente.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1524">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1524</dcterms:identifier>
+    <dcterms:title xml:lang="it">In tandem - Progetti di conciliazione per imprenditrici e lavoratrici autonome</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/IN-TANDEM-Progetti-di-conciliazione-per-imprenditrici-e-lavoratrici-autonome"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP20">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP20</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Inserimento di iniziative estive nel portale Estate Family</dcterms:title>
+    <dcterms:description xml:lang="it">Enti e Organizzazioni pubbliche e private (Associazioni, Cooperative, Comuni, Parrocchie, Società Sportive, Musei, Biblioteche, APT, Scuole, Fattorie didattiche,etc.) che propongono servizi e attività estive rivolte a bambini e ragazzi possono registrarsi ed inserire tutte le informazioni sulle attività offerte.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">ragazzi</ns2:keyword>
+    <ns2:keyword xml:lang="it">estate</ns2:keyword>
+    <ns2:keyword xml:lang="it">attività estive</ns2:keyword>
+    <ns2:keyword xml:lang="it">colonie estive</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">vacanze</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/S94"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=08.6.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/EHGQO1"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.5.1"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.7.1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns4:hasInput rdf:resource="ev/5733542b-bd22-4cd8-912c-af761579e210"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2009-1687"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2007-518"/>
+    <ns4:produces rdf:resource="ou/output_rec"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/EHGQO1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/EHGQO1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Grazioli 1 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.5.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.5.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Avvio nuova attività professionale</dcterms:title>
+    <dcterms:description xml:lang="it">Inserimento dell'ente/organizzazione/azienda in specifiche liste o elenchi (anche non obbligatori)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/StartingANewActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.7.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.7.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Avvio nuova attività professionale</dcterms:title>
+    <dcterms:description xml:lang="it">Inserimento dell'ente/organizzazione/azienda in specifiche liste o elenchi (anche non obbligatori)</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/StartingANewActivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/5733542b-bd22-4cd8-912c-af761579e210">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/5733542b-bd22-4cd8-912c-af761579e210</dcterms:identifier>
+    <dcterms:title xml:lang="it">Registrazione al portale e inserimento dei dati relativi alle attività organizzate</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2009-1687">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2009-1687</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1687 del 10 luglio 2009</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2007-518">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2007-518</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 518 del 14 marzo 2007</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_rec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_rec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Abilitazioni, iscrizioni, certificazioni, dati</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Recognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1</dcterms:identifier>
+    <ns7:email>agenziafamiglia@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461494110</ns7:telephone>
+    <ns7:telephone>0461494112</ns7:telephone>
+    <ns7:faxNumber>0461494111</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1_pec</dcterms:identifier>
+    <ns7:email>agenziafamiglia@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

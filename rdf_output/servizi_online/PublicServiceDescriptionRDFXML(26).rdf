@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP9">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP9</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Adesione al servizio civile universale provinciale</dcterms:title>
+    <dcterms:description xml:lang="it">I giovani in età compresa tra i 18 e i 28 anni possono aderire al servizio civile universale provinciale, impegnandosi in un progetto promosso da enti accreditati per periodi che vanno da 3 a 12 mesi per circa 30 ore settimanali. In tal modo possono acquisire competenze spendibili anche nel mondo del lavoro, garantendosi peraltro una minima autonomia economica (433,80 euro mensili circa).Per richiedere l'ammissione al Servizio civile Universale Provinciale, è prima di tutto necessario presentare domanda di ammissione: la domanda può essere presentata in qualunque momento e ha la durata di 12 mesi, rinnovabili al permanere dei requisiti. Successivamente è possibile, nei periodi di apertura, scegliere un progetto e candidarsi per partecipare.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">giovani</ns2:keyword>
+    <ns2:keyword xml:lang="it">servizio civile</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.3"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/S94"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_2001"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_866"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_865"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_NP18"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/EHGQO1"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_2"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_11"/>
+    <ns3:hasCriterion rdf:resource="cr/dcd86878-c7fe-44bd-8ce2-f33a7475e7b9"/>
+    <ns4:hasInput rdf:resource="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2007-5"/>
+    <ns3:hasLegalResource rdf:resource="lr/DPP-2014-12-14"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2014-2343"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-881"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2015-2144"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_EHGQO1_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_portaleservizi"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/EHGQO1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/EHGQO1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia provinciale per la famiglia, la natalità e le politiche giovanili</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Grazioli 1 - 38122 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Invalidità</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi si prende cura di un famigliare, di un parente, di un'altra persona</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/BecomingASocialTaretaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_11">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_11</dcterms:identifier>
+    <dcterms:title xml:lang="it">Accesso al servizio militare e civile</dcterms:title>
+    <dcterms:description xml:lang="it">Accesso al servizio militare e civile</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/GoingIntoMilitaryService"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/dcd86878-c7fe-44bd-8ce2-f33a7475e7b9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/dcd86878-c7fe-44bd-8ce2-f33a7475e7b9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i giovani che: - hanno un'età compresa tra 18 e 28 anni;- non hanno riportato condanne, anche non definitive, alla pena della reclusione superiore ad un anno per delitto non colposo ovvero ad una pena anche di entità inferiore per un delitto contro la persona o concernente detenzione, uso, porto, trasporto, importazione o esportazione illecita di armi o materie esplodenti ovvero per delitti riguardanti l'appartenenza o il favoreggiamento a gruppi eversivi, terroristici, o di criminalità organizzata.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a0777fd1-2e0f-466c-9150-c5dd6e5d9515</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di ammissione</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2007-5">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2007-5</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 5 del 14 febbraio 2007</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DPP-2014-12-14">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DPP-2014-12-14</dcterms:identifier>
+    <ns6:description xml:lang="it">Decreto del Presidente della Provincia n. 12-14/Leg. del 29 dicembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2014-2343">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2014-2343</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2343 del 22 dicembre 2014</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-881">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-881</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 881 del 26 maggio 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2015-2144">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2015-2144</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2144 del 27 novembre 2015</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1</dcterms:identifier>
+    <ns7:email>agenziafamiglia@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461494110</ns7:telephone>
+    <ns7:telephone>0461494112</ns7:telephone>
+    <ns7:faxNumber>0461494111</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_EHGQO1_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_EHGQO1_pec</dcterms:identifier>
+    <ns7:email>agenziafamiglia@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_portaleservizi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_portaleservizi</dcterms:identifier>
+    <dcterms:description xml:lang="it">L'accesso al servizio avviene online, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID)</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

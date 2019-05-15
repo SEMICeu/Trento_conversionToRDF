@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP44">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP44</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Tagesmutter – Nido familiare</dcterms:title>
+    <dcterms:description xml:lang="it">Le famiglie possono richiedere di affidare i bambini di età compresa tra 3 mesi e 3 anni ad una Tagesmutter, servizio complementare al nido d'infanzia. La Tagesmutter è un operatore educativo professionalmente formato che di norma lavora in casa propria o in un appartamento con caratteristiche idonee per il servizio di nido familiare. Fornisce educazione e cura in modo professionale e in collegamento con organismi della cooperazione sociale o di utilità sociale non lucrativi.La Tagesmutter, in accordo con le famiglie, si occupa della costruzione dell’identità del bambino in un piccolo gruppo e in un contesto familiare stimolante, per favorire la crescita armonica, lo sviluppo sensoriale, motorio, cognitivo ed affettivo del bambino, di cui ha la responsabilità in termini di sicurezza,  cura, benessere, igiene e sana alimentazione.Il calendario e l’orario di frequenza dei bambini vengono concordati con le famiglie. Uno dei punti di forza del servizio di Tagesmutter, infatti, è proprio la flessibilità del servizio stesso, sia in termini di orario che di modalità di erogazione, per venire incontro alle diverse esigenze dei genitori che, lavorando magari entrambi, hanno bisogno di affidare i propri figli a persone qualificate e di fiducia.Caratteristiche del servizio:- pochi posti;- stabile e continuativo nel corso dell'anno: 5/7 giorni alla settimana per 6 - 12 ore al giorno;- flessibilità di orario;- servizi di pasto e sonno;- personale educativo qualificato e annualmente aggiornato;- progetto educativo individualizzato.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">tagesmutter</ns2:keyword>
+    <ns2:keyword xml:lang="it">prima infanzia</ns2:keyword>
+    <ns2:keyword xml:lang="it">nido</ns2:keyword>
+    <ns2:keyword xml:lang="it">conciliazione famiglia-lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">madri lavoratrici</ns2:keyword>
+    <ns2:keyword xml:lang="it">buoni di servizio</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.9"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.1"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/OUG4Y7"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/4bddaa21-d5b4-4b57-9bb3-05be853cb1f8"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2002-4"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_OUG4Y7"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_OUG4Y7_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_OUG4Y7_tagesm"/>
+    <ns3:hasCost rdf:resource="hc/9ca652e8-d5db-49f6-98c1-996bee589aec"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/OUG4Y7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/OUG4Y7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio infanzia e istruzione del primo grado</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio infanzia e istruzione del primo grado</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/4bddaa21-d5b4-4b57-9bb3-05be853cb1f8">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/4bddaa21-d5b4-4b57-9bb3-05be853cb1f8</dcterms:identifier>
+    <dcterms:title xml:lang="it">Il servizio è rivolto a bambini tra i 3 mesi ai 3 anni, estendibile a bambini sino a 13 anni ma solo nei periodi e tempi extrascolastici limitatamente ai posti disponibili.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2002-4">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2002-4</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 4 del 12 marzo 2002</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7</dcterms:identifier>
+    <ns7:email>serv.istruzione@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461497218</ns7:telephone>
+    <ns7:faxNumber>0461497216</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_OUG4Y7_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_OUG4Y7_pec</dcterms:identifier>
+    <ns7:email>serv.istruzione@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_OUG4Y7_tagesm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_OUG4Y7_tagesm</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le famiglie che vogliono beneficiare del servizio di Tagesmutter devono rivolgersi ai Soggetti Gestori del servizio</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/9ca652e8-d5db-49f6-98c1-996bee589aec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/9ca652e8-d5db-49f6-98c1-996bee589aec</dcterms:identifier>
+    <dcterms:description xml:lang="it">La presentazione della domanda non comporta costi. I costi per il servizio mensa dipendono dalla capacità economica familiare determinata attraverso il coefficiente ICEF.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP44">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP44</dcterms:identifier>
+    <dcterms:title xml:lang="it">Tagesmutter – Nido familiare</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Servizio-di-Tagesmutter"/>
+  </rdf:Description>
+</rdf:RDF>

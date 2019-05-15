@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1994">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1994</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Pac – piano di accumulo capitale</dcterms:title>
+    <dcterms:description xml:lang="it">Gli studenti che intendono iscriversi all’università o agli studi post-diploma (tecnici superiori, Conservatorio e Accademia delle Belle Arti) possono richiedere un contributo per il finanziamento di tali studi. Tale contributo consiste nell’erogazione, al verificarsi di determinate condizioni (economiche e di merito), di un contributo in denaro calcolato sulla base di un accumulo di capitale effettuato da parte delle famiglie durante il percorso scolastico del/la figlio/a, e destinato alla copertura delle spese per l’istruzione terziaria accademica e non accademica. Per accedere al contributo è necessario:- aprire un libretto risparmio, un conto corrente, un PAC, polizze assicurative o fondi pensione- versare annualmente, entro il 31 agosto, una somma di denaro nper un periodo da 3 a 5 anni precedente all'iscrizione a percorsi post diploma- accumulare una somma complessiva compresa tra 3.000 e 6.000 euroLa Provincia autonoma di Trento, all'atto dell'iscrizione all'università, parteciperà al finanziamento degli studi. Il contributo è calcolato in base a quanto accumulato, all'indicatore ISEE e se lo studente è in sede o fuori sede. E' erogato in tre rate annuali: la prima alla richiesta, la seconda e la terza solo se conseguiti determinati livelli di merito.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">piano di accumulo</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributi</ns2:keyword>
+    <ns2:keyword xml:lang="it">studenti</ns2:keyword>
+    <ns2:keyword xml:lang="it">risparmio</ns2:keyword>
+    <ns2:keyword xml:lang="it">università</ns2:keyword>
+    <ns2:keyword xml:lang="it">borsa di studio</ns2:keyword>
+    <ns2:keyword xml:lang="it">diploma</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/P85.4"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.3.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=09.4.1"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/W05601"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_3.2"/>
+    <ns3:hasCriterion rdf:resource="cr/18622f24-6726-4264-96e5-e12ddefdd443"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/c381c462-82ca-46c6-948e-9a63c9d1e406"/>
+    <ns4:hasInput rdf:resource="ev/fdf4a654-628d-4d4e-ad0f-c4c6d2926c76"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2006-5"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1991-9"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2016-1923"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-2065"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-1087"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-580"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_W05601_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_W05601_pac"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1994"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/W05601">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/W05601</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio istruzione e formazione del secondo grado, università e ricerca</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 3 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_3.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_3.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Iscrizione scuola/università e/o richiesta borsa di studio</dcterms:title>
+    <dcterms:description xml:lang="it">Borse di studio e sostegno all'istruzione</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/StartingEducation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/18622f24-6726-4264-96e5-e12ddefdd443">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/18622f24-6726-4264-96e5-e12ddefdd443</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda gli sudenti che: - sono residenti anagraficamente in provincia di Trento da almeno tre anni;- sono iscritti/intendono iscriversi a percorsi di studi presso università, istituti universitari o istituti superiori di grado universitario che rilasciano titoli aventi valore legale, in tutto il territorio nazionale e all'estero e per corsi di laurea triennale, laurea a ciclo unico o iscritti presso istituti di alta formazione professionale;- hanno iniziato/effettuato l’accumulo di capitale entro il 31 agosto di ciascun anno scolastico;- non beneficiano di borsa di studio del diritto allo studio universitario o altro in ateneo nazionale o estero;- appartengono a famiglie con condizione economica ISEE maggiore di 23.000 e fino a 32.000 euro;- raggiungono i livelli di merito determinati con i bandi annuali.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/c381c462-82ca-46c6-948e-9a63c9d1e406">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/c381c462-82ca-46c6-948e-9a63c9d1e406</dcterms:identifier>
+    <dcterms:title xml:lang="it">Indicatore ISEE della famiglia</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/fdf4a654-628d-4d4e-ad0f-c4c6d2926c76">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/fdf4a654-628d-4d4e-ad0f-c4c6d2926c76</dcterms:identifier>
+    <dcterms:title xml:lang="it">Documentazione attestante l'avvenuto accumulo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2006-5">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2006-5</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 5 del 7 agosto 2006</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1991-9">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1991-9</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 9 del 24 maggio 1991</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-1923">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-1923</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1923 del 2 novembre 2016</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-2065">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-2065</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 2065 del 19 ottobre 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-1087">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-1087</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 1087 del 22 giugno 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-580">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-580</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta provinciale n. 580 del 9 aprile 2018</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461491377</ns7:telephone>
+    <ns7:faxNumber>0461493521</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_W05601_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_W05601_pec</dcterms:identifier>
+    <ns7:email>serv.istruzioneuniversitaricerca@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_W05601_pac">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_W05601_pac</dcterms:identifier>
+    <dcterms:description xml:lang="it">La domanda va presentata presso l’Ufficio Università e ricerca della Provincia autonoma di Trento successivamente all’immatricolazione. Annualmente viene pubblicato un avviso con le modalità e le scadenze per inoltrare la richiesta.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1994">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1994</dcterms:identifier>
+    <dcterms:title xml:lang="it">Pac – piano di accumulo capitale</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.provincia.tn.it/investiamosudiloro/"/>
+	<ns2:landingPage rdf:resource="https://www.vivoscuola.it/Schede-informative/Contributo-economico-per-frequentare-l-universita-o-i-percorsi-di-AFP-piani-di-accumulo"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP65">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP65</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Progetto Reactivate</dcterms:title>
+    <dcterms:description xml:lang="it">I cittadini europei che hanno più di 35 anni e che sono in cerca di opportunità di lavoro, apprendistato o tirocinio in un altro Stato membro dell'Unione europea, nonchè i datori di lavoro interessati ad assumere personale in tutta l'Unione europea, attraverso un contratto di lavoro/apprendistato o tirocinio della durata minima di sei mesi, possono aderire al programma di mobilità lavorativa intra - UE denominato Reactivate.In particolare, il programma prevede i seguenti servizi di supporto: a) ai datori di lavoro:- supporto nel processo di selezione: un consulente di Reactivate garantisce infatti a ogni datore di lavoro un servizio e un supporto personalizzato;- processo di pre-selezione dei candidati: i consulenti di Reactivate supportano i datori di lavoro nella ricerca dei candidati idonei sulla base dei requisiti concordati;- utilizzo di una piattaforma online, dove poter caricare e gestire offerte di lavoro/apprendistato o tirocinio in modo semplice e intuitivo;- supporto post-placement: Reactivate fornisce un’assistenza personalizzata anche successivamente all’assunzione.b) ai candidati:- orientamento professionale e supporto nella definizione della candidatura;- sviluppo delle capacità professionali: orientamento professionale, informazioni sulle offerte di lavoro, sessioni formative specialistiche;- accesso a offerte di lavoro europee, partecipazione a giornate di recruitment e a pre-selezioni.Oltre a servizi di consulenza e supporto personalizzati, il progetto offre un sostegno finanziario, come di seguito specificato:  a) per i giovani: contributi economici per il colloquio di lavoro, per la formazione linguistica e il riconoscimento delle qualifiche e per il trasferimento all’estero del candidato e dei membri della sua famigliab) per le PMI (fino a 250 dipendenti): contributi finanziari per aiutarle a sostenere i costi relativi al periodo di training fornito ai neoassunti.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">professione</ns2:keyword>
+    <ns2:keyword xml:lang="it">apprendistato</ns2:keyword>
+    <ns2:keyword xml:lang="it">tirocinio</ns2:keyword>
+    <ns2:keyword xml:lang="it">mobilità</ns2:keyword>
+    <ns2:keyword xml:lang="it">estero</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_1.7"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.2"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.4"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_4"/>
+    <ns3:hasCriterion rdf:resource="cr/2553b051-27e4-453f-8796-ecbcb7ecf1d2"/>
+    <ns4:hasInput rdf:resource="ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4"/>
+    <ns3:hasLegalResource rdf:resource="lr/REG-UE-2013-1296"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_eures"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_reactivate"/>
+    <ns3:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_1.7">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_1.7</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/StartingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a imprese</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Ricerca di lavoro, avvio nuovo lavoro, disoccupazione</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi cerca lavoro</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForANewJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/2553b051-27e4-453f-8796-ecbcb7ecf1d2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/2553b051-27e4-453f-8796-ecbcb7ecf1d2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono accedere al servizio: - le persone con più di 35 anni, cittadini e residenti in uno dei 28 paesi membri dell’Unione europea; - i datori di lavoro con sede legale e/o operativa in uno dei 28 paesi dell’Unione europea.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/5495ab6f-108c-40b4-baf6-e62cac98ffb4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Curriculum vitae formato Europass</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/REG-UE-2013-1296">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/REG-UE-2013-1296</dcterms:identifier>
+    <ns6:description xml:lang="it">Regolamento europeo istitutivo del Programma dell’Unione europea per l’occupazione e l’innovazione sociale «EaSI» (2014-2020)</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_eures">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_eures</dcterms:identifier>
+    <ns7:email>eures@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461494551</ns7:telephone>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_reactivate">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_reactivate</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le persone interessate devono registrarsi sul sito Reactivate: www.reactivatejob.eu</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP65">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP65</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto Reactivate</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Servizi-Eures-e-lavoro-all-estero"/>
+	<ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/content/download/2026/25379/version/1/file/Scheda+Reactivate.pdf"/>
+	<ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/content/download/2025/25370/version/1/file/Reactivate_eng.pdf"/>
+  </rdf:Description>
+</rdf:RDF>

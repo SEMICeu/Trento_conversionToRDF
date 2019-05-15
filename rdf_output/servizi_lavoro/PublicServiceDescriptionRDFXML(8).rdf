@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_932">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_932</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi per interventi di accompagnamento all'occupabilita' attraverso lavori socialmente utili</dcterms:title>
+    <dcterms:description xml:lang="it">Comuni, Consorzi tra Comuni, Comunità di Valle e A.P.S.P. possono richiedere un contributo economico per attivare e gestire lavori socialmente utili a tempo determinato, al fine di aiutare le persone disoccupate che hanno difficoltà a trovare un'occupazione. Gli enti individuano dalle apposite liste i lavoratori da inserire nei progetti.Sono lavori socialmente utili le attività di:- abbellimento urbano e rurale;- valorizzazione di beni culturali ed artistici anche mediante attività di promozione, allestimento e custodia di mostre relative a prodotti, oggetti ed attrezzature del territorio nonché di riordino, recupero e valorizzazione di testi e documenti di interesse storico o culturale;- riordino di archivi e recupero di lavori arretrati di tipo tecnico e amministrativo;- custodia e vigilanza di impianti e attrezzature sportive, di centri sociali, di centri socio-assistenziali, educativi e culturali gestiti dagli Enti promotori;- particolari servizi ausiliari alla persona di tipo sociale da svolgersi in A.P.S.P. o sul territorio e particolari servizi necessari per il recupero del lavoratore;- recupero di materiale e beni nell'ambito di attività afferenti alla "Rete provinciale del Riuso". I progetti devono avere una durata compresa da un minimo di 4 mesi ad un massimo di 10 mesi nell’arco dell’anno. Le Comunità di valle possono presentare progetti pluriennali per i servizi domiciliari, per un periodo massimo di 24 mesi.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">disabili</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">soggetti svantaggiati</ns2:keyword>
+    <ns2:keyword xml:lang="it">inserimento lavorativo</ns2:keyword>
+    <ns2:keyword xml:lang="it">orientamento</ns2:keyword>
+    <ns2:keyword xml:lang="it">supporto</ns2:keyword>
+    <ns2:keyword xml:lang="it">sociale</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributi</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/N78.1.0"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.1"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-19"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_lsu"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_932"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a enti e associazioni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 19</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_lsu">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_lsu</dcterms:identifier>
+    <dcterms:description xml:lang="it">Gli Enti presentano i progetti dal 01 febbraio all’11 marzo di ogni anno, utilizzando esclusivamente il sistema informatico predisposto all'indirizzo http://lsu.agenzialavoro.tn.it/.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_932">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_932</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi per interventi di accompagnamento all'occupabilita' attraverso lavori socialmente utili</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/Intervento-19-Opportunita-nei-lavori-socialmente-utili"/>
+  </rdf:Description>
+</rdf:RDF>

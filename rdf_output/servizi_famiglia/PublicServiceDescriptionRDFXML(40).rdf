@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_1121">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_1121</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi per adattamento mezzi di locomozione per disabili</dcterms:title>
+    <dcterms:description xml:lang="it">I soggetti portatori di minorazione con incapacità motorie permanenti possono richiedere un contributo a sostegno o rimborso delle spese necessarie per l'adattamento di veicoli a motore, guidati da loro stessi (motoveicoli, autovetture, macchine agricole, macchine operatrici) o destinati in via prevalente al loro trasporto (autovetture e motoveicoli).Sono ammesse a contributo esclusivamente le spese relative agli adattamenti e alle modifiche del veicolo o all’installazione di ausili per la guida, non le spese per l'acquisto dei veicoli.Per i veicoli già dotati di serie di cambio automatico o di altro servomeccanismo in funzione delle ridotte o impedite capacità motorie permanenti del disabile, il contributo è calcolato prendendo a riferimento, quale spesa ammissibile, la differenza di costo fra la versione normale del veicolo e quella adattata dalla casa costruttrice.Ai fini della concessione del contributo, viene redatta una graduatoria degli aventi diritto in cui è data priorità, per il finanziamento, alle domande riguardanti l’adattamento di veicoli utilizzati in via prevalente per spostamenti connessi all’attività lavorativa o di formazione, in particolare secondo il seguente ordine delle categorie:a. utilizzo nell’espletamento dell’attività lavorativa;b. utilizzo per raggiungere il luogo di lavoro o di formazione;c. utilizzo per altre finalità.Ai fini della stesura della graduatoria si terrà conto delle priorità sopra descritte e, all’interno delle singole categorie di priorità (a, b, c,), della data e ora di presentazione della domanda.La misura del contributo dipende dalla capacità economica del nucleo familiare, misurata attraverso l'indicatore ICEF.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">disabili</ns2:keyword>
+    <ns2:keyword xml:lang="it">rimborso</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributi</ns2:keyword>
+    <ns2:keyword xml:lang="it">sovvenzioni</ns2:keyword>
+    <ns2:keyword xml:lang="it">adattamento veicoli</ns2:keyword>
+    <ns2:keyword xml:lang="it">trasporto</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q88.1.0"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3M</ns3:processingTime>
+    <ns3:hasCompetentAuthority rdf:resource="ca/DZZWFC"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_2"/>
+    <ns3:hasCriterion rdf:resource="cr/07fcb15a-1a96-4a8f-a83c-4ac720047180"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/51e45991-fa4c-471f-8b26-1e3fbc74b35f"/>
+    <ns4:hasInput rdf:resource="ev/6e45a265-a1a5-46ea-bce4-06eab6a06969"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1991-1"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_DZZWFC_locomozione"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_1121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/DZZWFC">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/DZZWFC</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Invalidità</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per chi si prende cura di un famigliare, di un parente, di un'altra persona</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/BecomingASocialTaretaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/07fcb15a-1a96-4a8f-a83c-4ac720047180">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/07fcb15a-1a96-4a8f-a83c-4ac720047180</dcterms:identifier>
+    <dcterms:title xml:lang="it">Le domande possono essere presentate da soggetti portatori di minorazioni fisiche permanenti in possesso dei seguenti ulteriori requisiti: - possedere requisiti sanitari dichiarati dalle Commissioni sanitarie competenti;- avere una residenza anagrafica in un comune della Provincia di Trento da almeno tre anni.- avere un indicatore I.C.E.F. inferiore o uguale a 0,70.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/51e45991-fa4c-471f-8b26-1e3fbc74b35f">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/51e45991-fa4c-471f-8b26-1e3fbc74b35f</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia della carta di circolazione del veicolo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/6e45a265-a1a5-46ea-bce4-06eab6a06969">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/6e45a265-a1a5-46ea-bce4-06eab6a06969</dcterms:identifier>
+    <dcterms:title xml:lang="it">Copia del preventivo di spesa per l’adattamento del veicolo (se, al momento della domanda, l’intervento di adattamento non è stato ancora eseguito);OPPURE- copia delle fatture relative all’adattamento del veicolo (se, al momento della domanda, l’intervento di adattamento è già stato eseguito);- copia della patente speciale di guida (se l’adattamento riguarda un veicolo la cui guida richiede il possesso della patente);OPPURE- copia del documento temporaneamente sostitutivo della patente speciale di guida (se l’adattamento riguarda un veicolo la cui guida richiede il possesso della patente);- copia della dichiarazione della Commissione medica per l’invalidità o della certificazione medica attestante la presenza di minorazioni anatomiche o funzionali a carico degli arti o della colonna vertebrale o anomalie della conformazione e dello sviluppo somatico (se l’adattamento riguarda un veicolo la cui guida non richiede il possesso della patente);- copia della dichiarazione della Commissione medica per l’invalidità o di altra certificazione medica che attesta l’impossibilità permanente alla guida del portatore di minorazione (se il portatore di minorazione non guida il veicolo, chiedendo il contributo in qualità di trasportato);- nota di dichiarazione di consenso, firmata dall’intestatario del veicolo, se diverso dal portatore di minorazione, ad apportare al veicolo oggetto di adattamento ogni modifica necessaria per il trasporto del portatore di minorazione impossibilitato in via permanente alla guida, in situazione di sicurezza e di stabilità (se il portatore di minorazione non guida il veicolo, chiedendo il contributo in qualità di trasportato).</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1991-1">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1991-1</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 1 del 7 gennaio 1991</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC</dcterms:identifier>
+    <ns7:email>serv.politichesociali@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461493800</ns7:telephone>
+    <ns7:faxNumber>0461493801</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC_pec</dcterms:identifier>
+    <ns7:email>serv.politichesociali@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_DZZWFC_locomozione">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_DZZWFC_locomozione</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le domande vanno presentate a mano, previo appuntamento, presso il Servizio Politiche sociali o presso gli sportelli periferici di assistenza e informazione al pubblico della Provincia autonoma di Trento presenti sul territorio provinciale.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_1121">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_1121</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi per adattamento mezzi di locomozione per disabili</dcterms:title>
+    <ns2:landingPage rdf:resource="http://www.trentinosociale.it/index.php/Servizi-ai-cittadini/Guida-ai-servizi/per-destinatari/Disabili/Fruire-dei-trasporti/Rimborso-spese-per-adattamento-del-mezzo-di-locomozione"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_897c">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_897c</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Contributi per percorsi di formazione collettiva</dcterms:title>
+    <dcterms:description xml:lang="it">I datori di lavoro e gli imprenditori, anche tramite le proprie associazioni, enti bilaterali, consorzi, possono chiedere un contributo per organizzare percorsi di formazione, interni o esterni all'azienda, volti a migliorare ed elevare il livello di professionalità dei dipendenti e del management aziendale nel campo delle smart specialisations (settore della meccatronica, settore dell’energia e della conservazione/miglioramento dell’ambiente, settore della promozione della qualità della vita, settore dell’agrifood), dell'innovazione tecnologica, organizzativa e sociale, dell'internazionalizzazione (apertura ai mercati internazionali).La durata complessiva dell’intervento formativo deve essere compresa tra un minimo di n. 40 e un massimo di n. 120 ore. Il monte ore minimo procapite deve essere di n. 40 ore. I percorsi formativi devono essere realizzati entro 4 mesi se prevedono una durata tra le 40 e le 80 ore ed entro 8 mesi se prevedono una durata dalle 81 alle 120 ore.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">azienda</ns2:keyword>
+    <ns2:keyword xml:lang="it">lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">formazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">internazionalizzazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">contributo</ns2:keyword>
+    <ns2:keyword xml:lang="it">datore di lavoro</ns2:keyword>
+    <ns2:keyword xml:lang="it">innovazione</ns2:keyword>
+    <ns2:keyword xml:lang="it">smart specialization</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/O84.1.3"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.1.2"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <ns3:processingTime rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2M</ns3:processingTime>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_897a"/>
+    <dcterms:relation rdf:resource="http://www.provincia.tn.it/p_TN_897b"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/LYMI3J"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.1.2"/>
+    <ns3:isGroupedBy rdf:resource="be/BE_3.4"/>
+    <ns3:hasCriterion rdf:resource="cr/4878ff17-db97-4dc1-a871-125bdac5a737"/>
+    <ns4:hasInput rdf:resource="ev/1d1d1fce-c395-4604-9d01-272854855823"/>
+    <ns4:hasInput rdf:resource="ev/a99cee48-d959-4ae5-b568-b33e62290848"/>
+    <ns4:hasInput rdf:resource="ev/5f5c80e1-2840-4dce-873d-52a7478728c0"/>
+    <ns4:hasInput rdf:resource="ev/a9e92da7-2e5c-44f7-a4ab-24b93361c5d0"/>
+    <ns4:hasInput rdf:resource="ev/f01f2709-843a-4fc4-98bf-90bc59cb18c9"/>
+    <ns4:hasInput rdf:resource="ev/ddc13698-80d9-4d81-a1b5-9e7693a54bb2"/>
+    <ns4:hasInput rdf:resource="ev/82662741-be51-4589-81f0-fe35393c5fc9"/>
+    <ns4:hasInput rdf:resource="ev/7d1ba83a-ffb9-4a92-bfee-915b7b8db170"/>
+    <ns4:hasInput rdf:resource="ev/44611a6f-39e9-4ac1-9615-b512289f6bf4"/>
+    <ns4:hasInput rdf:resource="ev/57e6b00f-4281-45b5-bcef-28d0b93cc953"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1983-19"/>
+    <ns3:hasLegalResource rdf:resource="lr/DGP-2018-17-4C"/>
+    <ns4:produces rdf:resource="ou/output_fb"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_LYMI3J_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_LYMI3J_interventi"/>
+    <ns3:hasCost rdf:resource="hc/94957bab-e8cb-44fe-bc7a-3447cf478760"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_897c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/LYMI3J">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/LYMI3J</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Agenzia del lavoro</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>Via Guardini, 75 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.1.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.1.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Finanziamento impresa</dcterms:title>
+    <dcterms:description xml:lang="it">Finanziamento a imprese</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/FinancingACompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Gestione personale</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per il personale</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/HiringAnEmployee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/4878ff17-db97-4dc1-a871-125bdac5a737">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/4878ff17-db97-4dc1-a871-125bdac5a737</dcterms:identifier>
+    <dcterms:title xml:lang="it">Possono presentare domanda i datori di lavoro per corsi di formazione rivolti a:- dipendenti e collaboratori dei datori di lavoro privati, con contratto di durata superiore ai 6 mesi, a prescindere dalla tipologia di contratto di lavoro;- titolari o soci lavoratori di imprese artigiane e/o micro e piccole imprese; coniuge, convivente, parenti entro il II grado dei medesimi, se operano come dipendenti o collaboratori familiari con contratto di durata superiore ai 6 mesi;- soci lavoratori di società cooperativa;- imprenditori individuali, coniuge, convivente, parenti entro il II grado dei medesimi, se operano come dipendenti o collaboratori familiari con contratto di durata superiore ai 6 mesi.Il numero minimo di partecipanti per ciascun intervento formativo finanziato è: minimo n. 3 partecipanti se il progetto è presentato da micro impresa; minimo n. 5 partecipanti se il progetto è presentato da piccole e medie imprese; minimo n. 10 partecipanti per progetti che riguardano grandi imprese; minimo n. 15 partecipanti per corsi multi aziendali.</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/1d1d1fce-c395-4604-9d01-272854855823">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/1d1d1fce-c395-4604-9d01-272854855823</dcterms:identifier>
+    <dcterms:title xml:lang="it">Domanda di contributo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a99cee48-d959-4ae5-b568-b33e62290848">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a99cee48-d959-4ae5-b568-b33e62290848</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazione sostitutiva dell’atto di notorietà per gli aiuti di Stato (Reg. UE 1407/2013 - de minimis oppure Reg. UE 651/2014)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/5f5c80e1-2840-4dce-873d-52a7478728c0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/5f5c80e1-2840-4dce-873d-52a7478728c0</dcterms:identifier>
+    <dcterms:title xml:lang="it">Progetto formativo</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/a9e92da7-2e5c-44f7-a4ab-24b93361c5d0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/a9e92da7-2e5c-44f7-a4ab-24b93361c5d0</dcterms:identifier>
+    <dcterms:title xml:lang="it">Scheda partecipante</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/f01f2709-843a-4fc4-98bf-90bc59cb18c9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/f01f2709-843a-4fc4-98bf-90bc59cb18c9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Preventivo unico all'Agenzia del Lavoro</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/ddc13698-80d9-4d81-a1b5-9e7693a54bb2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/ddc13698-80d9-4d81-a1b5-9e7693a54bb2</dcterms:identifier>
+    <dcterms:title xml:lang="it">CV docenti (completi dell'informativa privacy docenti)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/82662741-be51-4589-81f0-fe35393c5fc9">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/82662741-be51-4589-81f0-fe35393c5fc9</dcterms:identifier>
+    <dcterms:title xml:lang="it">Preventivi fornitori (sottoscritti dal proponente)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/7d1ba83a-ffb9-4a92-bfee-915b7b8db170">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/7d1ba83a-ffb9-4a92-bfee-915b7b8db170</dcterms:identifier>
+    <dcterms:title xml:lang="it">Riepilogo moduli/gruppi</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/44611a6f-39e9-4ac1-9615-b512289f6bf4">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/44611a6f-39e9-4ac1-9615-b512289f6bf4</dcterms:identifier>
+    <dcterms:title xml:lang="it">Se cittadini extra UE: copia del permesso di soggiorno o permesso di soggiorno CE per soggiornanti di lungo periodo (ex “carta di soggiorno”)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/57e6b00f-4281-45b5-bcef-28d0b93cc953">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/57e6b00f-4281-45b5-bcef-28d0b93cc953</dcterms:identifier>
+    <dcterms:title xml:lang="it">Lettera di condivisione con le rappresentanze sindacali (testo libero in carta intestata e ricevute attestanti l’invio)</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1983-19">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1983-19</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 19 del 16 giugno 1983</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2018-17-4C">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2018-17-4C</dcterms:identifier>
+    <ns6:description xml:lang="it">Deliberazione della Giunta Provinciale n. 17 del 18 gennaio 2018 - intervento 4.C</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_fb">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_fb</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/FinancialBenefit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J</dcterms:identifier>
+    <ns7:email>direzione@agenzialavoro.tn.it</ns7:email>
+    <ns7:telephone>0461496020</ns7:telephone>
+    <ns7:telephone>800264760</ns7:telephone>
+    <ns7:faxNumber>0461496180</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_LYMI3J_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_LYMI3J_pec</dcterms:identifier>
+    <ns7:email>amministrazione.adl@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_LYMI3J_interventi">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_LYMI3J_interventi</dcterms:identifier>
+    <dcterms:description xml:lang="it">Per presentare la domanda è necessario registrarsi sul gestionale http://interventi.agenzialavoro.tn.it/formazionecontinua/Trento_AdL/CodorgAdL/ e successivamente registrare la domanda di contributo e il progetto sul gestionale http://interventi.agenzialavoro.tn.it/formazionecontinua/Trento_AdL/WebLogin_AdL/index.php. La domanda va poi formalizzata presentando all’Agenzia del Lavoro l’apposita modulistica come derivata dal sistema informatico e sottoscritta dal legale rappresentante.La domanda può essere consegnata tramite una delle seguenti modalità: - consegna a mano presso l'Ufficio Formazione e Sviluppo dell'occupazione dell'Agenzia del Lavoro;- a mezzo posta mediante raccomandata con ricevuta di ritorno indirizzata all'Agenzia del Lavoro;- a mezzo fax al numero corrispondente all'Agenzia del Lavoro;- per via telematica alla casella di posta elettronica certificata dell'Agenzia del Lavoro (formazione.adl@pec.provincia.tn.it).</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/94957bab-e8cb-44fe-bc7a-3447cf478760">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/94957bab-e8cb-44fe-bc7a-3447cf478760</dcterms:identifier>
+    <dcterms:description xml:lang="it">Marca da bollo da 16 euro, se non esenti</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_897c">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_897c</dcterms:identifier>
+    <dcterms:title xml:lang="it">Contributi per percorsi di formazione collettiva</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.agenzialavoro.tn.it/Schede-informative/4.C-Progetti-di-formazione-collettiva"/>
+  </rdf:Description>
+</rdf:RDF>

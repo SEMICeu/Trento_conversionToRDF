@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/adms#"
+	xmlns:ns2="http://www.w3.org/ns/dcat#"
+	xmlns:ns3="http://data.europa.eu/m8g/"
+	xmlns:ns4="http://purl.org/vocab/cpsv#"
+	xmlns:ns5="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns6="http://data.europa.eu/eli/ontology#"
+	xmlns:ns7="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP37">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP37</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Accoglienza di minori presso famiglie o singoli</dcterms:title>
+    <dcterms:description xml:lang="it">I minori appartenenti a nuclei familiari che presentano problemi di conciliazione tra il tempo lavorativo e quello genitoriale, che hanno difficoltà nell’accudire i figli o che possono trovarsi in situazioni di emergenza possono essere temporaneamente accolti presso famiglie o singoli che si prendono cura della loro crescita e del loro benessere. L' accoglienza familiare consente di mettere a disposizione le risorse ed i ruoli tipici di una famiglia attraverso modalità solidaristiche e di volontariato. L’accoglienza avviene presso famiglie o singoli individuati prioritariamente dal servizio sociale territoriale in relazione alle particolari condizioni e peculiarità locali, dall’Equipe multidisciplinare per l’affidamento familiare, dall’associazionismo locale ed è effettuata sulla base di un progetto, a sostegno della famiglia d’origine del minore, che prevede tempi e modalità di intervento.Con l’accoglienza è possibile:• sostenere la famiglia di origine nell’organizzazione della vita familiare (ad esempio prendere i bambini all’asilo, ospitarli per il pranzo, accoglierli per alcune ore nel pomeriggio per offrire loro un ambiente sereno e familiare); • ospitare per un breve periodo bambini e ragazzi in situazioni di particolare urgenza o in attesa di definire altri progetti;• offrire agli adolescenti un modello positivo di adulto, sostenendoli nell’impegno scolastico oppure dando loro occasioni di compagnia per attività ricreative;• proporre attività di svago e di relazione a bambini e ragazzi che sono allontanati dalla famiglia, che si trovano presso servizi residenziali e che mancano di punti di riferimento familiari;• offrire a famiglie con difficoltà a stabilire relazioni personali proprie, opportunità di contatti e di solidarietà.Le Comunità di Valle e i Comuni di Trento e Rovereto sostengono la famiglia accogliente con un contributo mensile in riferimento al minore accolto, rapportato all’impegno effettivo in termini di tempo e spese sostenute. La Provincia Autonoma di Trento provvede a stipulare, con oneri a proprio carico, una polizza assicurativa di responsabilità civile verso terzi a favore del soggetto accogliente e una polizza di assicurazione contro gli infortuni a favore del minore accolto.Le famiglie accoglienti sono accompagnate e sostenute durante il periodo di affidamento attraverso specifiche iniziative formative.Le persone disponibili per l’accoglienza possono rivolgersi per informazioni alle assistenti sociali di zona, ai consultori, all’Equipe multidisciplinare per l’affidamento familiare e alla Comunità Murialdo.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+    <ns2:keyword xml:lang="it">accoglienza</ns2:keyword>
+    <ns2:keyword xml:lang="it">minori</ns2:keyword>
+    <ns2:keyword xml:lang="it">bambini</ns2:keyword>
+    <ns2:keyword xml:lang="it">famiglie</ns2:keyword>
+    <ns2:keyword xml:lang="it">difficoltà</ns2:keyword>
+    <ns3:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/Q87.9"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=10.4.0"/>
+    <ns3:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <ns3:hasCompetentAuthority rdf:resource="ca/DZZWFC"/>
+    <ns3:isGroupedBy rdf:resource="le/LE_1"/>
+    <ns3:hasCriterion rdf:resource="cr/a5d932f7-2abf-4d22-9255-bb87e3e5a130"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-1991-14"/>
+    <ns3:hasLegalResource rdf:resource="lr/LP-2007-13"/>
+    <ns4:produces rdf:resource="ou/output_perm"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC"/>
+    <ns3:hasContactPoint rdf:resource="hcp/CP_DZZWFC_pec"/>
+    <ns3:hasChannel rdf:resource="ch/CH_DZZWFC_accoglienza"/>
+    <ns3:hasCost rdf:resource="hc/1572a789-9335-4f58-ba01-c788b4894588"/>
+    <ns3:isDescribedAt rdf:resource="psd/WEB_p_TN_NP37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/DZZWFC">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/DZZWFC</dcterms:identifier>
+    <dcterms:title xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</dcterms:title>
+    <ns5:prefLabel xml:lang="it">Provincia autonoma di Trento - Servizio politiche sociali</ns5:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns3:hasAddress>via Gilli 4 - 38121 Trento</ns3:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_1">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_1</dcterms:identifier>
+    <dcterms:title xml:lang="it">Nascita di un bambino, richiesta adozioni</dcterms:title>
+    <dcterms:description xml:lang="it">Servizi per le famiglie</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/HavingAChild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="cr/a5d932f7-2abf-4d22-9255-bb87e3e5a130">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+    <dcterms:identifier>cr/a5d932f7-2abf-4d22-9255-bb87e3e5a130</dcterms:identifier>
+    <dcterms:title xml:lang="it">Le condizioni che devono sussistere per poter attivare l'accoglienza di minori sono le seguenti: - consensualità;- prossimità, territorialità;- temporaneità;- progettualità condivisa all’interno di un rapporto con il servizio sociale (vanno esplicitati i rispettivi ruoli dei soggetti coinvolti).</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-1991-14">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-1991-14</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 14 del 12 luglio 1991</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/LP-2007-13">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/LP-2007-13</dcterms:identifier>
+    <ns6:description xml:lang="it">Legge provinciale n. 13 del 27 luglio 2007</ns6:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_perm">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_perm</dcterms:identifier>
+    <dcterms:title xml:lang="it">Permessi, autorizzazioni, ammissioni</dcterms:title>
+	<dcterms:type rdf:resource="http://data.europa.eu/m8g/Permit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC</dcterms:identifier>
+    <ns7:email>serv.politichesociali@provincia.tn.it</ns7:email>
+    <ns7:telephone>0461493800</ns7:telephone>
+    <ns7:faxNumber>0461493801</ns7:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_DZZWFC_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_DZZWFC_pec</dcterms:identifier>
+    <ns7:email>serv.politichesociali@pec.provincia.tn.it</ns7:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_DZZWFC_accoglienza">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_DZZWFC_accoglienza</dcterms:identifier>
+    <dcterms:description xml:lang="it">L’accoglienza viene attivata su proposta del Servizio sociale territoriale, secondo il progetto di aiuto concordato con i genitori del minore e/o in relazione alla fruizione di altri servizi.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/1572a789-9335-4f58-ba01-c788b4894588">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/1572a789-9335-4f58-ba01-c788b4894588</dcterms:identifier>
+    <dcterms:description xml:lang="it">La famiglia d’origine è tenuta a concorrere alle spese di accoglienza in ragione del proprio reddito.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="psd/WEB_p_TN_NP37">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicServiceDataset"/>
+    <dcterms:identifier>psd/WEB_p_TN_NP37</dcterms:identifier>
+    <dcterms:title xml:lang="it">Accoglienza di minori presso famiglie o singoli</dcterms:title>
+    <ns2:landingPage rdf:resource="https://www.trentinofamiglia.it/Politiche-familiari/Accoglienza-familiare/Accoglienza-di-minori-presso-famiglie-o-singoli"/>
+  </rdf:Description>
+</rdf:RDF>

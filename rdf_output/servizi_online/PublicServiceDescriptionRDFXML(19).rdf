@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ns1="http://www.w3.org/ns/dcat#"
+	xmlns:ns2="http://data.europa.eu/m8g/"
+	xmlns:ns3="http://purl.org/vocab/cpsv#"
+	xmlns:ns4="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns5="http://data.europa.eu/eli/ontology#"
+	xmlns:ns6="https://schema.org/">
+  <rdf:Description rdf:about="http://www.provincia.tn.it/p_TN_NP1">
+    <dcterms:identifier>http://www.provincia.tn.it/p_TN_NP1</dcterms:identifier>
+    <rdf:type rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+    <dcterms:title xml:lang="it">Notifica preliminare per cantieri edili</dcterms:title>
+    <dcterms:description xml:lang="it">I committenti o i responsabili dei lavori dei cantieri edili devono trasmettere notifica preliminare prima dell’inizio dei lavori quando i lavori sono effettuati da:- due o più imprese esecutrici (esclusi i lavoratori autonomi che operano singolarmente)- una sola impresa (esclusi i lavoratori autonomi che operano singolarmente) quando gli interi lavori superano i 200 uomini/giorno (esempio:5 lavoratori per 40 giorni di lavoro ciascuno, corrispondono a 200 uomini/giorno)La notifica può essere presentata da parte di un soggetto diverso, purchè opportunamente delegato. E' obbligatorio esporre in cantiere la ricevuta della notifica presentata.</dcterms:description>
+    <dcterms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns1:keyword xml:lang="it">costruzioni</ns1:keyword>
+    <ns1:keyword xml:lang="it">edilizia</ns1:keyword>
+    <ns1:keyword xml:lang="it">notifica</ns1:keyword>
+    <ns1:keyword xml:lang="it">comunicazione</ns1:keyword>
+    <ns1:keyword xml:lang="it">cantiere</ns1:keyword>
+    <ns2:sector rdf:resource="http://ec.europa.eu/competition/mergers/cases/F43"/>
+    <dcterms:type rdf:resource="https://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=4&amp;Lg=1&amp;Co=04.4.3"/>
+    <ns2:thematicArea rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+    <ns2:hasCompetentAuthority rdf:resource="ca/M8THHJ"/>
+    <ns2:isGroupedBy rdf:resource="be/BE_3.6"/>
+    <ns2:isGroupedBy rdf:resource="le/LE_6.2"/>
+    <ns3:hasInput rdf:resource="ev/3c950851-03ab-4738-8b52-36320363f707"/>
+    <ns3:hasInput rdf:resource="ev/d60be099-d816-4cdd-903d-cdaef6509a0a"/>
+    <ns2:hasLegalResource rdf:resource="lr/DL-2008-81"/>
+    <ns2:hasLegalResource rdf:resource="lr/DGP-2016-486"/>
+    <ns2:hasLegalResource rdf:resource="lr/DL-2018-113"/>
+    <ns3:produces rdf:resource="ou/output_dec"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_M8THHJ"/>
+    <ns2:hasContactPoint rdf:resource="hcp/CP_M8THHJ_pec"/>
+    <ns2:hasChannel rdf:resource="ch/CH_PS_commgov"/>
+    <ns2:hasCost rdf:resource="hc/56b76c4a-123a-4e15-b345-341db0a581e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ca/M8THHJ">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+    <dcterms:identifier>ca/M8THHJ</dcterms:identifier>
+    <dcterms:title xml:lang="it">Azienda Provinciale per i Servizi Sanitari - Unità Operativa di Prevenzione e Sicurezza negli Ambienti di Lavoro (UOPSAL)</dcterms:title>
+    <ns4:prefLabel xml:lang="it">Azienda Provinciale per i Servizi Sanitari - Unità Operativa di Prevenzione e Sicurezza negli Ambienti di Lavoro (UOPSAL)</ns4:prefLabel>
+    <dcterms:spatial rdf:resource="http://publications.europa.eu/resource/authority/place/ITA_TRT"/>
+    <ns2:hasAddress>via Verona corpo A - 38123 Trento; piazza Leoni 11/a - 38068 Rovereto</ns2:hasAddress>
+  </rdf:Description>
+  <rdf:Description rdf:about="be/BE_3.6">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent"/>
+    <dcterms:identifier>be/BE_3.6</dcterms:identifier>
+    <dcterms:title xml:lang="it">Notifiche autorità</dcterms:title>
+    <dcterms:description xml:lang="it">Comunicazioni obbligatorie per lo svolgimento dell'attività</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/BusinessEvent/DoingBusiness/NotifyingAndReportingToAuthorities"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="le/LE_6.2">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+    <dcterms:identifier>le/LE_6.2</dcterms:identifier>
+    <dcterms:title xml:lang="it">Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio</dcterms:title>
+    <dcterms:description xml:lang="it">Gestione e manutenzione di edifici o di terreni</dcterms:description>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/LifeEvent/LookingForAPlaceToLive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/3c950851-03ab-4738-8b52-36320363f707">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/3c950851-03ab-4738-8b52-36320363f707</dcterms:identifier>
+    <dcterms:title xml:lang="it">Notifica preliminare</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="ev/d60be099-d816-4cdd-903d-cdaef6509a0a">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+    <dcterms:identifier>ev/d60be099-d816-4cdd-903d-cdaef6509a0a</dcterms:identifier>
+    <dcterms:title xml:lang="it">Se la notifica è presentata da un soggetto diverso dal committente o dal resposabile dei lavori: delega</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DL-2008-81">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DL-2008-81</dcterms:identifier>
+    <ns5:description xml:lang="it">Decreto legislativo n. 81 del 9 aprile 2008</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DGP-2016-486">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DGP-2016-486</dcterms:identifier>
+    <ns5:description xml:lang="it">Deliberazione della Giunta Provinciale n. 486 del 31 marzo 2016</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="lr/DL-2018-113">
+    <rdf:type rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+    <dcterms:identifier>lr/DL-2018-113</dcterms:identifier>
+    <ns5:description xml:lang="it">Decreto legislativo n. 113 del 4 ottobre 2018</ns5:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="ou/output_dec">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Output"/>
+    <dcterms:identifier>ou/output_dec</dcterms:identifier>
+    <dcterms:title xml:lang="it">Dichiarazioni, notifiche</dcterms:title>
+    <dcterms:type rdf:resource="http://data.europa.eu/m8g/Declaration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_M8THHJ">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_M8THHJ</dcterms:identifier>
+    <ns6:email>uopsal@apss.tn.it</ns6:email>
+    <ns6:telephone>0461904501</ns6:telephone>
+    <ns6:telephone>0461904502</ns6:telephone>
+    <ns6:faxNumber>0461904571</ns6:faxNumber>
+    <ns6:faxNumber>0461904540</ns6:faxNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="hcp/CP_M8THHJ_pec">
+    <rdf:type rdf:resource="https://schema.org/ContactPoint"/>
+    <dcterms:identifier>hcp/CP_M8THHJ_pec</dcterms:identifier>
+    <ns6:email>uopsal@pec.apss.tn.it</ns6:email>
+  </rdf:Description>
+  <rdf:Description rdf:about="ch/CH_PS_commgov">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Channel"/>
+    <dcterms:identifier>ch/CH_PS_commgov</dcterms:identifier>
+    <dcterms:description xml:lang="it">Le notifiche devono essere presentateonline, collegandosi al portale dei servizi della Provincia Autonoma di Trento e autenticandosi nei modi previsti (CPS, SPID). Le stesse devono inoltre essere inviate per via telematica al Commissariato del Governo alla casella di posta elettronica certificata: protocollo.comgovtn@pec.interno.it</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="hc/56b76c4a-123a-4e15-b345-341db0a581e0">
+    <rdf:type rdf:resource="http://data.europa.eu/m8g/Cost"/>
+    <dcterms:identifier>hc/56b76c4a-123a-4e15-b345-341db0a581e0</dcterms:identifier>
+    <dcterms:description xml:lang="it">Non sono previsti costi</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
